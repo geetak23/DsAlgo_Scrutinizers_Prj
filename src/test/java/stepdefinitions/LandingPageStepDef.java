@@ -30,6 +30,7 @@ public class LandingPageStepDef {
 	public void user_click_on_button(String strGetStarted) {
 		 WebElement link = driver.findElement(By.linkText(strGetStarted));
 	        link.click();
+	        System.out.println("Line 33");
 	}
 
 	@Then("user navigates to dsalgo dashBoard {string} successfully")
