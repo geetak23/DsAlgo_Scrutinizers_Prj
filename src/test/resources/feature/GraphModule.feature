@@ -17,6 +17,7 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
+
 Feature: Graph Functionality with login
 
   Background: 
