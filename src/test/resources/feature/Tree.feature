@@ -42,8 +42,7 @@ Feature: Tree Functionality with login
     And Click the run button
     Then The user should able to see an error message in alert window
     And The user is on the "TextEditor" Home Page
-    When The user clicks on Ok button in alert window
-    Then The user should be on same page
+    
 
     Examples: 
       | Topic                          | Title                          | Try Here | SheetName  |

@@ -59,49 +59,49 @@ public class Tree {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("The user is on the {string} Home Page")
+	//@When("The user is on the {string} Home Page")
 	//public void the_user_is_on_the_home_page(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 	//    throw new io.cucumber.java.PendingException();
 	//}
 
-	@When("The user write code in Editor from sheetname {string} and rownumber {int}")
+	//@When("The user write code in Editor from sheetname {string} and rownumber {int}")
 	//public void the_user_write_code_in_editor_from_sheetname_and_rownumber(String string, Integer int1) {
 	    // Write code here that turns the phrase above into concrete actions
 	 //   throw new io.cucumber.java.PendingException();
 	//}
 
-	@When("Click the run button")
+	//@When("Click the run button")
 	//public void click_the_run_button() {
 	    // Write code here that turns the phrase above into concrete actions
 	   // throw new io.cucumber.java.PendingException();
 	//}
 
-	@Then("The user should able to see output in the console {string}")
+	//@Then("The user should able to see output in the console {string}")
 	//public void the_user_should_able_to_see_output_in_the_console(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 	  //  throw new io.cucumber.java.PendingException();
 	//}
 
-	@Then("The user is on the {string} Home Page")
+	//@Then("The user is on the {string} Home Page")
 	//public void the_user_is_on_the_home_page1(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 	 //   throw new io.cucumber.java.PendingException();
 	//}
 
-	@Then("The user should able to see an error message in alert window")
+	//@Then("The user should able to see an error message in alert window")
 	//public void the_user_should_able_to_see_an_error_message_in_alert_window() {
 	    // Write code here that turns the phrase above into concrete actions
 	  //  throw new io.cucumber.java.PendingException();
 	//}
 
-	@When("The user clicks on Ok button in alert window")
+	//@When("The user clicks on Ok button in alert window")
 	//public void the_user_clicks_on_ok_button_in_alert_window() {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
 	//}
 
-	@Then("The user should be on same page")
+	//@Then("The user should be on same page")
 	//public void the_user_should_be_on_same_page() {
 	     //Write code here that turns the phrase above into concrete actions
 	  //  throw new io.cucumber.java.PendingException();
