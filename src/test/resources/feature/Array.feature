@@ -15,12 +15,15 @@ Feature: Array Functionality with login
     Given User is on the "Arrays in Python" Home Page of URL "https://dsportalapp.herokuapp.com/array/arrays-in-python/"
     When User click on '<Topic>'
     Then User should navigate to page that contains title '<Title>'
+    
     When User clicks Try Here button of "<Topic>"
     And The user is on the "Assessment" Home Page
+    
     When The user write code in Editor from sheetname '<SheetName>' and rownumber 0
     And Click the run button
-    Then The user should able to see output in the console "hello"
+    Then The user should able to see output in the console "hello"    
     And The user is on the "Assessment" Home Page
+    
     When The user write code in Editor from sheetname '<SheetName>' and rownumber 1
     And Click the run button
     Then The user should able to see an error message in alert window

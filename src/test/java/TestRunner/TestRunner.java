@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 	@CucumberOptions(
 	    features = "src/test/resources/feature",            // Path to your Gherkin feature files
 	    tags = "@LandingPage,@DashBoardPage", 					//tags from feature file
-	    glue = {"src/test/java/stepdefinitions"},           // Path to the step definition files
+	    glue = {"stepdefinitions"},           // Path to the step definition files
 	    plugin = { 
 	        "pretty",                                       // Pretty output in the console
 	        "html:target/cucumber-reports/cucumber.html",   // HTML report
