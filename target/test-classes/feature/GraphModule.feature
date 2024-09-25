@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
+@GraphModule
 
 Feature: Graph Functionality with login
 

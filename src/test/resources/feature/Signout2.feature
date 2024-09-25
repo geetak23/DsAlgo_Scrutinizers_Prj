@@ -16,31 +16,15 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
+@Signout
 Feature: Checking Sign Out
+
 Background:
-     Given User is  in DSAlgo Portal
-     When User sign In to portal 
-  @tag1
-  Scenario: Check Sign out Button
-  
-    Given User is in DSAlgo Home page after signed in
-    
-    
-    When User clicks on Sign Out
-    
-    
-    Then The User shoud see the Logged out successfully message in the home page  with Register and Sign in Options
-    
-    
+Given User has already Logged in DSAlgo portal
 
-  #@tag2
-  #Scenario Outline: Title of your scenario outline
-    #Given I want to write a step with <name>
-    #When I check for the <value> in step
-    #Then I verify the <status> in step
-
-    #Examples: 
-     # | name  | value | status  |
-     # | name1 |     5 | success |
-     # | name2 |     7 | Fail    |
+Scenario: Validate Sign Out functionality
+Given User is logged in DSAlgo Portal
+When User clicks on signout button
+Then The User shoud see the Logged out successfully message in the home page  with Register and Sign in Options
+    
+     

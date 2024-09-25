@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
+@TreeModule
 Feature: Validating Tree Module
 
   Background: 
