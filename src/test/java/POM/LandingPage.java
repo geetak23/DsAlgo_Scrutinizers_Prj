@@ -2,10 +2,12 @@ package POM;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import WebdriverManager.Webdrivermanager;
+import WebdriverManager.driverFactory;
 
-public class LandingPage {
-	 private WebDriver driver;
+ 
+
+public class LandingPage extends driverFactory{
+ 
 
 	    // Locator for the "Get Started" button
 	    private By getStartedButton = By.xpath("//button[text()='Get Started']");

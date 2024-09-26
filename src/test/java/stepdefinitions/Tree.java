@@ -4,13 +4,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import POM.SignInPage;
-import WebdriverManager.Webdrivermanager;
+ 
+import WebdriverManager.driverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class Tree {
-	WebDriver driver = Webdrivermanager.getDriver();
+public class Tree extends driverFactory {
+ 
     SignInPage Signin=new SignInPage();
 	
 
@@ -18,7 +19,7 @@ public class Tree {
 
 @Given("User is logged in DSAlgo Portal")
 public void user_is_logged_in_ds_algo_portal() {
-	System.out.print("Landed on Main page");
+	System.out.println("Landed on Main page");
 	
 }
 

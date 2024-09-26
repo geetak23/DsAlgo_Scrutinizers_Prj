@@ -1,21 +1,18 @@
 package WebdriverManager;
 //package Utilities;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.Optional;
 
 import Utilities.ConfigReader;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
-public class Webdrivermanager {
+public class driverFactory {
 	/* private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
 	 public static WebDriver getDriver() {
@@ -53,7 +50,7 @@ public class Webdrivermanager {
 	        }
 	    }
 	    */
-	 private static WebDriver driver;
+	 protected static WebDriver driver;
 
 	    public static WebDriver getDriver() {
 	        if (driver == null) 

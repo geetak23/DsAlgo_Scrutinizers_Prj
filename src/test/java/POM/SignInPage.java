@@ -4,9 +4,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SignInPage {
+import WebdriverManager.driverFactory;
+
+public class SignInPage extends driverFactory{
 	 
-	WebElement driver;
+	@FindBy(xpath = "//button[@class='btn']") WebElement start;
 	@FindBy(linkText="Sign in") WebElement SignInButton;
 	    @FindBy(id="id_username") WebElement UserNameText;
 	    @FindBy(id="id_password") WebElement PassWord;
@@ -18,6 +20,7 @@ public class SignInPage {
  }
 	 
  public void signinpage(String UserName,String Password) {
+	 start.click();
 	 SignInButton.click();
 	 UserNameText.sendKeys(UserName);
 		PassWord.sendKeys(Password);

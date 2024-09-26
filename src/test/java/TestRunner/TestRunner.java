@@ -1,11 +1,9 @@
 
 	package TestRunner;
 
-	import org.testng.annotations.BeforeTest;
+	 
 	//import org.junit.runner.RunWith;
-	import org.testng.annotations.DataProvider;
-	import org.testng.annotations.Optional;
-	import org.testng.annotations.Parameters;
+ 
 
 	import Utilities.*;
 	import io.cucumber.testng.AbstractTestNGCucumberTests;
@@ -27,21 +25,21 @@
 		    monochrome = true                                  //console output color/ Cleaner output in the console
 		)
 	public class TestRunner extends AbstractTestNGCucumberTests{
-			  // Method to capture browser parameter from testng.xml
-		    @BeforeTest
-		    @Parameters("browser")
-		    public void setup(@Optional("chrome") String browser) {
-		      // Load configuration
-		      ConfigReader.initProperties();
-
-		      // Override browser in ConfigReader if passed from testng.xml or command line
-		       ConfigReader.setBrowser(browser);
-		    }
-			
-			@Override
-		    @DataProvider(parallel = true)
-		    public Object[][] scenarios() {
-						
-				return super.scenarios();
-		    }
+//			  // Method to capture browser parameter from testng.xml
+//		    @BeforeTest
+//		    @Parameters("browser")
+//		    public void setup(@Optional("chrome") String browser) {
+//		      // Load configuration
+//		      ConfigReader.initProperties();
+//
+//		      // Override browser in ConfigReader if passed from testng.xml or command line
+//		       ConfigReader.setBrowser(browser);
+//		    }
+//			
+//			@Override
+//		    @DataProvider(parallel = true)
+//		    public Object[][] scenarios() {
+//						
+//				return super.scenarios();
+//		    }
 	}
