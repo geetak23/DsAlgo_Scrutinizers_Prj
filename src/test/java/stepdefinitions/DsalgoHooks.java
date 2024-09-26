@@ -21,7 +21,7 @@ public class DsalgoHooks extends driverFactory{
         driver = driverFactory.getDriver();
         
     }
-@Before("@TreePage")
+@Before("@DataStructures")
 public void loginin() {
 	System.out.println("Line Number 26 Hooks Class");
 	
