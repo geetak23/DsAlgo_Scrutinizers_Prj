@@ -7,8 +7,7 @@ import io.cucumber.java.en.When;
 public class GraphModule {
 	@When("click on the dropdown and select Graph")
 	public void click_on_the_dropdown_and_select_graph() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
 	}
 
 	@When("click on Get Started button under Graph")

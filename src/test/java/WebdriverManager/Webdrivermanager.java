@@ -82,8 +82,9 @@ public class Webdrivermanager {
 	            default:
 	                throw new IllegalArgumentException("Unsupported browser: " + browser);
 	            }
-
-	            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	            
+                driver.get("https://dsportalapp.herokuapp.com/");
+	            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
+	            
 	        }
 	        return driver;
 	    }
