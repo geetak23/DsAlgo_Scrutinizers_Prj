@@ -1,33 +1,80 @@
 
-Feature: DS Indtroduction Home Page without logging into it
+@DashBoardPage
+Feature: DS Portal Home Page Functionality
 
-Background: 
-	Given user is on DS Portal DashBoard without sign in
-	
-	Scenario: DS Portal DashBoard validation
-		Then the page title should be "NumpyNinja"  
+Background: DS Portal Homepage Navigation As a user of the DS Portal App 
+User wants to navigate through the homepage So that
+User can access different sections and features of the portal
+
+@DashBoardScenario1
+Scenario: User navigates to DS Portal home page
+	  Given user is on dsportal home page
+	  Then the page title should be "Numpy Ninja"
+	  And user should be navigated to "https://dsportalapp.herokuapp.com/home"
 	    
-	Scenario: DataStructures Dropdown validation
-    Given user is on DS Portal DashBoard without sign in
-    When user clicks the data structure dropdown arrow
-    Then user should see the list of six options in the DS dropdown arrow
-    When user selects any DS item from dropdown without sign in
-    Then user should see the error message "You are not logged in"
-      
-  Scenario: GetStarted buttons of DataStructures 
-    Given user is on DS Portal DashBoard without sign in
-    When user clicks on GET Started button of  any DataStructures items without sign in
-    Then user should see the error message "You are not logged in"
+@DashBoardScenario2
+Scenario: User clicks on Sign In link from home page
+	  Given user is on dsportal home page
+	  When user clicks on "Sign In" link
+	  Then user should be navigated to "https://dsportalapp.herokuapp.com/login"
+
+@DashBoardScenario3
+ Scenario: User clicks on Register link from home page
+	  Given user is on dsportal home page
+	  When user clicks on "Register" link
+	  Then user should be navigated to "https://dsportalapp.herokuapp.com/register"
+ 
+
+@DashBoardScenario4  
+ Scenario: Non-signed-in user tries to access Data Structures dropdown
+    Given user is Non-signed in on dsportal home page
+	  When user selects "<Section>" from the Data Structure dropdown
+	  Then user receives "You are not logged in"  message
+     
+@DashBoardScenario5 
+  Scenario Outline: Non-Signed in user clicks on "Get Started" button for different sections
+    Given user is Non-signed in on dsportal home page
+    When user clicks on "Get Started" button for "<Section>"   
+    Then user receives "You are not logged in"  message
+  Examples:
+    | Section         | 
+    | Data Structures | 
+    | Arrays          | 
+    | Linked List     |
+    | Stack           |   
+    | Tree            |
+    | Graph           |
        
-  Scenario: Register link on DS Portal DashBoard
-    Given user is on DS Portal DashBoard without sign in
-    When user clicks the Register link on DS Portal DashBoard
-    Then user should be redirected to Register page and see the Login link at the bottom of the page
-   
-  Scenario:  SignIn link on DS Home Page
-	  Given user is on DS Portal DashBoard without sign in
-	  When user clicks the SignIn link on DS Portal DashBoard
-	  Then user should be redirected to SignIn page and User should see the Register link at the bottom of the page
-  
-  
-	    
+
+@DashBoardScenario6 
+ Scenario Outline: Signed-in user selects "<Section>" from the Data Structure dropdown
+  	Given user is signed in on dsportal home page
+    When user selects "<Section>" from the Data Structure dropdown
+    Then user should be navigated to "<ExpectedURL>"
+ Examples:
+    | Section         | ExpectedURL                                        |
+    | Arrays          | https://dsportalapp.herokuapp.com/arrays/          |
+    | Linked List     | https://dsportalapp.herokuapp.com/linked-list/     |
+    | Stack           | https://dsportalapp.herokuapp.com/stack/           |
+    | Queue           | https://dsportalapp.herokuapp.com/queue/           |
+    | Tree            | https://dsportalapp.herokuapp.com/tree/            |
+    | Graph           | https://dsportalapp.herokuapp.com/graph/           |
+
+
+@DashBoardScenario7
+Scenario Outline: Signed-in user clicks on "Get Started" button for different sections
+  	Given user is signed in on dsportal home page
+    When user clicks on "Get Started" button for "<Section>"
+    Then user should be navigated to "<ExpectedURL>"
+Examples:
+    | Section         | ExpectedURL                                       |
+    | Data Structures | https://dsportalapp.herokuapp.com/data-structures/ |
+    | Arrays          | https://dsportalapp.herokuapp.com/arrays/          |
+    | Linked List     | https://dsportalapp.herokuapp.com/linked-list/     |
+    | Stack           | https://dsportalapp.herokuapp.com/stack/           |   
+    | Tree            | https://dsportalapp.herokuapp.com/tree/            |
+    | Graph           | https://dsportalapp.herokuapp.com/graph/           |
+    
+
+    
+    

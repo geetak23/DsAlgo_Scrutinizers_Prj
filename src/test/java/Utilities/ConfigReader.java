@@ -6,25 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-	/*private Properties prop;
-	
-	public Properties init_prop()
-	{
-		prop = new Properties();
-	        try {
-	            FileInputStream input = new FileInputStream("/DsAlgo_Scrutinizers_Prj/src/test/resources/Config/config.properties");
-	            System.out.println("config");
-	            prop.load(input);
-	        } catch (IOException e) {
-	            e.printStackTrace();
-	            throw new RuntimeException("Failed to load config.properties file.");
-	        }
-	        return prop;
-	}*/
-	/**
-	 * This Method is used to load the properties from config.properties file.
-	 * @return
-	 */
+
 	 private static Properties properties;
 	    private static String overriddenBrowser;
 
@@ -48,7 +30,7 @@ public class ConfigReader {
 	            return overriddenBrowser; // Return browser passed from TestNG or system property
 	        } else {
 	        	initProperties();
-	            String browser = properties.getProperty("browser");
+	            String browser = properties.getProperty("Browser");
 	            if (browser != null) {
 	                return browser;
 	            } else {

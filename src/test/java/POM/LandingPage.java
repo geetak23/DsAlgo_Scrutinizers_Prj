@@ -2,11 +2,12 @@ package POM;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LandingPage {
-	private WebDriver driver;
+import WebdriverManager.Webdrivermanager;
 
-	    // Locator for the "Get Started" button		
-		
+public class LandingPage {
+	 private WebDriver driver;
+
+	    // Locator for the "Get Started" button
 	    private By getStartedButton = By.xpath("//button[text()='Get Started']");
 
 	    // Constructor to initialize the WebDriver
@@ -24,13 +25,8 @@ public class LandingPage {
 	        return driver.getCurrentUrl().equals(expectedUrl);
 	    }
 
-	    // Method to navigate to the home page
-	    public void golandingPage() {
+	    // Method to navigate to the homepage
+	    public void goToHomePage() {
 	        driver.get("https://dsportalapp.herokuapp.com");
 	    }
-	  /*  public DashBoardPage doNavigationtoDashBoard()
-	    {	    	
-	    	driver.findElement(getStartedButton).click();
-	    	return new DashBoardPage(driver);
-	    }*/
 }
