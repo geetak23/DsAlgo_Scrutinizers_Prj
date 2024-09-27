@@ -1,13 +1,16 @@
-@LandingPage
+
 Feature: DS Portal Application Navigation
 
-User wants to learn data structures and algorithums to prepare for the interviews
-User enters into this application for interview preparation - https://dsportalapp.herokuapp.com/
-
+#User wants to learn data structures and algorithums to prepare for the interviews
+#User enters into this application for interview preparation - https://dsportalapp.herokuapp.com/
 
 Background:
-Given user is on dsportal home page
-@LandingPageScenario1
-  Scenario: For navigating to dsalgo dashBoard 
-    When user click on "Get Started" button   
-    Then user navigates to dsalgo dashBoard "https://dsportalapp.herokuapp.com/home" successfully
+  Given user is on dsportal landingPage
+	When user click on "Get Started" button 
+
+	Scenario: For navigating to dsalgo dashBoard 		  
+		Then user navigates to dsalgo dashBoard "https://dsportalapp.herokuapp.com/home" successfully
+
+	Scenario: Validate user navigation to DS Portal home page
+	  Then the page title should be "NumpyNinja"
+	  
