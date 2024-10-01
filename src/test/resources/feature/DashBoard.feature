@@ -16,7 +16,7 @@ Background:
       
   Scenario: GetStarted buttons of DataStructures 
     Given user is on DS Portal DashBoard without sign in
-    When user clicks on GET Started button of  any DataStructures items without sign in
+    When user clicks on GET Started button of any DataStructures items without sign in
     Then user should see the error message "You are not logged in"
        
   Scenario: Register link on DS Portal DashBoard

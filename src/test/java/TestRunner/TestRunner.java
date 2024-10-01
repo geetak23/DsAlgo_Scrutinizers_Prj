@@ -1,12 +1,14 @@
 package TestRunner;
-	import Utilities.*;
+	import org.testng.annotations.DataProvider;
+
+import Utilities.*;
 	import io.cucumber.testng.AbstractTestNGCucumberTests;
 	import io.cucumber.testng.CucumberOptions;
 	
 	@CucumberOptions(
 		    features = "src/test/resources/feature",            // Path to your Gherkin feature files
-		    tags = "@TreePage", 					//tags from feature file
-		    glue = {"stepdefinitions","src/test/java/Hooks/DsalgoHooks"},           // Path to the step definition files and Hooks		    		
+		    //tags = "@TreePage", 					//tags from feature file
+		    glue = {"stepdefinitions","DsalgoHooks"},           // Path to the step definition files and Hooks		    		
 		    plugin = { 
 		        "pretty",                                       // Pretty output in the console
 		        "html:target/dsalgoproject.html",   // HTML report		      
@@ -25,10 +27,10 @@ package TestRunner;
 //		       ConfigReader.setBrowser(browser);
 //		    }
 //			
-//			@Override
-//		    @DataProvider(parallel = true)
-//		    public Object[][] scenarios() {
-//						
-//				return super.scenarios();
-//		    }
+			@Override
+		    @DataProvider(parallel = true)
+		    public Object[][] scenarios() {
+						
+				return super.scenarios();
+	    }
 	}

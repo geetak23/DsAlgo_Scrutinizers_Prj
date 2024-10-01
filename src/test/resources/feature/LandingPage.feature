@@ -9,8 +9,5 @@ Background:
 	When user click on "Get Started" button 
 
 	Scenario: For navigating to dsalgo dashBoard 		  
-		Then user navigates to dsalgo dashBoard "https://dsportalapp.herokuapp.com/home" successfully
-
-	Scenario: Validate user navigation to DS Portal home page
-	  Then the page title should be "NumpyNinja"
+	 Then user navigates to dsalgo dashBoard "https://dsportalapp.herokuapp.com/home" successfully and page title should be "NumpyNinja"
 	  

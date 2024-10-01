@@ -22,9 +22,10 @@ public class LandingPageStepDef {
 		landingPage.clickGetStarted();		 
 	}
 
-	@Then("user navigates to dsalgo dashBoard {string} successfully")
-	public void user_navigates_to_dsalgo_dash_board_successfully(String expectedUrl) {
+	@Then("user navigates to dsalgo dashBoard {string} successfully and page title should be {string}")
+	public void user_navigates_to_dsalgo_dash_board_successfully(String expectedUrl,String pageTitle) {
 		boolean isAtDashboard = landingPage.isAtDashboard(expectedUrl);
 		Assert.assertTrue(isAtDashboard, "User is not on the expected DS Algo dashboard");
+		Assert.assertEquals(landingPage.getPageTitle(), pageTitle);
 	}
 }

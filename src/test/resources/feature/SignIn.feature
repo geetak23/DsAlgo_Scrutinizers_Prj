@@ -10,7 +10,7 @@ Feature: DS Portal Application User Login
   
   Scenario: DS Portal sign in validation
   When user gets the title of the page
-	Then the page title should be "Login"  
+	Then page title should be "Login"  
  
   Scenario: Login with username invalid  
     When user enters an invalid username as <username> and Invalid password as <password> and clicks Login

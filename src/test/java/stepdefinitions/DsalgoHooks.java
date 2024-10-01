@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import POM.SignInPage;
 import WebdriverManager.driverFactory;
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 	
@@ -15,15 +16,9 @@ public class DsalgoHooks extends driverFactory{
     public static void setUp() {       
         driver = driverFactory.getDriver();        
     }
-  @Before("@DataStructures")
-  public void loginin() 
-  {
-	System.out.println("Line Number 26 Hooks Class");	
-	Signin.signinpage("Scrutinizers","Numpysdet176");	
-  }
   
-//    @After
-//    public void tearDown() {
-//    	Webdrivermanager.quitDriver();
-//    }
+    @After
+    public void tearDown() {
+    	//driver.quit();
+    }
 }

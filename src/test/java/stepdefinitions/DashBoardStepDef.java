@@ -57,7 +57,7 @@ public class DashBoardStepDef extends driverFactory{
 		System.out.println("Message you get on clicking any item in Dropdown is :"+message);
 	}
 
-	@When("user clicks on GET Started button of  any DataStructures items without sign in")
+	@When("user clicks on GET Started button of any DataStructures items without sign in")
 	public void user_clicks_on_get_started_button_of_any_data_structures_items_without_sign_in() {
 		System.out.println("user clicks any of the GetStarted buttons");
 		dsDBPage.GetStartBtnList(2);

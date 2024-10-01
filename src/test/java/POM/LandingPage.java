@@ -28,6 +28,9 @@ public class LandingPage {
 	    public void golandingPage() {
 	        driver.get("https://dsportalapp.herokuapp.com");
 	    }
+	    public String getPageTitle() {
+	        return driver.getTitle();
+	    }
 	  /*  public DashBoardPage doNavigationtoDashBoard()
 	    {	    	
 	    	driver.findElement(getStartedButton).click();

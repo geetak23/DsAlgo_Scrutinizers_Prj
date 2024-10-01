@@ -58,14 +58,15 @@ public class SignInPage extends driverFactory
 		return errormsg;
 	}
 	 
-	 public void signinpage(String UserName,String Password)
+	 public WebDriver signinpage(String UserName,String Password)
 	 {
 	    UserNameText.sendKeys(UserName);
 	    PassWord.sendKeys(Password);
 	    LoginButton.click();
-	    System.out.print("Landed on Main page");		
+	    System.out.print("Landed on Main page");	
+	    return getDriver();
 	 }   
-	 
+
 	 public void navigateToDashBoard()
 	 {
 		 driver.get("https://dsportalapp.herokuapp.com/home");

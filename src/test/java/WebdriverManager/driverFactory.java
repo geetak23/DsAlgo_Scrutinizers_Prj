@@ -37,8 +37,12 @@ public class driverFactory {
 	            default:
 	                throw new IllegalArgumentException("Unsupported browser: " + browser);
 	            }
+	            getDriver().manage().deleteAllCookies();
+	    		getDriver().manage().window().maximize();
+	    		
                 driver.get("https://dsportalapp.herokuapp.com/");
-	            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));		            
+	            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+	            
 	        }
 	        return driver;
 	    }
