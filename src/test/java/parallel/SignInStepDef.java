@@ -1,4 +1,4 @@
-package stepdefinitions;
+package parallel;
 
 import java.util.Map;
 
@@ -13,8 +13,8 @@ import io.cucumber.java.en.When;
 
 public class SignInStepDef extends driverFactory {
 	private static String pageTitle;
-	WebDriver driver = driverFactory.getDriver();
-	private SignInPage signInPage = new SignInPage(driver);
+	//WebDriver driver = driverFactory.getDriver();
+	private SignInPage signInPage = new SignInPage(driverFactory.getDriver());
 	
 	@Given("user is on the DS Portal login page")	
 	public void user_is_on_the_ds_portal_login_page() {
@@ -28,8 +28,7 @@ public class SignInStepDef extends driverFactory {
 	@Then("page title should be {string}")
 	public void page_title_should_be(String expectedTitleName) {
 		Assert.assertTrue(pageTitle.contains(expectedTitleName));
-	}
-		
+	}		
 	
 	@When("user enters an invalid username as <username> and Invalid password as <password> and clicks Login")
 	public void user_enters_an_invalid_username_and_Invalid_password_and_clicks_Login(io.cucumber.datatable.DataTable dataTable)

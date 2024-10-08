@@ -1,5 +1,6 @@
 package POM;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,21 +9,30 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import WebdriverManager.driverFactory;
 
 public class DashBoardPage extends driverFactory{
 	 // Locators for home page elements
 
-	@FindBy(xpath = "//a[text()='Data Structures']") WebElement dsDropDown;	
-	@FindBy(xpath="//div[@class='alert alert-primary']") WebElement errorMsg;
-	@FindBy(xpath="//a[contains(text(),' Register ')]") WebElement registerLink;
-	@FindBy(xpath="//a[contains(text(),'Sign in')]") WebElement loginLink;
+	//@FindBy(xpath = "//a[text()='Data Structures']") WebElement dsDropDown;	
+	//@FindBy(xpath="//div[@class='alert alert-primary']") WebElement errorMsg;
+	//@FindBy(xpath="//a[contains(text(),' Register ')]") WebElement registerLink;
+	//@FindBy(xpath="//a[contains(text(),'Sign in')]") WebElement loginLink;
+	
+	By dsDropDown=By.xpath(("//a[text()='Data Structures']"));
+	By errorMsg=By.xpath(("//div[@class='alert alert-primary']"));
+	By registerLink=By.xpath(("//a[contains(text(),' Register ')]"));
+	By loginLink=By.xpath(("//a[contains(text(),'Sign in')]"));
+	
 	By menuList=By.xpath(("//div[@class='dropdown-menu show']//a[@class='dropdown-item']"));
 	By dsGetStartBtn=By.xpath("//a[contains(text(),'Get Started')]");
 
 	public DashBoardPage(WebDriver driver) {
-		PageFactory.initElements(driver, this);
+		//PageFactory.initElements(driver, this);
+		this.driver = driver;
 	}
 	// Open home page
     public void openDashBoardPage() {
@@ -47,11 +57,11 @@ public class DashBoardPage extends driverFactory{
         return driver.getCurrentUrl().equals(expectedUrl);
     }
     public void clickDropDown() {
-    	dsDropDown.click();
+    	driver.findElement(dsDropDown).click();
     }
      
     public void GetStartBtnList(int index){
- 		List<WebElement> getbtnListIP= driver.findElements(dsGetStartBtn);;
+ 		List<WebElement> getbtnListIP= driver.findElements(dsGetStartBtn);
  		getbtnListIP.get(index).click();	
  	}
     
@@ -72,11 +82,13 @@ public class DashBoardPage extends driverFactory{
 
     public String errorMessage()
     {
-    	return errorMsg.getText();
+    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1000));
+    	wait.until(ExpectedConditions.presenceOfElementLocated(errorMsg)); 
+    	return driver.findElement(dsGetStartBtn).getText();
     }
      
     public void clickRegisterLink(){
-    	registerLink.click();
+    	driver.findElement(registerLink).click();
     }
     
     public void registerPage(){
@@ -84,7 +96,7 @@ public class DashBoardPage extends driverFactory{
     }
     
     public void clickSignInPage(){
-    	 loginLink.click();
+    	driver.findElement(loginLink).click();
     }
 
     public void loginLinkPage(){

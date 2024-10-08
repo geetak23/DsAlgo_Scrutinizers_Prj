@@ -2,55 +2,50 @@ package WebdriverManager;
 //package Utilities;
 
 import java.time.Duration;
+import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import Utilities.ConfigReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class driverFactory {
-	    protected static WebDriver driver;
-
-	    public static WebDriver getDriver() 
-	    {
-	        if (driver == null) 
-	        {
-	            String browser = ConfigReader.getBrowser();
-	            switch (browser.toLowerCase())
-	            {
-	            case "chrome":
-	            	System.out.println("in webdriver chrome");
-	            	driver = new ChromeDriver();
-	                break;
-	            case "firefox":
-	                WebDriverManager.firefoxdriver().setup();
-	                driver=new FirefoxDriver();
-	                break;
-	            case "edge":
-	                WebDriverManager.edgedriver().setup();
-	                driver=new EdgeDriver();
-	                break;
-	            default:
-	                throw new IllegalArgumentException("Unsupported browser: " + browser);
-	            }
-	            getDriver().manage().deleteAllCookies();
-	    		getDriver().manage().window().maximize();
-	    		
-                driver.get("https://dsportalapp.herokuapp.com/");
-	            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-	            
-	        }
-	        return driver;
-	    }
-	  
-	    public static void quitDriver() {
-	        if (driver != null) {
-	            driver.quit();
-	            driver = null;
-	        }
-	    }
+	
+	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
+	public WebDriver driver;
+	public WebDriver init_driver(String browser) {
+		
+		System.out.println("browser value is : " + browser);
+		
+		if(browser.equals("chrome")) {
+			WebDriverManager.chromedriver().setup();
+			System.out.println("In chrome driver");
+			tlDriver.set(new ChromeDriver());			
+		}
+		else if(browser.equals("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			tlDriver.set(new FirefoxDriver());
+		}
+		else if(browser.equals("edge")) {
+			WebDriverManager.edgedriver().setup();
+			tlDriver.set(new EdgeDriver());
+		}
+		else {
+			System.out.println("Please pass the correct browser value: " + browser);
+		}
+		
+		getDriver().manage().deleteAllCookies();	
+		getDriver().manage().window().maximize();
+		
+		return getDriver();
+		
+	}
+	
+	public static synchronized WebDriver getDriver() {
+		
+		return tlDriver.get();		
+	}    
 }

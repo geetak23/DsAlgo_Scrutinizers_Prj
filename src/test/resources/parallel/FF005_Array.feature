@@ -1,4 +1,6 @@
+@ArrayFF
 Feature: Array Functionality with login
+
 
   Background: 
     Given User has already Logged in
@@ -10,7 +12,7 @@ Feature: Array Functionality with login
     When User clicks on the Arrays List
     Then User should be on "Array" page
     
-    
+    @ArrayFF_02
     Scenario Outline: Try Editor validation for Array with testcodes
     Given User is on the "Arrays in Python" Home Page of URL "https://dsportalapp.herokuapp.com/array/arrays-in-python/"
     When User click on '<Topic>'
@@ -35,14 +37,15 @@ Feature: Array Functionality with login
       | Arrays Using List         | Arrays Using List         | Try Here | pythonCode |
       | Basic Operations in Lists | Basic Operations in Lists | Try Here | pythonCode |
       | Applications of Array     | Applications of Array     | Try Here | pythonCode |
-      
+    
+    @ArrayFF_03  
     Scenario Outline: Practice Questions Validation with valid codes
     Given The user is on the "Practice Questions" page
     When User click on "<Practice_Topic>" page
     And User clear the text-editor
     When The user write code in PracQn Editor from sheetname '<SheetName>' and rownumber <RowNum>
     And Click the run button
-    Then The user is on the "Assessment" Page1
+    Then The user is on the "Assessment" Page
 
     Examples: 
       | Practice_Topic                          | URL                                          | SheetName  | RowNum | Result             |

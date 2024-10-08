@@ -2,76 +2,45 @@ package Utilities;
 
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-	/*private Properties prop;
-	
-	public Properties init_prop()
-	{
+	private Properties prop;
+	private static String browserType;
+
+	public Properties initProperties() {
+
 		prop = new Properties();
-	        try {
-	            FileInputStream input = new FileInputStream("/DsAlgo_Scrutinizers_Prj/src/test/resources/Config/config.properties");
-	            System.out.println("config");
-	            prop.load(input);
-	        } catch (IOException e) {
-	            e.printStackTrace();
-	            throw new RuntimeException("Failed to load config.properties file.");
-	        }
-	        return prop;
-	}*/
-	/**
-	 * This Method is used to load the properties from config.properties file.
-	 * @return
-	 */
-	 private static Properties properties;
-	    private static String overriddenBrowser;
+		try {
+			FileInputStream ip = new FileInputStream("./src/test/resources/Config/config.properties");
+			prop.load(ip);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 
-	    public static Properties initProperties() {
-	        properties = new Properties();
-	        try {
-	            FileInputStream input = new FileInputStream("src/test/resources/Config/config.properties");
-	            System.out.println(input);
-	            properties.load(input);
-	        } catch (IOException e) {
-	            e.printStackTrace();
-	            throw new RuntimeException("Failed to load config.properties file.");
-	        }
-	        return properties;
-	        
-	    }
+		return prop;
+	}
 
-	    // Method to get browser from either system property or config file
-	    public static String getBrowser() {	    	
-	        if (overriddenBrowser != null) {
-	            return overriddenBrowser; // Return browser passed from TestNG or system property
-	        } else {
-	        	initProperties();
-	            String browser = properties.getProperty("browser");
-	            if (browser != null) {
-	                return browser;
-	            } else {
-	                throw new RuntimeException("Browser not specified in config.properties file.");
-	            }
-	        }
-	    }
+	public static String getBrowser(String Browser) {
+		if (browserType != null)
+			return Browser;
+		else
+			throw new RuntimeException("Incorrect browser");
+	}
 
-	    // Setter method to override browser value
-	    public static void setBrowser(String browser) {
-	        overriddenBrowser = browser;
-	    }
+	public static void setBrowserType(String Browser) {
+		browserType = Browser;
+	}
 
-	    // Additional configuration methods, e.g., getBaseUrl(), etc.
-	    public static String getBaseUrl() {
-	        String baseUrl = properties.getProperty("baseUrl");
-	        if (baseUrl != null) return baseUrl;
-	        else throw new RuntimeException("Base URL not specified in config.properties file.");
-	    }
-
-	    public static int getTimeout() {
-	        String timeout = properties.getProperty("timeout");
-	        if (timeout != null) return Integer.parseInt(timeout);
-	        else throw new RuntimeException("Timeout not specified in config.properties file.");
-	    }
+	public static String getBrowserType() throws Throwable
+	{
+		if (browserType != null)
+			return browserType;
+		else
+			throw new RuntimeException("browser not specified in the testng.xml");
+	}
 }

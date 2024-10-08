@@ -1,4 +1,4 @@
-package stepdefinitions;
+package parallel;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -11,14 +11,14 @@ import io.cucumber.java.en.When;
 
 public class DashBoardStepDef extends driverFactory{
 	
-	WebDriver driver = driverFactory.getDriver();
-	private DashBoardPage dsDBPage = new DashBoardPage(driver); 
+	//WebDriver driver = driverFactory.getDriver();
+	private DashBoardPage dsDBPage = new DashBoardPage(driverFactory.getDriver()); 
 			
 	@Given("user is on DS Portal DashBoard without sign in")
 	public void user_is_on_dsportal_dash_board_without_sign_in() {
 		dsDBPage.openDashBoardPage();
 	}
-	@Then("the page title should be {string}")
+	@Then("the page title should be {string} for DashBoard")
 	public void the_page_title_should_be(String stringExpected) {
 	  Assert.assertEquals(dsDBPage.getPageTitle(), stringExpected); ;
 	}

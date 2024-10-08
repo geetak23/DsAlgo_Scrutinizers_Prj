@@ -19,7 +19,8 @@ public class RegisterPage extends driverFactory
 		
 	public RegisterPage(WebDriver driver) 
 	{
-		PageFactory.initElements(driver, this);
+		//PageFactory.initElements(driver, this);
+		this.driver = driver;
 	}
 	// Open home page
     public void openRegisterPage() 

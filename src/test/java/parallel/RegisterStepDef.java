@@ -1,4 +1,4 @@
-package stepdefinitions;
+package parallel;
 import static org.testng.Assert.assertEquals;
 
 import java.util.Map;
@@ -16,9 +16,9 @@ import io.cucumber.java.en.When;
 
 public class RegisterStepDef {
 	
-	WebDriver driver = driverFactory.getDriver();
-	RegisterPage regPage=new RegisterPage(driver);
-	DashBoardPage dbPage=new DashBoardPage(driver);
+	//WebDriver driver = driverFactory.getDriver();
+	RegisterPage regPage=new RegisterPage(driverFactory.getDriver());
+	DashBoardPage dbPage=new DashBoardPage(driverFactory.getDriver());
 	
 	public void registerUser(String userName,String password,String ConfirmPwd)
 	{			       
@@ -61,7 +61,7 @@ public class RegisterStepDef {
 	@Then("user can view an error message on Register Page {string} below Username textbox")
 	public void user_can_view_an_error_message_on_register_page_below_username_textbox(String expectedError) {
 		
-		// Assert.assertEquals(dbPage.errorMessage(), expectedError);
+		// Assert.assertEquals(regPage.pwdErrMsg(), expectedError);
 	}
 	
 	@When("user provides username as <username> with remaining fields empty and user clicks the Register button")
@@ -94,14 +94,14 @@ public class RegisterStepDef {
 
 	@Then("user can view an error message on Register Page {string}")
 	public void user_can_view_an_error_message_on_register_page(String expectedError) {
-		Assert.assertEquals(dbPage.errorMessage(), expectedError);
+		Assert.assertEquals(regPage.pwdErrMsg(), expectedError);
 	}
 
-	@Then("user can view an error message on Register Page {string}#invalid error message for length")
+	@Then("user can view an error message on Register Page {string} user is already exist")
 	public void user_can_view_an_error_message_on_register_page_invalid_error_message_for_length(String expectedError) {
-		System.out.println(dbPage.errorMessage());
+		System.out.println(regPage.pwdErrMsg());
 		System.out.println(expectedError);
-		//Assert.assertEquals(dbPage.errorMessage(), expectedError);
+		Assert.assertEquals(regPage.pwdErrMsg(), expectedError);
 	}
 	
 	
@@ -114,7 +114,7 @@ public class RegisterStepDef {
 	@Then("user should be redirected to Homepage with the message {string} <username>")
 	public void user_should_be_redirected_to_homepage_with_the_message_username(String expectedMsg) 
 	{
-	   //regPage.openDashBoard();
+	   regPage.openDashBoard();
 	    //Assert.assertEquals(dbPage.errorMessage(), expectedMsg);
 	}
 }

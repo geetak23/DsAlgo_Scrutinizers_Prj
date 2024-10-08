@@ -11,6 +11,7 @@ public class LandingPage {
 
 	    // Constructor to initialize the WebDriver
 	    public LandingPage(WebDriver driver) {
+	    	System.out.println("In landing step def");
 	        this.driver = driver;
 	    }
 

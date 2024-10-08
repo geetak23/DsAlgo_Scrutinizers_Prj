@@ -1,4 +1,4 @@
-package stepdefinitions;
+package parallel;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
@@ -9,8 +9,8 @@ import WebdriverManager.driverFactory;
 
 public class LandingPageStepDef {
 	
-	WebDriver driver = driverFactory.getDriver();
-	private LandingPage landingPage = new LandingPage(driver);
+	//WebDriver driver = driverFactory.getDriver();
+	private LandingPage landingPage = new LandingPage(driverFactory.getDriver());
 		
 	@Given("user is on dsportal landingPage")
 	public void user_is_on_dsportal_landingPage() {
