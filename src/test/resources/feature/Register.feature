@@ -1,9 +1,5 @@
 @RegisterFF
 Feature: Verifying or validating DS Portal Application User Registration
-
- As a new user
- I want to register for an account on the DS Portal application
- So that I can access resources for learning data structures and algorithms.
   
  Background:
  Given user is on the DS Portal registration page

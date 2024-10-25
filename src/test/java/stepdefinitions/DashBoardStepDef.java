@@ -1,8 +1,5 @@
-package parallel;
-
-import org.openqa.selenium.WebDriver;
+package stepdefinitions;
 import org.testng.Assert;
-
 import POM.DashBoardPage;
 import WebdriverManager.driverFactory;
 import io.cucumber.java.en.Given;
@@ -11,7 +8,7 @@ import io.cucumber.java.en.When;
 
 public class DashBoardStepDef extends driverFactory{
 	
-	//WebDriver driver = driverFactory.getDriver();
+	
 	private DashBoardPage dsDBPage = new DashBoardPage(driverFactory.getDriver()); 
 			
 	@Given("user is on DS Portal DashBoard without sign in")

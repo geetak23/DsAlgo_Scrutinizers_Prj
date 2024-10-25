@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class ConfigReader {
 	private Properties prop;
-	private static String browserType;
+	protected static String browserType;
 
 	public Properties initProperties() {
 
@@ -33,14 +33,14 @@ public class ConfigReader {
 	}
 
 	public static void setBrowserType(String Browser) {
-		browserType = Browser;
+		browserType = Browser;		
 	}
 
-	public static String getBrowserType() throws Throwable
+	public String getBrowserType()
 	{
 		if (browserType != null)
 			return browserType;
 		else
-			throw new RuntimeException("browser not specified in the testng.xml");
+			return "";
 	}
 }

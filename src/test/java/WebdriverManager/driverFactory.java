@@ -1,13 +1,13 @@
 package WebdriverManager;
-//package Utilities;
 
-import java.time.Duration;
-import java.util.Properties;
-
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -16,12 +16,15 @@ public class driverFactory {
 	
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 	public WebDriver driver;
-	public WebDriver init_driver(String browser) {
-		
-		System.out.println("browser value is : " + browser);
-		
+	
+	Logger loglist = org.apache.log4j.Logger.getLogger(driverFactory.class);
+	
+	@Parameters("browser")
+	@BeforeTest
+	public WebDriver init_driver(@Optional("chrome") String browser) {
+			
 		if(browser.equals("chrome")) {
-			WebDriverManager.chromedriver().setup();
+			WebDriverManager.chromedriver().setup();			
 			System.out.println("In chrome driver");
 			tlDriver.set(new ChromeDriver());			
 		}
@@ -37,11 +40,12 @@ public class driverFactory {
 			System.out.println("Please pass the correct browser value: " + browser);
 		}
 		
+		loglist.info("In : "+ browser +" browser");
+		
 		getDriver().manage().deleteAllCookies();	
 		getDriver().manage().window().maximize();
 		
-		return getDriver();
-		
+		return getDriver();		
 	}
 	
 	public static synchronized WebDriver getDriver() {

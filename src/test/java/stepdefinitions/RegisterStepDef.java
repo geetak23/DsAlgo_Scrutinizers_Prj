@@ -1,18 +1,12 @@
-package parallel;
-import static org.testng.Assert.assertEquals;
-
+package stepdefinitions;
 import java.util.Map;
-
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-
 import POM.DashBoardPage;
 import POM.RegisterPage;
 import WebdriverManager.driverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
 
 public class RegisterStepDef {
 	

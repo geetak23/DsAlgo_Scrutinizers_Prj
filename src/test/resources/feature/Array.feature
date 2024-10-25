@@ -4,8 +4,8 @@ Feature: Array Functionality with login
 
   Background: 
     Given User has already Logged in
-      | username | password |
-      | Scrutinizers  | Numpysdet176 |
+            
+   Scenario:
     Given The user is on the "NumpyNinja" Home Page
     When User clicks on Data Structures dropdown arrow
     Then User should able to see six option in DataStructure Dropdown

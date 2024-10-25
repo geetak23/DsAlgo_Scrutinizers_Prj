@@ -6,9 +6,9 @@ Feature: DS Portal Application Navigation
 
 Background:
   Given user is on dsportal landingPage
-	When user click on "Get Started" button 
-
-@LandingFF_01
-	Scenario: For navigating to dsalgo dashBoard 		  
+  	
+@LandingFF_navigating_to_dashboard
+Scenario: For navigating to dsalgo dashBoard
+	 When user click on "Get Started" button  		  
 	 Then user navigates to dsalgo dashBoard "https://dsportalapp.herokuapp.com/home" successfully and page title should be "NumpyNinja"
 	  

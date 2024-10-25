@@ -1,10 +1,6 @@
-package parallel;
-
+package stepdefinitions;
 import java.util.Map;
-
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-
 import POM.SignInPage;
 import WebdriverManager.driverFactory;
 import io.cucumber.java.en.Given;

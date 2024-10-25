@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<!--Suite-->
+<suite name="Test Chrome" parallel="classes">
+<!--Test-->
+  <test name="TestParallelchrome" thread-count="4">	  	  
+    <classes>
+      <class name="TestRunner.TestNGRunnerChrome"/>
+    </classes>
+  </test>    
+</suite> 
+
+<!--Suite-->

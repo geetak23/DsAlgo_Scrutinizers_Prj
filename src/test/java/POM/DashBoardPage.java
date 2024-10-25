@@ -7,8 +7,6 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -17,11 +15,6 @@ import WebdriverManager.driverFactory;
 public class DashBoardPage extends driverFactory{
 	 // Locators for home page elements
 
-	//@FindBy(xpath = "//a[text()='Data Structures']") WebElement dsDropDown;	
-	//@FindBy(xpath="//div[@class='alert alert-primary']") WebElement errorMsg;
-	//@FindBy(xpath="//a[contains(text(),' Register ')]") WebElement registerLink;
-	//@FindBy(xpath="//a[contains(text(),'Sign in')]") WebElement loginLink;
-	
 	By dsDropDown=By.xpath(("//a[text()='Data Structures']"));
 	By errorMsg=By.xpath(("//div[@class='alert alert-primary']"));
 	By registerLink=By.xpath(("//a[contains(text(),' Register ')]"));
@@ -34,6 +27,7 @@ public class DashBoardPage extends driverFactory{
 		//PageFactory.initElements(driver, this);
 		this.driver = driver;
 	}
+	
 	// Open home page
     public void openDashBoardPage() {
         driver.get("https://dsportalapp.herokuapp.com/home");

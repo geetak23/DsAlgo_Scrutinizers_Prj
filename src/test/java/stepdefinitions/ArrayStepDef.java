@@ -1,4 +1,4 @@
-package parallel;
+package stepdefinitions;
 
 import java.io.IOException;
 import org.testng.Assert;
@@ -6,8 +6,6 @@ import java.util.List;
 import java.util.Map;
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import POM.ArrayPage;
@@ -18,8 +16,10 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.datatable.DataTable;
 import Utilities.Xls_Reader;
+import Utilities.LoggerLoad;
 
 public class ArrayStepDef {
+	
 	private static String title;
 	private SignInPage signInPage = new SignInPage(driverFactory.getDriver());
 	private ArrayPage Arraypage;
@@ -30,29 +30,32 @@ public class ArrayStepDef {
     List<Map<String, String>> testData;
 
 	@Given("User has already Logged in")
-	public void user_has_already_logged_in(DataTable  dataTable) {
-		List<Map<String, String>> credList = dataTable.asMaps();
-		String username = credList.get(0).get("username");
-		String password = credList.get(0).get("password");
+	public void user_has_already_logged_in() throws org.apache.poi.openxml4j.exceptions.InvalidFormatException, IOException, InterruptedException {
+			
+		List<Map<String,String>> testData = reader.getData(arrayCodeFile, "Valid LogIn");
+				
+		String username = testData.get(0).get("username");
+		String password = testData.get(0).get("password");
+		
+		System.out.println("/n read method "+username +" and "+password);
 		
 		driverFactory.getDriver().get("https://dsportalapp.herokuapp.com/login");
 		
 		driver = signInPage.signinpage(username, password);
-		Arraypage = new ArrayPage(driver);
+		Arraypage = new ArrayPage(driver);	
+		LoggerLoad.info("Signed In user is in array page");
 	}
 	
 	@Given("User is on the {string} Home Page of URL {string}")
 	public void user_is_on_the_ds_algo_home_page(String expectedTitleName, String URL) {
 		driverFactory.getDriver().get(URL);
 		title = Arraypage.getPageTitle();
-		Assert.assertTrue(title.contains(expectedTitleName));
-		
+		Assert.assertTrue(title.contains(expectedTitleName));		
 	}
 
 	@When("User clicks on Data Structures dropdown arrow")
 	public void user_clicks_on_data_structures_dropdown_arrow() {
-		Arraypage.DropDownClick();
-	
+		Arraypage.DropDownClick();	
 	}
 
 	@Then("User should able to see six option in DataStructure Dropdown")
@@ -62,8 +65,7 @@ public class ArrayStepDef {
 
 	@When("User clicks on the Arrays List")
 	public void user_clicks_on_the_arrays_list() {
-	    Arraypage.DropDownList(0);
-		
+	    Arraypage.DropDownList(0);		
 	}
 
 	@Then("User should be on {string} page")
@@ -122,6 +124,7 @@ public class ArrayStepDef {
 			String testcode = testData.get(RNum).get("pythonCode");	
 			System.out.println(testcode);
 			Arraypage.texteditorData(testcode);
+			LoggerLoad.info("In Array Page Text Editor");
 		}
 	
 	@When("The user write code in PracQn Editor from sheetname {string} and rownumber {int}")
@@ -132,6 +135,7 @@ public class ArrayStepDef {
 			String testcode = testData.get(RNum).get("pythonCode");	
 			Arraypage.copyCode(testcode);
 			Arraypage.runbtn();
+			LoggerLoad.info("Python code");
 		}
 	
 	@When("Click the run button")
@@ -157,7 +161,7 @@ public class ArrayStepDef {
 		title = Arraypage.getPageTitle();
 		System.out.println(title+ "=" + expectedTitleName);
 		Assert.assertTrue(title.contains(expectedTitleName));
-		
+		LoggerLoad.info("Page Title is : "+expectedTitleName);
 	}
 
 	@When("User click on {string}")
@@ -183,6 +187,7 @@ public class ArrayStepDef {
 	@Then("The user is on the {string} Page")
 	public void the_user_is_on_the_page1(String string) {
 	    Arraypage.getPageTitle();
+	    LoggerLoad.info("Page Title is : "+ string);
 	}
 	@When("User click back button and navigate to URL {string}")
 	public void user_click_back_button_and_navigate_to_url(String URL) {
