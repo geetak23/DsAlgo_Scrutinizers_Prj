@@ -1,4 +1,6 @@
 package POM;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,6 +30,14 @@ public class QueuePage extends driverFactory {
 		Signin.signinpage("Scrutinizers","Numpysdet176");
 		driver.findElement(By.xpath("//a[@href='queue']")).click();
 
+	}
+	public void clickTopic(String topic2 ) throws Exception {
+
+		List<WebElement> Topic = driver.findElements(By.className("list-group-item"));
+		
+		
+		//int button_index = Integer.parseInt(getProperty(Topic));
+		Topic.get(0).click();
 	}
 	public void implementationofQueueinPythonTopic() {
 		ImplementationofQueueinPythonTopic.click();
