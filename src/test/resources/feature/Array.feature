@@ -1,11 +1,11 @@
 @ArrayFF
-Feature: Array Functionality with login
+Feature: Array Functionality validation
 
 
   Background: 
     Given User has already Logged in
             
-   Scenario:
+   Scenario: User is on Array page
     Given The user is on the "NumpyNinja" Home Page
     When User clicks on Data Structures dropdown arrow
     Then User should able to see six option in DataStructure Dropdown
@@ -45,7 +45,7 @@ Feature: Array Functionality with login
     And User clear the text-editor
     When The user write code in PracQn Editor from sheetname '<SheetName>' and rownumber <RowNum>
     And Click the run button
-    Then The user is on the "Assessment" Page
+    Then The user is on the "Assessment" Home Page
 
     Examples: 
       | Practice_Topic                          | URL                                          | SheetName  | RowNum | Result             |

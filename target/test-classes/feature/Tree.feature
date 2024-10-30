@@ -1,61 +1,81 @@
-#Author: your.email@your.domain.com
-#Keywords Summary :
-#Feature: List of scenarios.
-#Scenario: Business rule through list of steps with arguments.
-#Given: Some precondition step
-#When: Some key actions
-#Then: To observe outcomes or validation
-#And,But: To enumerate more Given,When,Then steps
-#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
-#Examples: Container for s table
-#Background: List of steps run before each of the scenarios
-#""" (Doc Strings)
-#| (Data Tables)
-#@ (Tags/Labels):To group Scenarios
-#<> (placeholder)
-#""
-## (Comments)
-#Sample Feature Definition Template
-@tag
-Feature: Tree Functionality with login
+@TreeModule
+Feature: Validating Tree Module2
 
   Background: 
     Given User has already Logged in
-      | username      | password     |
-      | Scrutinizers  | Numpysdet176 |
-    Given The user is on the "DSPortal" Home Page
-    When User clicks on Get Started button index 5
-    Then User should be on "Tree" page
 
-  @RegressionTest
-  Scenario Outline: Try Editor validation for Tree with testcodes
-    Given User is on the "Tree" Home Page of URL "https://dsportalapp.herokuapp.com/tree/"
-    When User click on '<Topic>'
-    Then User should navigate to page that contains title '<Title>'
-    When User clicks Try Here button of "<Topic>"
-    And The user is on the "TextEditor" Home Page
-    When The user write code in Editor from sheetname '<SheetName>' and rownumber 0
-    And Click the run button
-    Then The user should able to see output in the console "hello"
-    And The user is on the "TextEditor" Home Page
-    When The user write code in Editor from sheetname '<SheetName>' and rownumber 1
-    And Click the run button
-    Then The user should able to see an error message in alert window
-    And The user is on the "TextEditor" Home Page
-    
+  Scenario: Check User able to Directed to Tree page from Dropdown
+    When click on the dropdown and select Tree
+    Then The user should be directed to Tree Page
+
+  Scenario: Check User able to Directed to Tree page from Get Started button
+    When click on Get Started button underTree
+    Then The user should be directed to Tree Page
+
+  @TestTree
+  Scenario Outline: Validate Tree topics with Testcode
+    Given User is in Tree page
+    When User clicks on trees topic "TreeTopic" button.
+    Then User should be directed to "Title" With Try Here
+    When User clicks on Try Here button
+    Then User should be directed to Text Editor page with run
 
     Examples: 
-      | Topic                          | Title                          | Try Here | SheetName  |
-      | Overview of Trees              | Overview of Trees              | Try Here | pythonCode |
-      | Terminologies                  | Terminologies                  | Try Here | pythonCode |
-      | Types of Trees                 | Types of Trees                 | Try Here | pythonCode |
-      | Tree Traversals                | Tree Traversals                | Try Here | pythonCode |
-      | Traversals-Illustration        | Traversals-Illustration        | Try Here | pythonCode |
-      | Binary Trees                   | Binary Trees                   | Try Here | pythonCode |
-      | Types of Binary Trees          | Types of Binary Trees          | Try Here | pythonCode |
-      | Implementation in Python       | Implementation in Python       | Try Here | pythonCode |
-      | Binary Tree Traversals         | Binary Tree Traversals         | Try Here | pythonCode |
-      | Implementation of Binary Trees | Implementation of Binary Trees | Try Here | pythonCode |
-      | Applications of Binary trees   | Applications of Binary trees   | Try Here | pythonCode |
-      | Binary Search Trees            | Binary Search Trees            | Try Here | pythonCode |
-      | Implementation Of BST          | Implementation Of BST          | Try Here | pythonCode |
+      | TreeTopic                      | Title                          |
+      | Overview of Trees              | Overview of Trees              |
+      | Terminologies                  | Terminologies                  |
+      | Types of Trees                 | Types of Trees                 |
+      | Tree Traversals                | Tree Traversals                |
+      | Traversals-Illustration        | Traversals-Illustration        |
+      | Binary Trees                   | Binary Trees                   |
+      | Types of Binary Trees          | Types of Binary Trees          |
+      | Implementation in Python       | Implementation in Python       |
+      | Binary Tree Traversals         | Binary Tree Traversals         |
+      | Implementation of Binary Trees | Implementation of Binary Trees |
+      | Applications of Binary trees   | Applications of Binary trees   |
+      | Binary Search Trees            | Binary Search Trees            |
+      | Implementation Of BST          | Implementation Of BST          |
+@TestValid
+  Scenario Outline: Scenario Outline: Try Editor validation for "TreeTopic" with valid testcodes
+    Given User is in Text Editor page with run through "TreeTopic"
+    When User writes code in Text Editor from sheetname '<SheetName>' and rownumber 0 and clicks on run button
+    Then User should able to see output in the console
+
+    Examples: 
+      | TreeTopic                      | SheetName  |
+      | Overview of Trees              | pythonCode |
+      | Terminologies                  | pythonCode |
+      | Types of Trees                 | pythonCode |
+      | Tree Traversals                | pythonCode |
+      | Traversals-Illustration        | pythonCode |
+      | Binary Trees                   | pythonCode |
+      | Types of Binary Trees          | pythonCode |
+      | Implementation in Python       | pythonCode |
+      | Binary Tree Traversals         | pythonCode |
+      | Implementation of Binary Trees | pythonCode |
+      | Applications of Binary trees   | pythonCode |
+      | Binary Search Trees            | pythonCode |
+      | Implementation Of BST          | pythonCode |
+@TestValid2
+  Scenario Outline: Try Editor validation for "Tree Topic" with invalid testcodes
+    Given User is in Text Editor page with run through "TreeTopic"
+    When User writes code in Text Editor from sheetname '<SheetName>' and rownumber 1 and clicks on run button
+    Then User should able to see an error message in alert window
+    When User clicks on Ok button
+    Then User should be on Same page
+
+    Examples: 
+      | TreeTopic                      | SheetName  |
+      | Overview of Trees              | pythonCode |
+      | Terminologies                  | pythonCode |
+      | Types of Trees                 | pythonCode |
+      | Tree Traversals                | pythonCode |
+      | Traversals-Illustration        | pythonCode |
+      | Binary Trees                   | pythonCode |
+      | Types of Binary Trees          | pythonCode |
+      | Implementation in Python       | pythonCode |
+      | Binary Tree Traversals         | pythonCode |
+      | Implementation of Binary Trees | pythonCode |
+      | Applications of Binary trees   | pythonCode |
+      | Binary Search Trees            | pythonCode |
+      | Implementation Of BST          | pythonCode |

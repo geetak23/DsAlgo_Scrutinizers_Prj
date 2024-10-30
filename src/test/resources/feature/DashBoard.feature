@@ -9,8 +9,7 @@ Background:
     Given user is on DS Portal DashBoard without sign in
     When user clicks the data structure dropdown arrow
     Then user should see the list of six options in the DS dropdown arrow
-    
-  Scenario: user clicks DS item dropdown  
+  
     When user selects any DS item from dropdown without sign in
     Then user should see the error message "You are not logged in"
       

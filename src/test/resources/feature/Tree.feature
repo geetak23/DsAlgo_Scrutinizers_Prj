@@ -1,8 +1,8 @@
-@TreeModule @UserSignedIn
-Feature: Validating Tree Module
+@TreeModule
+Feature: Validating Tree Module2
 
   Background: 
-    Given User has been logged in DSAlgo Portal
+    Given User has already Logged in
 
   Scenario: Check User able to Directed to Tree page from Dropdown
     When click on the dropdown and select Tree
@@ -12,326 +12,70 @@ Feature: Validating Tree Module
     When click on Get Started button underTree
     Then The user should be directed to Tree Page
 
-  Scenario: Check User able to directed to Overview of trees Topic page
+  @TestTree
+  Scenario Outline: Validate Tree topics with Testcode
     Given User is in Tree page
-    When User clicks on Overview of trees Topic button
-    Then User should be directed to Overview of trees Topic page With "Try Here"
+    When User clicks on trees topic "TreeTopic" button.
+    Then User should be directed to "Title" With Try Here
+    When User clicks on Try Here button
+    Then User should be directed to Text Editor page with run
 
-  Scenario: Validate "Try Here" button
-    Given User is in Overview of trees Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
+    Examples: 
+      | TreeTopic                      | Title                          |
+      | Overview of Trees              | Overview of Trees              |
+      | Terminologies                  | Terminologies                  |
+      | Types of Trees                 | Types of Trees                 |
+      | Tree Traversals                | Tree Traversals                |
+      | Traversals-Illustration        | Traversals-Illustration        |
+      | Binary Trees                   | Binary Trees                   |
+      | Types of Binary Trees          | Types of Binary Trees          |
+      | Implementation in Python       | Implementation in Python       |
+      | Binary Tree Traversals         | Binary Tree Traversals         |
+      | Implementation of Binary Trees | Implementation of Binary Trees |
+      | Applications of Binary trees   | Applications of Binary trees   |
+      | Binary Search Trees            | Binary Search Trees            |
+      | Implementation Of BST          | Implementation Of BST          |
+@TestValid
+  Scenario Outline: Scenario Outline: Try Editor validation for "TreeTopic" with valid testcodes
+    Given User is in Text Editor page with run through "TreeTopic"
+    When User writes code in Text Editor from sheetname '<SheetName>' and rownumber 0 and clicks on run button
     Then User should able to see output in the console
 
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
+    Examples: 
+      | TreeTopic                      | SheetName  |
+      | Overview of Trees              | pythonCode |
+      | Terminologies                  | pythonCode |
+      | Types of Trees                 | pythonCode |
+      | Tree Traversals                | pythonCode |
+      | Traversals-Illustration        | pythonCode |
+      | Binary Trees                   | pythonCode |
+      | Types of Binary Trees          | pythonCode |
+      | Implementation in Python       | pythonCode |
+      | Binary Tree Traversals         | pythonCode |
+      | Implementation of Binary Trees | pythonCode |
+      | Applications of Binary trees   | pythonCode |
+      | Binary Search Trees            | pythonCode |
+      | Implementation Of BST          | pythonCode |
+@TestValid2
+  Scenario Outline: Try Editor validation for "Tree Topic" with invalid testcodes
+    Given User is in Text Editor page with run through "TreeTopic"
+    When User writes code in Text Editor from sheetname '<SheetName>' and rownumber 1 and clicks on run button
     Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
-    When User clicks on Ok button
-
-  Scenario: Check User able to directed to Terminologies Topic page
-    Given User is in Tree page
-    When User clicks on Terminologies Topic button
-    Then User should be directed to Terminologies Topic page With "Try Here"
-
-  Scenario: Validate "Try Here" button
-    Given User is in Terminologies Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
-    Then User should able to see output in the console
-
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
-    Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
-    When User clicks on Ok button
-    Then User should be on Same page
-
-  Scenario: Check User able to directed to Types of Trees Topic page
-    Given User is in Tree page
-    When User clicks on Types of Trees Topic button
-    Then User should be directed to Types of Trees Topic page With "Try Here"
-
-  Scenario: Validate "Try Here" button
-    Given User is in Types of Trees Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
-    Then User should able to see output in the console
-
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
-    Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
     When User clicks on Ok button
     Then User should be on Same page
 
-  Scenario: Check User able to directed to Tree Traversals Topic page
-    Given User is in Tree page
-    When User clicks on Tree Traversals Topic button
-    Then User should be directed to Tree Traversals Topic page With "Try Here"
-
-  Scenario: Validate "Try Here" button
-    Given User is in Tree Traversals Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
-    Then User should able to see output in the console
-
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
-    Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
-    When User clicks on Ok button
-    Then User should be on Same page
-
-  Scenario: Check User able to directed to Traversals-Illustration Topic page
-    Given User is in Tree page
-    When User clicks on Traversals-Illustration Topic button
-    Then User should be directed to Traversals-Illustration Topic page With "Try Here"
-
-  Scenario: Validate "Try Here" button
-    Given User is in Traversals-Illustration Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
-    Then User should able to see output in the console
-
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
-    Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
-    When User clicks on Ok button
-    Then User should be on Same page
-
-  Scenario: Check User able to directed to Binary Trees Topic page
-    Given User is in Tree page
-    When User clicks on Binary Trees Topic button
-    Then User should be directed to Binary Trees Topic page With "Try Here"
-
-  Scenario: Validate "Try Here" button
-    Given User is in Binary Trees Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
-    Then User should able to see output in the console
-
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
-    Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
-    When User clicks on Ok button
-    Then User should be on Same page
-
-  Scenario: Check User able to directed to Types of Binary Trees Topic page
-    Given User is in Tree page
-    When User clicks on Types of Binary Trees Topic button
-    Then User should be directed to Types of Binary Trees Topic page With "Try Here"
-
-  Scenario: Validate "Try Here" button
-    Given User is in Types of Binary Trees Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
-    Then User should able to see output in the console
-
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
-    Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
-    When User clicks on Ok button
-    Then User should be on Same page
-
-  Scenario: Check User able to directed to Implementation in Python Topic page
-    Given User is in Tree page
-    When User clicks on Implementation in Python Topic button
-    Then User should be directed to Implementation in Python Topic page With "Try Here"
-
-  Scenario: Validate "Try Here" button
-    Given User is in Implementation in Python Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
-    Then User should able to see output in the console
-
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
-    Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
-    When User clicks on Ok button
-    Then User should be on Same page
-
-  Scenario: Check User able to directed to Binary Tree Traversals Topic page
-    Given User is in Tree page
-    When User clicks on Binary Tree Traversals Topic button
-    Then User should be directed to Binary Tree Traversals Topic page With Try Here
-
-  Scenario: Validate Try Here button
-    Given User is in Binary Tree Traversals Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
-    Then User should able to see output in the console
-
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
-    Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
-    When User clicks on Ok button
-    Then User should be on Same page
-
-  Scenario: Check User able to directed to Implementation of Binary Trees Topic page
-    Given User is in Tree page
-    When User clicks on Implementation of Binary Trees Topic button
-    Then User should be directed to Implementation of Binary Trees Topic page With "Try Here"
-
-  Scenario: Validate "Try Here" button
-    Given User is in Implementation of Binary Trees Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
-    Then User should able to see output in the console
-
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
-    Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
-    When User clicks on Ok button
-    Then User should be on Same page
-
-  Scenario: Check User able to directed to Applications of Binary trees Topic page
-    Given User is in Tree page
-    When User clicks on Applications of Binary trees Topic button
-    Then User should be directed to Applications of Binary trees Topic page With "Try Here"
-
-  Scenario: Validate "Try Here" button
-    Given User is in Applications of Binary trees Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
-    Then User should able to see output in the console
-
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
-    Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
-    When User clicks on Ok button
-    Then User should be on Same page
-
-  Scenario: Check User able to directed to Binary Search Trees Topic page
-    Given User is in Tree page
-    When User clicks on Binary Search Trees Topic button
-    Then User should be directed to Binary Search Trees Topic page With "Try Here"
-
-  Scenario: Validate "Try Here" button
-    Given User is in Binary Search Trees Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
-    Then User should able to see output in the console
-
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
-    Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
-    When User clicks on Ok button
-    Then User should be on Same page
-
-  Scenario: Check User able to directed to Implementation Of BST Topic page
-    Given User is in Tree page
-    When User clicks on Implementation Of BST Topic button
-    Then User should be directed to Implementation Of BST Topic page With "Try Here"
-
-  Scenario: Validate "Try Here" button
-    Given User is in Implementation Of BST Topic page With "Try Here"
-    When User clicks on "Try Here" button
-    Then User should be directed to "Text Editor" page with run
-
-  Scenario: Validate "Text Editor" with valid code
-    Given User is in "Text Editor" page with run
-    When User writes valid code in "Text Editor" and clicks on run button
-    Then User should able to see output in the console
-
-  Scenario: Validate "Text Editor" with invalid code
-    Given User is in "Text Editor" page with run
-    When User writes invalid code in "Text Editor" and clicks on run button
-    Then User should able to see an error message in alert window
-
-  Scenario: Validate Ok button in alert Window
-    Given User in a page with alert Window
-    When User clicks on Ok button
-    Then User should be on Same page
+    Examples: 
+      | TreeTopic                      | SheetName  |
+      | Overview of Trees              | pythonCode |
+      | Terminologies                  | pythonCode |
+      | Types of Trees                 | pythonCode |
+      | Tree Traversals                | pythonCode |
+      | Traversals-Illustration        | pythonCode |
+      | Binary Trees                   | pythonCode |
+      | Types of Binary Trees          | pythonCode |
+      | Implementation in Python       | pythonCode |
+      | Binary Tree Traversals         | pythonCode |
+      | Implementation of Binary Trees | pythonCode |
+      | Applications of Binary trees   | pythonCode |
+      | Binary Search Trees            | pythonCode |
+      | Implementation Of BST          | pythonCode |

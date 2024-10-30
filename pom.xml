@@ -108,9 +108,9 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.0.0-M9</version>
 					<configuration>
-				<suiteXmlFiles>
+					<suiteXmlFiles>
 							<suiteXmlFile>testng.xml</suiteXmlFile>
-						</suiteXmlFiles>
+					</suiteXmlFiles>
 						<properties>
 							<propety>
 								<name>dataproviderthreadcount</name>

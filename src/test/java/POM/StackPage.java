@@ -1,4 +1,6 @@
 package POM;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,6 +28,14 @@ public class StackPage extends driverFactory{
 		Signin.signinpage("Scrutinizers","Numpysdet176");
 		driver.findElement(By.xpath("//a[@href='stack']")).click();
 
+	}
+	public void clickTopic(String topic2 ) throws Exception {
+
+		List<WebElement> Topic = driver.findElements(By.className("list-group-item"));
+		
+		
+		
+		Topic.get(0).click();
 	}
 	public void operationsinStackTopic(){
 		OperationsinStackTopic.click();

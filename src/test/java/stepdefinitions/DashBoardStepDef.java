@@ -44,7 +44,7 @@ public class DashBoardStepDef extends driverFactory{
 	@When("user selects any DS item from dropdown without sign in")
 	public void user_selects_any_ds_item_from_dropdown_without_sign_in() {
 		System.out.println("datastructure");
-		dsDBPage.clickDropdownitem(3);
+		dsDBPage.clickDropdownitem();
 	}
 
 	@Then("user should see the error message {string}")

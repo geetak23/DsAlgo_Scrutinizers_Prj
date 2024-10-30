@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import WebdriverManager.driverFactory;
@@ -69,9 +70,14 @@ public class DashBoardPage extends driverFactory{
     	return items;
     }
  	  
-    public void clickDropdownitem(int index){
-    	List<WebElement> list = driver.findElements(menuList);;
- 		list.get(index).click();
+    public void clickDropdownitem(){
+    	
+    	List<WebElement> list = driver.findElements(menuList); 
+    	if (list.size() > 3) {
+    	    list.get(3).click(); // Clicks on the fourth item (index 3)
+    	} else {
+    	    System.out.println("The dropdown does not contain enough items.");
+    	}
      }
 
     public String errorMessage()

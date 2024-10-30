@@ -50,7 +50,8 @@ public class ArrayStepDef {
 	public void user_is_on_the_ds_algo_home_page(String expectedTitleName, String URL) {
 		driverFactory.getDriver().get(URL);
 		title = Arraypage.getPageTitle();
-		Assert.assertTrue(title.contains(expectedTitleName));		
+		Assert.assertTrue(title.contains(expectedTitleName));	
+		LoggerLoad.info(expectedTitleName);
 	}
 
 	@When("User clicks on Data Structures dropdown arrow")
@@ -72,6 +73,7 @@ public class ArrayStepDef {
 	public void user_should_be_on_array_page(String expectedTitleName) {
 		title = Arraypage.getPageTitle();
 		Assert.assertTrue(title.contains(expectedTitleName));
+		LoggerLoad.info(expectedTitleName);
 		
 	}
 
@@ -105,6 +107,7 @@ public class ArrayStepDef {
 	public void validate_if_any_change_in_the_page_title(String expectedTitleName) {
 		title = Arraypage.getPageTitle();
 		Assert.assertTrue(title.contains(expectedTitleName));
+		LoggerLoad.info(expectedTitleName);
 		
 	}
 
@@ -147,6 +150,8 @@ public class ArrayStepDef {
 	public void the_user_should_able_to_see_output_in_the_console1(String expresult) {
 	    String actualmsg = Arraypage.tryeditormsg();
 	    Assert.assertEquals(actualmsg, expresult);
+	    LoggerLoad.info(expresult);
+	    LoggerLoad.info(actualmsg);
 	}
 
 	@Given("The user is on the {string} Home Page")
@@ -154,6 +159,7 @@ public class ArrayStepDef {
 		title = Arraypage.getPageTitle();
 		Assert.assertTrue(title.contains(expectedTitleName));	
 		driverFactory.getDriver().navigate().refresh();
+	    LoggerLoad.info(expectedTitleName);
 	}
 	@Given("The user is on the {string} page")
 	public void the_user_is_on_the_page(String expectedTitleName) {
@@ -184,10 +190,10 @@ public class ArrayStepDef {
 		Arraypage.clear_texteditor();		
 	}
 
-	@Then("The user is on the {string} Page")
-	public void the_user_is_on_the_page1(String string) {
-	    Arraypage.getPageTitle();
-	    LoggerLoad.info("Page Title is : "+ string);
+	@Then("The user is on the {string} Page to practice topic")
+	public void the_user_is_on_the_page_to_practice_topic(String string) {
+	    //Arraypage.getPageTitle();
+	    //LoggerLoad.info("Page Title is : "+ string);
 	}
 	@When("User click back button and navigate to URL {string}")
 	public void user_click_back_button_and_navigate_to_url(String URL) {

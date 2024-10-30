@@ -1,5 +1,7 @@
 package POM;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -43,6 +45,18 @@ public class TreePage {
 		driver.findElement(By.xpath("//a[@href='tree']")).click();
 		
 	}
+	public void clickTopic(String topic2 ) throws Exception {
+
+		List<WebElement> Topic = driver.findElements(By.className("list-group-item"));
+		
+		
+		//int button_index = Integer.parseInt(getProperty(Topic));
+		Topic.get(0).click();
+	}
+	public String getPageTitle() {
+		return driver.getTitle();
+	}
+	
 	
 	public void overviewofTreesTopic() {
 		OverviewofTreesTopic.click();
