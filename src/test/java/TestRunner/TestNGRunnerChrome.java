@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
       features = {"src/test/resources/feature"},
-    		 // tags="@DashBoard",
+    		  //tags="@DashBoard",
       glue= {"stepdefinitions","DsalgoHooks"},
       plugin={"pretty","html:target/Reports/report.html"
     		  ,"json:target/Json-reports/cucumberreport.json",

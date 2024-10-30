@@ -1,4 +1,7 @@
 package stepdefinitions;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import POM.DashBoardPage;
 import WebdriverManager.driverFactory;
@@ -8,6 +11,7 @@ import io.cucumber.java.en.When;
 
 public class DashBoardStepDef extends driverFactory{
 	
+	WebDriver driver= driverFactory.getDriver();;
 	
 	private DashBoardPage dsDBPage = new DashBoardPage(driverFactory.getDriver()); 
 			
@@ -43,8 +47,11 @@ public class DashBoardStepDef extends driverFactory{
 
 	@When("user selects any DS item from dropdown without sign in")
 	public void user_selects_any_ds_item_from_dropdown_without_sign_in() {
-		System.out.println("datastructure");
-		dsDBPage.clickDropdownitem(3);
+		//System.out.println("datastructure");
+		//dsDBPage.clickDropdownitem(0);
+		WebElement dropDownbtn = driver.findElement(By.xpath("//a[@class='nav-link dropdown-toggle']")); ////tag_name[text()= ’Text of the element’]
+	    dropDownbtn.click();
+	    driver.findElement(By.linkText("Graph")).click();
 	}
 
 	@Then("user should see the error message {string}")

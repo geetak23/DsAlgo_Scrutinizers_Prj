@@ -3986,3 +3986,1356 @@
 [INFO ] 2024-10-30 12:21:55.473 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
 [INFO ] 2024-10-30 12:21:55.473 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
 [INFO ] 2024-10-30 12:21:57.463 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:06.295 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:06.295 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:06.295 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:06.295 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:08.793 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:08.837 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:08.858 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:08.870 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:11.098 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:12.326 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:12.904 [TestNG-PoolService-3] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:01:12.979 [TestNG-PoolService-4] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:01:12.989 [TestNG-PoolService-2] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:01:15.645 [TestNG-PoolService-3] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:01:15.775 [TestNG-PoolService-4] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:01:15.846 [TestNG-PoolService-2] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:01:16.618 [TestNG-PoolService-1] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:01:18.085 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:18.271 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:19.201 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:19.392 [TestNG-PoolService-4] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 13:01:19.421 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:19.491 [TestNG-PoolService-1] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:01:19.587 [TestNG-PoolService-3] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 13:01:19.788 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:21.412 [TestNG-PoolService-4] LoggerLoad - Python code
+[INFO ] 2024-10-30 13:01:21.436 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:21.524 [TestNG-PoolService-4] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 13:01:21.532 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:21.675 [TestNG-PoolService-2] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 13:01:22.284 [TestNG-PoolService-3] LoggerLoad - Python code
+[INFO ] 2024-10-30 13:01:22.400 [TestNG-PoolService-3] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 13:01:22.883 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:23.041 [TestNG-PoolService-1] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 13:01:23.747 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:24.262 [TestNG-PoolService-2] LoggerLoad - Python code
+[INFO ] 2024-10-30 13:01:24.293 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:24.370 [TestNG-PoolService-2] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 13:01:25.970 [TestNG-PoolService-1] LoggerLoad - Python code
+[INFO ] 2024-10-30 13:01:26.072 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:26.089 [TestNG-PoolService-1] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 13:01:26.293 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:27.381 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:27.869 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:29.079 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:29.219 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:29.462 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:30.136 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:30.428 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:30.590 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:31.383 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:31.614 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:32.290 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:32.628 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:33.491 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:33.925 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:35.066 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:35.300 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:36.142 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:37.695 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:38.733 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:39.174 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:01:39.229 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:40.102 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:01:40.751 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:40.989 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:41.671 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:42.941 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:43.034 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:44.119 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:44.314 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:45.364 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:01:45.474 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:45.623 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:46.555 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:46.704 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:47.432 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:01:47.755 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:48.253 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:49.330 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:49.673 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:50.263 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:50.599 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:51.434 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:52.857 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:53.899 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:54.394 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:01:54.417 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:55.650 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:55.764 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:56.135 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:01:57.288 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:01:57.513 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:01:58.767 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:00.353 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:00.846 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:01.723 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:02.281 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:02.297 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:03.103 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:03.436 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:03.448 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:04.304 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:05.488 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:06.048 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:07.047 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:08.245 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:08.397 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:09.465 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:09.684 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:10.094 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:10.443 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:11.427 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:12.484 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:12.801 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:13.625 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:13.872 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:16.021 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:18.181 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:19.953 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:20.072 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:20.470 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:21.059 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:21.062 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:21.582 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:22.406 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:23.498 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:23.754 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:24.802 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:24.998 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:25.991 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:26.463 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:27.633 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:28.458 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:28.713 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:29.445 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:29.862 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:31.084 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:31.216 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:32.200 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:32.541 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:32.566 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:33.316 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:33.640 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:35.014 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:35.136 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:35.806 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:36.018 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:36.147 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:37.056 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:38.122 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:39.103 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:39.376 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:39.412 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:40.559 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:40.833 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:40.853 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:41.545 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:41.951 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:42.814 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:44.082 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:45.084 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:47.548 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:48.405 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:48.712 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:49.327 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:49.773 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:50.065 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:50.603 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:50.925 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:51.328 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:51.747 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:52.440 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:53.477 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:02:56.480 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:57.407 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:58.893 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:02:58.931 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:02:58.977 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:00.321 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:03:00.575 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:00.808 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:01.624 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:03.700 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:06.018 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:06.065 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:09.716 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:11.244 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:11.508 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:12.227 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:13.364 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:13.461 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:14.444 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:14.693 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:15.115 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:15.685 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:15.988 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:16.006 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:16.807 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:17.038 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:17.802 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:18.097 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:18.933 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:19.833 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:20.763 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:21.152 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:21.809 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:22.065 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:23.134 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:23.245 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:24.318 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:27.808 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:03:28.499 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:03:28.843 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:29.602 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:03:29.767 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:29.951 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:30.613 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:03:31.015 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:31.141 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:32.124 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:32.316 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:33.148 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:36.605 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:03:37.573 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:03:37.699 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:38.594 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:03:38.783 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:38.857 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:39.559 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:03:39.940 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:40.112 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:41.006 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:41.133 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:41.458 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:42.290 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:42.335 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:42.443 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:43.349 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:45.915 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:46.934 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:47.041 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:47.429 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:47.942 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:48.316 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:48.401 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:49.078 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:52.544 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:53.017 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:53.067 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:53.996 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:54.093 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:54.276 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:54.388 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:55.206 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:03:58.927 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:59.190 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:03:59.418 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:00.482 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:00.490 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:00.616 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:00.851 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:01.918 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:05.052 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:06.122 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:08.517 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:08.888 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:09.451 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:09.615 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:10.544 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:10.718 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:11.828 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:11.842 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:12.938 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:13.389 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:14.534 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:15.552 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:18.138 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:19.116 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:19.159 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:20.226 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:20.310 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:20.387 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:21.507 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:21.668 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:22.677 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:23.021 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:24.202 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:25.267 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:27.718 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:28.730 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:29.028 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:29.959 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:30.071 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:30.133 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:31.176 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:31.412 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:32.468 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:32.695 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:33.996 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:35.057 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:37.561 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:38.745 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:38.889 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:40.027 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:40.308 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:40.337 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:41.689 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:41.803 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:42.406 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:42.933 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:43.893 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:45.238 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:48.136 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:49.131 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:49.249 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:50.518 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:50.521 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:50.680 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:51.656 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:51.815 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:52.561 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:52.831 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:54.224 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:04:55.228 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:04:58.141 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:59.144 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:04:59.265 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:05:00.385 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:05:00.401 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:05:00.665 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:05:01.365 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:05:02.647 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:05:08.035 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:05:08.621 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:19:27.592 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:19:27.598 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:19:27.595 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:19:27.598 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:19:27.596 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:19:27.595 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:19:27.598 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:19:27.595 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:19:27.595 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:19:27.598 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:19:34.059 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:19:34.382 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:19:34.619 [TestNG-PoolService-7] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 13:19:34.654 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:19:34.708 [TestNG-PoolService-6] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 13:19:34.754 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:19:35.169 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:19:35.296 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:19:35.523 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:19:36.719 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:19:36.880 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:19:36.937 [TestNG-PoolService-9] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 13:19:37.289 [TestNG-PoolService-8] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 13:19:41.114 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:19:50.953 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:19:51.378 [TestNG-PoolService-2] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:19:52.858 [TestNG-PoolService-5] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:19:52.913 [TestNG-PoolService-3] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:19:54.414 [TestNG-PoolService-4] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:19:54.629 [TestNG-PoolService-7] LoggerLoad - Python code
+[INFO ] 2024-10-30 13:19:54.930 [TestNG-PoolService-7] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 13:19:57.464 [TestNG-PoolService-9] LoggerLoad - Python code
+[INFO ] 2024-10-30 13:19:57.940 [TestNG-PoolService-9] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 13:19:58.208 [TestNG-PoolService-2] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:19:59.015 [TestNG-PoolService-5] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:20:00.192 [TestNG-PoolService-3] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 13:20:02.296 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:02.719 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:04.442 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:06.774 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:06.862 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:06.996 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:07.226 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:08.097 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:09.576 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:09.790 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:09.845 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:11.263 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:11.666 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:11.852 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:12.111 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:12.411 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:15.774 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:18.659 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:18.956 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:20.220 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:20.230 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:22.191 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:22.217 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:23.303 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:23.353 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:20:23.381 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:30.954 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:31.991 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:31.999 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:32.000 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:32.509 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:20:32.710 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:34.224 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:35.474 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:36.130 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:20:36.392 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:20:36.594 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:36.684 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:37.507 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:37.547 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:37.854 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:39.245 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:43.565 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:45.840 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:46.041 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:57.140 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:57.588 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:20:58.636 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:20:59.976 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:01.162 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:01.268 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:02.137 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:03.319 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:04.327 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:10.373 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:10.488 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:12.818 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:14.004 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:16.086 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:17.103 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:17.525 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:18.830 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:19.101 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:19.357 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:19.898 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:19.898 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:21.063 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:21.486 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:21.615 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:21.946 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:22.401 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:22.418 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:24.045 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:24.648 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:29.314 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:29.392 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:29.649 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:29.708 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:31.910 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:32.621 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:32.989 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:32.991 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:33.288 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:33.292 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:34.059 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:34.810 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:38.082 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:38.363 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:38.393 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:39.753 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:41.786 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:42.096 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:42.437 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:42.813 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:43.614 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:44.268 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:48.073 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:48.242 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:51.310 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:51.528 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:51.647 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:21:53.217 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:53.524 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:53.965 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:21:54.054 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:54.734 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:54.744 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:54.771 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:21:54.811 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:01.313 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:02.079 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:02.503 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:02.999 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:03.041 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:03.827 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:22:04.288 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:05.622 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:06.717 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:06.768 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:06.907 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:07.112 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:07.496 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:14.188 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:14.286 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:14.356 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:15.908 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:22:17.439 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:22:18.070 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:18.458 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:19.123 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:19.947 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:21.989 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:22:22.253 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:22:23.945 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:26.223 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:26.491 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:22:26.750 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:27.995 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:28.497 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:22:29.083 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:22:32.983 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:33.186 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:33.194 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:33.445 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:35.371 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:35.897 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:22:40.447 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:40.889 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:40.897 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:41.164 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:41.170 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:43.695 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:44.535 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:44.566 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:44.749 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:44.881 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:46.197 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:50.313 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:50.348 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:50.439 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:50.503 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:50.515 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:52.078 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:22:54.220 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:54.503 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:54.586 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:54.616 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:54.832 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:22:55.736 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:23:01.512 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:01.762 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:01.985 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:01.992 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:05.564 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:23:05.619 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:23:05.733 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:23:05.864 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:23:06.661 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:23:07.917 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:09.932 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:12.114 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:13.872 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:23:13.891 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:23:14.196 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:23:14.701 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:23:15.267 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:23:15.469 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:23:17.568 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:23:18.050 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:23:19.602 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:23:19.783 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:23:20.739 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:33.328 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:33.411 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:33.684 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:23:34.569 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:44.631 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:46.665 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:48.319 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:50.210 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:54.202 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:55.079 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:23:56.706 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:23:58.333 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:23:58.409 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:23:58.843 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:01.662 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:02.437 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:02.830 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:04.811 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:11.597 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:11.952 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:14.197 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:14.441 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:15.026 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:15.078 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:16.670 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:17.523 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:18.020 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:18.754 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:19.104 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:20.036 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:20.882 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:21.395 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:21.777 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:22.123 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:22.432 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:22.768 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:24.166 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:24.197 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:34.556 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:35.056 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:24:35.655 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:24:35.997 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:24:37.200 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:24:37.846 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:24:38.361 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:24:38.489 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:24:38.923 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:24:40.557 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:24:41.056 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:43.898 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:44.038 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:44.123 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:44.152 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:24:54.378 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:25:05.095 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:25:05.694 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:25:07.025 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:25:11.687 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:12.021 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:13.523 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:13.979 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:15.723 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:18.959 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:21.562 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:22.991 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:22.991 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:26.487 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:28.337 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:29.539 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:33.206 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:33.914 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:34.341 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:37.150 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:25:38.496 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:25:38.621 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:25:39.027 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:25:39.198 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:25:39.563 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:25:40.439 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:40.492 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:40.592 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:40.897 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:41.036 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:41.977 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:42.177 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:42.452 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:42.526 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:43.600 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:44.819 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:25:45.135 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 13:25:48.147 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:49.126 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 13:25:50.940 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:53.138 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:53.531 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:53.895 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:55.381 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:55.428 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:57.107 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 13:25:57.675 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:47:35.483 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:35.483 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:35.484 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:35.483 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:35.485 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:35.485 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:35.485 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:35.485 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:35.485 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:35.485 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:40.690 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:47:40.993 [TestNG-PoolService-8] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 16:47:41.236 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:47:41.292 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:47:41.672 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:47:41.672 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:47:41.687 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:47:41.728 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:47:42.227 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:47:42.273 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:47:42.301 [TestNG-PoolService-6] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 16:47:42.335 [TestNG-PoolService-9] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 16:47:42.344 [TestNG-PoolService-7] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 16:47:48.990 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:49.329 [TestNG-PoolService-8] LoggerLoad - Python code
+[INFO ] 2024-10-30 16:47:49.421 [TestNG-PoolService-6] LoggerLoad - Python code
+[INFO ] 2024-10-30 16:47:49.691 [TestNG-PoolService-8] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 16:47:50.257 [TestNG-PoolService-5] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 16:47:50.273 [TestNG-PoolService-2] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 16:47:50.314 [TestNG-PoolService-6] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 16:47:50.946 [TestNG-PoolService-3] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 16:47:50.958 [TestNG-PoolService-4] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 16:47:51.710 [TestNG-PoolService-9] LoggerLoad - Python code
+[INFO ] 2024-10-30 16:47:51.916 [TestNG-PoolService-7] LoggerLoad - Python code
+[INFO ] 2024-10-30 16:47:52.963 [TestNG-PoolService-7] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 16:47:53.242 [TestNG-PoolService-9] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 16:47:53.411 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:54.264 [TestNG-PoolService-2] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 16:47:54.452 [TestNG-PoolService-5] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 16:47:55.560 [TestNG-PoolService-3] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 16:47:55.572 [TestNG-PoolService-4] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 16:47:57.774 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:58.801 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:59.186 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:47:59.926 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:00.361 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:02.075 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:02.679 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:02.737 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:03.481 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:03.499 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:04.857 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:05.246 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:06.291 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:07.886 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:08.250 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:09.137 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:09.985 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:10.082 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:11.610 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:12.781 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:12.846 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:13.017 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:13.267 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:13.493 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:14.585 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:17.870 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:19.638 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:48:20.025 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:20.654 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:22.408 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:22.968 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:23.673 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:25.304 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:36.384 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:48:37.004 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:37.027 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:37.262 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:48:37.521 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:48:37.891 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:38.265 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:39.295 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:40.786 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:41.411 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:41.498 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:45.241 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:45.267 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:45.870 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:48.486 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:48:50.183 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:48:53.925 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:54.599 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:55.948 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:56.097 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:48:59.578 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:04.123 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:49:08.043 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:49:08.986 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:49:11.172 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:11.307 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:11.530 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:13.499 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:49:14.138 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:14.382 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:14.610 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:15.596 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:16.197 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:17.028 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:17.230 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:17.308 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:18.596 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:18.912 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:19.145 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:19.177 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:19.527 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:23.025 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:25.873 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:26.035 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:28.377 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:28.536 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:29.510 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:30.530 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:31.063 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:31.176 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:49:32.720 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:49:33.917 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:49:34.366 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:34.527 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:35.288 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:49:36.019 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:36.313 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:41.334 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:49:44.023 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:44.135 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:44.333 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:47.899 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:48.813 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:48.889 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:48.920 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:50.536 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:49:51.035 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:49:51.456 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:53.030 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:53.067 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:53.474 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:53.546 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:49:56.868 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:49:59.724 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:50:00.212 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:00.577 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:00.587 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:03.042 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:03.524 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:05.722 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:50:05.935 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:06.116 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:06.378 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:06.701 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:06.877 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:06.971 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:16.381 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:50:16.805 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:50:21.481 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:21.851 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:22.395 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:22.768 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:23.054 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:23.308 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:23.419 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:24.620 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:25.113 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:25.344 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:50:26.218 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:26.669 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:26.882 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:27.188 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:27.467 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:32.288 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:33.317 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:38.055 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:50:38.363 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:50:39.893 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:50:41.089 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:50:43.009 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:43.034 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:43.967 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:45.934 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:45.939 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:46.024 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:46.403 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:50:47.970 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:49.612 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:50.820 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:53.033 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:53.074 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:53.109 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:55.375 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:56.449 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:56.797 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:56.858 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:56.873 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:50:59.242 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:59.264 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:59.417 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:59.418 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:59.536 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:50:59.652 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:03.632 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:05.923 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:09.746 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:09.902 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:14.364 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:14.760 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:14.802 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:14.900 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:14.994 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:17.902 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:20.366 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:51:20.936 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:21.328 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:51:22.766 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:23.385 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:23.802 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:24.147 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:51:24.532 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:51:24.709 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:25.976 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:28.247 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:29.786 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:32.702 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:32.702 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:34.181 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:34.187 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:34.235 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:35.706 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:35.977 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:36.974 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:51:37.216 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:51:37.550 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:51:37.843 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:51:38.439 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:38.713 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:39.651 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:45.416 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:46.922 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:47.091 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:47.274 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:47.764 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:47.919 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:51:48.670 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:51:59.928 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:52:01.649 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:02.510 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:09.178 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:10.538 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:10.775 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:11.904 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:27.454 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:52:30.298 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:30.629 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:52:30.629 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:52:30.850 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:52:31.652 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:52:34.061 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:52:34.968 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:36.948 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:37.759 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:37.899 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:38.311 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:43.661 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:52:44.089 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:52:44.735 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:52:44.799 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:52:46.473 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:52:47.683 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:52:49.100 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:49.367 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:49.628 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:50.209 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:52:51.743 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:52:53.759 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:52:55.372 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:52:57.002 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:52:58.754 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:00.208 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:00.598 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:00.854 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:00.958 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:01.548 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:02.287 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:02.369 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:05.712 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:06.101 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:06.158 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:06.191 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:06.858 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:07.013 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:07.533 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:10.205 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:10.511 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:10.740 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:10.783 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:10.863 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:10.873 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:10.950 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:13.457 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:14.993 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:16.369 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:16.586 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:21.824 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:22.734 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:23.739 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:27.690 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:28.128 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:31.117 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:31.402 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:31.681 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:31.899 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:31.915 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:32.767 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:33.412 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:34.217 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:35.549 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:37.328 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:37.427 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:37.933 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:53:40.406 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:40.461 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:40.708 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 16:53:43.200 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:45.004 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:47.102 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:48.780 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:49.027 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:53:49.346 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 16:57:59.170 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:57:59.170 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:57:59.170 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:57:59.170 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 16:57:59.170 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:08:22.049 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:08:22.049 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:08:22.049 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:08:22.049 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:08:22.049 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:11:11.098 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:11:11.098 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:11:11.098 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:11:11.098 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:11:11.098 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:12:39.423 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:12:39.423 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:12:39.423 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:12:39.423 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:12:39.423 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:13:34.718 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:13:34.718 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:13:34.718 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:13:34.718 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:13:34.718 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:13:34.718 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:13:34.718 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:13:34.718 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:13:34.718 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:13:34.718 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:13:40.436 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:13:42.201 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:13:42.248 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:13:42.303 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:13:43.172 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:13:43.251 [TestNG-PoolService-7] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 17:13:43.261 [TestNG-PoolService-9] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 17:13:43.373 [TestNG-PoolService-6] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 17:13:45.530 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:13:45.955 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:13:46.503 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:13:49.787 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:13:50.682 [TestNG-PoolService-8] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-10-30 17:13:50.733 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:13:55.659 [TestNG-PoolService-3] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 17:14:01.592 [TestNG-PoolService-3] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 17:14:05.772 [TestNG-PoolService-6] LoggerLoad - Python code
+[INFO ] 2024-10-30 17:14:07.233 [TestNG-PoolService-6] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 17:14:09.462 [TestNG-PoolService-2] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 17:14:09.718 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:09.823 [TestNG-PoolService-5] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 17:14:12.006 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:12.074 [TestNG-PoolService-4] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 17:14:14.164 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:14.758 [TestNG-PoolService-5] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 17:14:14.956 [TestNG-PoolService-7] LoggerLoad - Python code
+[INFO ] 2024-10-30 17:14:14.979 [TestNG-PoolService-9] LoggerLoad - Python code
+[INFO ] 2024-10-30 17:14:15.142 [TestNG-PoolService-2] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 17:14:15.360 [TestNG-PoolService-7] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 17:14:15.440 [TestNG-PoolService-9] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 17:14:16.091 [TestNG-PoolService-8] LoggerLoad - Python code
+[INFO ] 2024-10-30 17:14:16.403 [TestNG-PoolService-8] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-10-30 17:14:16.935 [TestNG-PoolService-4] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-10-30 17:14:16.957 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:18.989 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:19.435 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:20.441 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:20.504 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:20.737 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:21.908 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:23.230 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:23.265 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:23.457 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:23.720 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:24.074 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:25.684 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:25.687 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:28.181 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:29.665 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:31.842 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:32.339 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:32.428 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:33.262 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:33.692 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:34.944 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:36.163 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:36.743 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:14:36.808 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:37.472 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:14:38.687 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:41.228 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:41.231 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:41.560 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:43.130 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:14:43.598 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:44.014 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:44.720 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:44.759 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:45.002 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:47.134 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:14:47.529 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:48.514 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:48.663 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:14:49.063 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:50.209 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:51.229 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:52.662 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:14:53.117 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:00.019 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:15:00.160 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:00.163 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:01.175 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:01.324 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:01.491 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:15:01.583 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:04.917 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:05.408 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:05.425 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:15:05.752 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:07.322 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:07.403 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:08.801 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:10.800 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:15:12.476 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:20.757 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:21.784 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:24.283 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:25.654 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:25.788 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:25.977 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:26.059 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:27.053 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:27.252 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:15:27.730 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:15:28.529 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:28.826 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:28.933 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:29.130 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:29.187 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:29.416 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:29.499 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:30.381 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:36.480 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:36.672 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:41.507 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:41.887 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:43.058 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:15:43.727 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:15:44.906 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:15:45.644 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:15:46.935 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:47.380 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:49.219 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:15:49.515 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:15:50.795 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:02.105 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:02.834 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:02.936 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:03.259 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:04.103 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:16:05.851 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:05.969 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:16:07.637 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:08.155 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:08.277 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:09.422 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:11.605 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:14.836 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:24.797 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:26.806 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:27.986 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:28.548 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:29.808 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:29.858 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:30.319 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:30.372 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:31.898 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:16:32.377 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:32.695 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:16:32.761 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:33.078 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:33.333 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:33.362 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:33.372 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:33.372 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:33.492 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:39.536 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:39.941 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:44.462 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:44.835 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:16:47.098 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:16:47.756 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:16:47.976 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:16:49.028 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:16:49.864 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:16:52.247 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:52.969 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:54.439 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:55.039 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:56.143 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:57.097 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:57.512 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:16:57.958 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:16:58.666 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:16:59.036 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:17:03.526 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:03.801 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:04.184 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:05.885 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:10.506 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:10.694 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:12.032 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:12.595 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:12.763 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:13.263 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:13.981 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:14.043 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:14.364 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:17.021 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:17.029 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:17.171 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:17.175 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:17.289 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:20.306 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:22.676 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:23.722 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:23.959 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:35.441 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:37.278 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:38.667 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:38.923 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:39.070 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:39.923 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:40.372 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:40.404 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:46.150 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:50.034 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:17:53.082 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:17:54.054 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:17:54.206 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:55.094 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:17:55.745 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:17:56.362 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:17:56.459 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:17:57.970 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:08.361 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:18:08.364 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:08.718 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:09.086 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:18:11.552 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:11.803 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:12.979 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:14.013 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:14.327 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:19.908 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:20.491 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:21.931 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:21.980 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:23.169 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:18:24.257 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:24.351 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:24.686 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:24.721 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:26.282 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:26.321 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:34.451 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:36.192 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:36.193 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:36.196 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:36.226 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:37.868 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:38.473 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:40.294 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:40.371 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:40.579 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:41.519 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:42.136 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:42.760 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:43.472 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:44.291 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:44.682 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:44.835 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:44.839 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:45.002 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:46.228 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:18:57.474 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:58.993 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:18:59.029 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:00.607 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:00.635 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:00.860 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:01.633 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:02.063 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:03.127 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:03.996 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:04.217 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:04.315 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:04.364 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:04.924 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:05.225 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:06.545 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:09.618 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:11.123 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:12.086 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:12.799 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:15.384 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:17.371 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:17.743 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:18.676 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:22.155 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:22.359 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:22.709 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:22.876 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:23.224 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:23.327 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:27.219 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:28.105 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:29.322 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:30.889 [TestNG-PoolService-4] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:30.920 [TestNG-PoolService-2] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:31.897 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:32.959 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:33.928 [TestNG-PoolService-3] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:35.575 [TestNG-PoolService-2] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:35.610 [TestNG-PoolService-4] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:35.875 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:36.089 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:37.497 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:37.570 [TestNG-PoolService-3] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:43.703 [TestNG-PoolService-1] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:43.852 [TestNG-PoolService-7] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:46.611 [TestNG-PoolService-7] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:46.618 [TestNG-PoolService-10] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:47.017 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:47.078 [TestNG-PoolService-8] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:48.151 [TestNG-PoolService-2] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:48.657 [TestNG-PoolService-4] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:49.500 [TestNG-PoolService-5] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:19:50.108 [TestNG-PoolService-10] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:51.114 [TestNG-PoolService-1] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:53.661 [TestNG-PoolService-5] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:54.547 [TestNG-PoolService-3] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:54.782 [TestNG-PoolService-8] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:19:55.112 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:19:57.882 [TestNG-PoolService-7] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:20:01.228 [TestNG-PoolService-10] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:20:03.535 [TestNG-PoolService-6] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:20:04.429 [TestNG-PoolService-9] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-10-30 17:20:06.012 [TestNG-PoolService-6] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:20:06.330 [TestNG-PoolService-1] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:20:06.625 [TestNG-PoolService-8] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:20:06.721 [TestNG-PoolService-5] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:20:06.901 [TestNG-PoolService-9] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-10-30 17:20:13.759 [TestNG-PoolService-6] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-10-30 17:20:14.269 [TestNG-PoolService-9] LoggerLoad - Valid and Invalid code are validated
