@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-28T01:23:32 EDT" name="Default suite" finished-at="2024-10-28T01:24:13 EDT" duration-ms="40986">
+  <suite started-at="2024-10-30T12:15:19 EDT" name="Default suite" finished-at="2024-10-30T12:15:32 EDT" duration-ms="12822">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-10-28T01:23:32 EDT" name="Default test" finished-at="2024-10-28T01:24:13 EDT" duration-ms="40986">
+    <test started-at="2024-10-30T12:15:19 EDT" name="Default test" finished-at="2024-10-30T12:15:32 EDT" duration-ms="12822">
       <class name="TestRunner.TestNGRunnerChrome">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:23:32 EDT" name="defineBrowser" finished-at="2024-10-28T01:23:32 EDT" duration-ms="43" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-30T12:15:19 EDT" name="defineBrowser" finished-at="2024-10-30T12:15:19 EDT" duration-ms="21" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,178 +21,115 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:23:33 EDT" name="setUpClass" finished-at="2024-10-28T01:23:34 EDT" duration-ms="1354" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-30T12:15:19 EDT" name="setUpClass" finished-at="2024-10-30T12:15:20 EDT" duration-ms="972" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@54567b05]]>
+                <![CDATA[org.testng.TestRunner@62b0bf85]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:23:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-28T01:24:09 EDT" duration-ms="34891" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-30T12:15:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-30T12:15:27 EDT" duration-ms="7253" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Check User able to directed to Graph Representations Topic page"]]>
+                <![CDATA["SignIn link on DS Home Page"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Graph Functionality with login"]]>
+                <![CDATA["DS Indtroduction Home Pageand validation without logging into it"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:23:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-28T01:24:09 EDT" duration-ms="34814" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-30T12:15:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-30T12:15:27 EDT" duration-ms="7100" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Try Editor validation for Graph Topic with testcodes"]]>
+                <![CDATA["DataStructures Dropdown validation"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Graph Functionality with login"]]>
+                <![CDATA["DS Indtroduction Home Pageand validation without logging into it"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:23:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-28T01:24:06 EDT" duration-ms="32133" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-30T12:15:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-30T12:15:27 EDT" duration-ms="7210" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Check User able to Directed to Graph page from Dropdown"]]>
+                <![CDATA["user clicks DS item dropdown"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Graph Functionality with login"]]>
+                <![CDATA["DS Indtroduction Home Pageand validation without logging into it"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 3 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 0
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+at java.base/java.util.Objects.checkIndex(Objects.java:365)
+at java.base/java.util.ArrayList.get(ArrayList.java:428)
+at POM.DashBoardPage.clickDropdownitem(DashBoardPage.java:74)
+at stepdefinitions.DashBoardStepDef.user_selects_any_ds_item_from_dropdown_without_sign_in(DashBoardStepDef.java:47)
+at ✽.user selects any DS item from dropdown without sign in(file:///C:/Workspaces/SharanyaFinal2/DsAlgo_Scrutinizers_Prj/src/test/resources/feature/DashBoard.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-30T12:15:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-30T12:15:27 EDT" duration-ms="7160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["GetStarted buttons of DataStructures"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DS Indtroduction Home Pageand validation without logging into it"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:23:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-28T01:24:05 EDT" duration-ms="30867" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-30T12:15:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-30T12:15:27 EDT" duration-ms="7025" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Check User able to directed to Graph Topic page"]]>
+                <![CDATA["Register link on DS Portal DashBoard"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Graph Functionality with login"]]>
+                <![CDATA["DS Indtroduction Home Pageand validation without logging into it"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:23:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-28T01:24:09 EDT" duration-ms="34728" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate "Text Editor" with invalid code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Graph Functionality with login"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:23:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-28T01:24:09 EDT" duration-ms="34756" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate "Try Here" button Graph Representations Topic"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Graph Functionality with login"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:23:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-28T01:23:59 EDT" duration-ms="25600" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check User able to Directed to Graph page from Get Started button"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Graph Functionality with login"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:23:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-28T01:24:09 EDT" duration-ms="34750" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Try Editor validation for Graph Representation Topic with testcodes"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Graph Functionality with login"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:23:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-28T01:24:05 EDT" duration-ms="31114" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate "Try Here" button"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Graph Functionality with login"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:23:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-28T01:24:09 EDT" duration-ms="34827" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate "Text Editor" with invalid code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Graph Functionality with login"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-28T01:24:09 EDT" name="tearDownClass" finished-at="2024-10-28T01:24:13 EDT" duration-ms="4571" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestNGRunnerChrome@5f77d0f9]" started-at="2024-10-30T12:15:27 EDT" name="tearDownClass" finished-at="2024-10-30T12:15:32 EDT" duration-ms="4514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

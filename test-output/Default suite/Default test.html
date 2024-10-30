@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 28 01:23:32 EDT 2024</td>
+<td>Started on:</td><td>Wed Oct 30 12:15:19 EDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>40 seconds (40986 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12822 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,39 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user clicks DS item dropdown", "DS Indtroduction Home Pageand validation without logging into it"</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:365)
+	at java.base/java.util.ArrayList.get(ArrayList.java:428)
+	at POM.DashBoardPage.clickDropdownitem(DashBoardPage.java:74)
+	at stepdefinitions.DashBoardStepDef.user_selects_any_ds_item_from_dropdown_without_sign_in(DashBoardStepDef.java:47)
+	at ✽.user selects any DS item from dropdown without sign in(file:///C:/Workspaces/SharanyaFinal2/DsAlgo_Scrutinizers_Prj/src/test/resources/feature/DashBoard.feature:15)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1437427001", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1437427001'><pre>java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:365)
+	at java.base/java.util.ArrayList.get(ArrayList.java:428)
+	at POM.DashBoardPage.clickDropdownitem(DashBoardPage.java:74)
+	at stepdefinitions.DashBoardStepDef.user_selects_any_ds_item_from_dropdown_without_sign_in(DashBoardStepDef.java:47)
+	at ✽.user selects any DS item from dropdown without sign in(file:///C:/Workspaces/SharanyaFinal2/DsAlgo_Scrutinizers_Prj/src/test/resources/feature/DashBoard.feature:15)
+</pre></div></td>
+<td>7</td>
+<td>TestRunner.TestNGRunnerChrome@5f77d0f9</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,54 +109,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate "Try Here" button Graph Representations Topic", "Graph Functionality with login"</td>
+<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "SignIn link on DS Home Page", "DS Indtroduction Home Pageand validation without logging into it"</td>
 <td></td>
-<td>34</td>
+<td>7</td>
 <td>TestRunner.TestNGRunnerChrome@5f77d0f9</td></tr>
 <tr>
-<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check User able to Directed to Graph page from Get Started button", "Graph Functionality with login"</td>
+<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "GetStarted buttons of DataStructures", "DS Indtroduction Home Pageand validation without logging into it"</td>
 <td></td>
-<td>25</td>
+<td>7</td>
 <td>TestRunner.TestNGRunnerChrome@5f77d0f9</td></tr>
 <tr>
-<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Try Editor validation for Graph Representation Topic with testcodes", "Graph Functionality with login"</td>
+<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register link on DS Portal DashBoard", "DS Indtroduction Home Pageand validation without logging into it"</td>
 <td></td>
-<td>34</td>
+<td>7</td>
 <td>TestRunner.TestNGRunnerChrome@5f77d0f9</td></tr>
 <tr>
-<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check User able to directed to Graph Representations Topic page", "Graph Functionality with login"</td>
+<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "DataStructures Dropdown validation", "DS Indtroduction Home Pageand validation without logging into it"</td>
 <td></td>
-<td>34</td>
-<td>TestRunner.TestNGRunnerChrome@5f77d0f9</td></tr>
-<tr>
-<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate "Try Here" button", "Graph Functionality with login"</td>
-<td></td>
-<td>31</td>
-<td>TestRunner.TestNGRunnerChrome@5f77d0f9</td></tr>
-<tr>
-<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Try Editor validation for Graph Topic with testcodes", "Graph Functionality with login"</td>
-<td></td>
-<td>34</td>
-<td>TestRunner.TestNGRunnerChrome@5f77d0f9</td></tr>
-<tr>
-<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check User able to Directed to Graph page from Dropdown", "Graph Functionality with login"</td>
-<td></td>
-<td>32</td>
-<td>TestRunner.TestNGRunnerChrome@5f77d0f9</td></tr>
-<tr>
-<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check User able to directed to Graph Topic page", "Graph Functionality with login"</td>
-<td></td>
-<td>30</td>
-<td>TestRunner.TestNGRunnerChrome@5f77d0f9</td></tr>
-<tr>
-<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate "Text Editor" with invalid code", "Graph Functionality with login"</td>
-<td></td>
-<td>34</td>
-<td>TestRunner.TestNGRunnerChrome@5f77d0f9</td></tr>
-<tr>
-<td title='TestRunner.TestNGRunnerChrome.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestNGRunnerChrome<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate "Text Editor" with invalid code", "Graph Functionality with login"</td>
-<td></td>
-<td>34</td>
+<td>7</td>
 <td>TestRunner.TestNGRunnerChrome@5f77d0f9</td></tr>
 </table><p>
 </body>
