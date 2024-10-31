@@ -114,9 +114,9 @@
 						<properties>
 							<propety>
 								<name>dataproviderthreadcount</name>
-								<value>4</value>
+								<value>5</value>
 								 <parallel>classes</parallel>
-	                    		 <threadCount>4</threadCount>
+	                    		 <threadCount>5</threadCount>
 							</propety>
 						</properties>                   
 	                </configuration>

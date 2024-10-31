@@ -123,8 +123,9 @@ public class ArrayStepDef {
 		throws InvalidFormatException, IOException, InterruptedException, org.apache.poi.openxml4j.exceptions.InvalidFormatException{
 			Xls_Reader reader = new Xls_Reader();
 			List<Map<String,String>> testData = reader.getData(arrayCodeFile, SheetName);
+			
+			String testcode = testData.get(RNum).get("pythonCode");
 			Thread.sleep(2000);
-			String testcode = testData.get(RNum).get("pythonCode");	
 			System.out.println(testcode);
 			Arraypage.texteditorData(testcode);
 			LoggerLoad.info("In Array Page Text Editor");
@@ -136,6 +137,7 @@ public class ArrayStepDef {
 			Xls_Reader reader = new Xls_Reader();
 			List<Map<String,String>> testData = reader.getData(arrayCodeFile, SheetName);
 			String testcode = testData.get(RNum).get("pythonCode");	
+			Thread.sleep(2000);
 			Arraypage.copyCode(testcode);
 			Arraypage.runbtn();
 			LoggerLoad.info("Python code");
