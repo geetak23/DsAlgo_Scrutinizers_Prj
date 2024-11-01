@@ -2,12 +2,14 @@ package stepdefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import POM.LandingPage;
 import WebdriverManager.driverFactory;
 
 public class LandingPageStepDef {	
-	
+	//WebDriver driver = driverFactory.getDriver();
 	private LandingPage landingPage = new LandingPage(driverFactory.getDriver());
 		
 	@Given("user is on dsportal landingPage")

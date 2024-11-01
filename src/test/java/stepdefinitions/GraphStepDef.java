@@ -115,9 +115,7 @@ public class GraphStepDef extends driverFactory {
 	public void user_is_in_page_with_run_through_graph_representation_page(String TextEditor)  {
 	   graph.openGraphPage();
 	   graph.graphRepresentation();
-	   driver.findElement(By.linkText("Try here>>>")).click();
-	   
-	   
+	   driver.findElement(By.linkText("Try here>>>")).click();   
 	}
 
 	

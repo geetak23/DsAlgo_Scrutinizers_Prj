@@ -25,7 +25,8 @@ public class TreePage {
     @FindBy(linkText="Applications of Binary trees") WebElement ApplicationsofBinarytreesTopic;
     @FindBy(linkText="Binary Search Trees") WebElement BinarySearchTreesTopic;
     @FindBy(linkText="Implementation Of BST") WebElement ImplementationOfBSTTopic;
-    
+    @FindBy(linkText="Queue Operations") WebElement QueueOperationsTopic;
+    @FindBy(linkText="Try here>>>") WebElement TryHereButton;
     WebDriver driver= driverFactory.getDriver();;
 	SignInPage Signin=new SignInPage(driverFactory.getDriver());
 	
@@ -56,7 +57,9 @@ public class TreePage {
 	public String getPageTitle() {
 		return driver.getTitle();
 	}
-	
+	public void tryHere() {
+		TryHereButton.click();
+	}
 	
 	public void overviewofTreesTopic() {
 		OverviewofTreesTopic.click();

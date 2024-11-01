@@ -1,20 +1,20 @@
-@Stack2
+@Stack
 Feature: Stack Functionality with login
 
   Background: 
     Given User has already Logged in
-
+@Stack01
   Scenario: Check User able to Directed to Satck page from Dropdown
     When click on the dropdown and select Stack
     Then The user should be directed to Stack Page
-
+@Stack02
   Scenario: Check User able to Directed to Stack page from Get Started button
     When click on Get Started button under Stack
     Then The user should be directed to Stack Page
-
+@Stack03
   Scenario Outline: Validate Stack topics
     Given User is in Stack page
-    When User clicks on Stack topic "StackTopic" button.
+    When User clicks on Stack topic <StackTopic> button.
     Then User should be directed to "Title" With Try Here
     When User clicks on Try Here button
     Then User should be directed to Text Editor page with run
@@ -22,26 +22,24 @@ Feature: Stack Functionality with login
     Examples: 
       | StackTopic          | Title               |
       | Operations in Stack | Operations in Stack |
-      | Operations          | Operations          |
       | Implementation      | Implementation      |
       | Applications        | Applications        |
 
-  @TestValid
+  @Stack04 
   Scenario Outline: Scenario Outline: Try Editor validation for "StackTopic" with valid testcodes
-    Given User is in Stack Text Editor page with run through "StackTopic"
+    Given User is in Stack Text Editor page with run through <StackTopic>
     When User writes code in Text Editor from sheetname '<SheetName>' and rownumber 0 and clicks on run button
     Then User should able to see output in the console
 
     Examples: 
       | StackTopic          | SheetName  |
       | Operations in Stack | pythonCode |
-      | Operations          | pythonCode |
       | Implementation      | pythonCode |
       | Applications        | pythonCode |
 
-  @TestValid2
+  @Stack05
   Scenario Outline: Try Editor validation for "StackTopic" with invalid testcodes
-    Given User is in Stack Text Editor page with run through "StackTopic"
+    Given User is in Stack Text Editor page with run through <StackTopic>
     When User writes code in Text Editor from sheetname '<SheetName>' and rownumber 1 and clicks on run button
     Then User should able to see an error message in alert window
     When User clicks on Ok button
@@ -50,6 +48,17 @@ Feature: Stack Functionality with login
     Examples: 
       | StackTopic          | SheetName  |
       | Operations in Stack | pythonCode |
-      | Operations          | pythonCode |
       | Implementation      | pythonCode |
       | Applications        | pythonCode |
+     @Stack06 
+Scenario Outline: Try Editor validation for "StackTopic" with no code.
+    Given User is in Stack Text Editor page with run through <StackTopic>
+   When User clicks on run button without entering code
+    Then User should be on Same page
+
+    Examples: 
+      | StackTopic          | 
+      | Operations in Stack | 
+      | Implementation      | 
+      | Applications        | 
+      

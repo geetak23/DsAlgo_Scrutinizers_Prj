@@ -19,33 +19,34 @@ import Utilities.Xls_Reader;
 import Utilities.LoggerLoad;
 
 public class ArrayStepDef {
-	
+	WebDriver driver=driverFactory.getDriver();
+
 	private static String title;
 	private SignInPage signInPage = new SignInPage(driverFactory.getDriver());
 	private ArrayPage Arraypage;
 	private  String arrayCodeFile = "src\\test\\resources\\TestData\\Excel_Login_Pythoncode.xlsx";
-	WebDriver driver;
-	
+
+
 	Xls_Reader reader = new Xls_Reader();
-    List<Map<String, String>> testData;
+	List<Map<String, String>> testData;
 
 	@Given("User has already Logged in")
 	public void user_has_already_logged_in() throws org.apache.poi.openxml4j.exceptions.InvalidFormatException, IOException, InterruptedException {
-			
+
 		List<Map<String,String>> testData = reader.getData(arrayCodeFile, "Valid LogIn");
-				
+
 		String username = testData.get(0).get("username");
 		String password = testData.get(0).get("password");
-		
+
 		System.out.println("/n read method "+username +" and "+password);
-		
+
 		driverFactory.getDriver().get("https://dsportalapp.herokuapp.com/login");
-		
+
 		driver = signInPage.signinpage(username, password);
 		Arraypage = new ArrayPage(driver);	
 		LoggerLoad.info("Signed In user is in array page");
 	}
-	
+
 	@Given("User is on the {string} Home Page of URL {string}")
 	public void user_is_on_the_ds_algo_home_page(String expectedTitleName, String URL) {
 		driverFactory.getDriver().get(URL);
@@ -60,93 +61,93 @@ public class ArrayStepDef {
 
 	@Then("User should able to see six option in DataStructure Dropdown")
 	public void user_should_able_to_see_six_option_in_data_structure_dropdown() {
-		
+
 	}
 
 	@When("User clicks on the Arrays List")
 	public void user_clicks_on_the_arrays_list() {
-	    Arraypage.DropDownList(0);		
+		Arraypage.DropDownList(0);		
 	}
 
 	@Then("User should be on {string} page")
 	public void user_should_be_on_array_page(String expectedTitleName) {
 		title = Arraypage.getPageTitle();
 		Assert.assertTrue(title.contains(expectedTitleName));
-		
+
 	}
 
 	@When("User clicks on Get Started button index {int}")
 	public void user_clicks_on_get_started_button_index(int idx ) {
-	     Arraypage.GetStartBtnList(idx);
+		Arraypage.GetStartBtnList(idx);
 	}
 	@Then("User gets the Array Topics covered")
 	public void user_gets_the_array_topics_covered(DataTable dataTable) throws Exception {
 		List<List<String>> topics = dataTable.asLists(String.class);
 		for (List<String> topic :  topics) {
-		      Arraypage.isValidTopic(topic.get(0));
-			}	
+			Arraypage.isValidTopic(topic.get(0));
+		}	
 	}
 	@When("User clicks on Arrays in Python link")
 	public void user_clicks_on_arrays_in_python_link() {
-	    Arraypage.ArrayinPython();
+		Arraypage.ArrayinPython();
 	}
 
 	@When("User clicks Try Here button of {string}")
 	public void user_clicks_try_here_button_of(String Topic) {
-	    Arraypage.try_here();
+		Arraypage.try_here();
 	}
 
 	@When("The user clicks the Run button without entering the code in the Editor")
 	public void the_user_clicks_the_run_button_without_entering_the_code_in_the_editor() {
-	    Arraypage.runbtn();
+		Arraypage.runbtn();
 	}
 
 	@Then("Validate if any change in the page {string} title")
 	public void validate_if_any_change_in_the_page_title(String expectedTitleName) {
 		title = Arraypage.getPageTitle();
 		Assert.assertTrue(title.contains(expectedTitleName));
-		
+
 	}
 
 	@Then("The user should able to see an error message in alert window")
 	public void the_user_should_able_to_see_an_error_message_in_alert_window() {
-	   String expoutput = Arraypage.alertwin(); 
-	   System.out.println("Alert window is : " + expoutput);
-	   Arraypage.alertwin1();
+		String expoutput = Arraypage.alertwin(); 
+		System.out.println("Alert window is : " + expoutput);
+		Arraypage.alertwin1();
 	}
 
 	@When("The user write code in Editor from sheetname {string} and rownumber {int}")
 	public void the_user_write_code_in_editor_from_given_sheetname_and_rownumber(String SheetName, Integer RNum) 
-		throws InvalidFormatException, IOException, InterruptedException, org.apache.poi.openxml4j.exceptions.InvalidFormatException{
-			Xls_Reader reader = new Xls_Reader();
-			List<Map<String,String>> testData = reader.getData(arrayCodeFile, SheetName);
-			Thread.sleep(2000);
-			String testcode = testData.get(RNum).get("pythonCode");	
-			System.out.println(testcode);
-			Arraypage.texteditorData(testcode);
-			LoggerLoad.info("In Array Page Text Editor");
-		}
-	
+			throws InvalidFormatException, IOException, InterruptedException, org.apache.poi.openxml4j.exceptions.InvalidFormatException{
+		Xls_Reader reader = new Xls_Reader();
+		List<Map<String,String>> testData = reader.getData(arrayCodeFile, SheetName);
+		Thread.sleep(2000);
+		String testcode = testData.get(RNum).get("pythonCode");	
+		System.out.println(testcode);
+		Arraypage.texteditorData(testcode);
+		LoggerLoad.info("In Array Page Text Editor");
+	}
+
 	@When("The user write code in PracQn Editor from sheetname {string} and rownumber {int}")
 	public void the_user_write_code_inPracQn_editor_from_sheetname_and_rownumber(String SheetName, Integer RNum) 
-		throws InvalidFormatException, IOException, InterruptedException, org.apache.poi.openxml4j.exceptions.InvalidFormatException{
-			Xls_Reader reader = new Xls_Reader();
-			List<Map<String,String>> testData = reader.getData(arrayCodeFile, SheetName);
-			String testcode = testData.get(RNum).get("pythonCode");	
-			Arraypage.copyCode(testcode);
-			Arraypage.runbtn();
-			LoggerLoad.info("Python code");
-		}
-	
+			throws InvalidFormatException, IOException, InterruptedException, org.apache.poi.openxml4j.exceptions.InvalidFormatException{
+		Xls_Reader reader = new Xls_Reader();
+		List<Map<String,String>> testData = reader.getData(arrayCodeFile, SheetName);
+		String testcode = testData.get(RNum).get("pythonCode");	
+		Arraypage.copyCode(testcode);
+		Arraypage.runbtn();
+		LoggerLoad.info("Python code");
+	}
+
 	@When("Click the run button")
 	public void click_the_run_button() {
-	  Arraypage.runbtn();
+		Arraypage.runbtn();
 	}
 
 	@Then("The user should able to see output in the console {string}")
 	public void the_user_should_able_to_see_output_in_the_console1(String expresult) {
-	    String actualmsg = Arraypage.tryeditormsg();
-	    Assert.assertEquals(actualmsg, expresult);
+		String actualmsg = Arraypage.tryeditormsg();
+		Assert.assertEquals(actualmsg, expresult);
 	}
 
 	@Given("The user is on the {string} Home Page")
@@ -166,7 +167,7 @@ public class ArrayStepDef {
 
 	@When("User click on {string}")
 	public void user_click_on(String Arr_Topic) throws Exception {
-	    Arraypage.ClickTopic(Arr_Topic);
+		Arraypage.ClickTopic(Arr_Topic);
 	}
 
 	@Then("User should navigate to page that contains title {string}")
@@ -176,9 +177,9 @@ public class ArrayStepDef {
 
 	@When("User click on {string} page")
 	public void user_click_on_link(String PracQn) throws Exception {
-	    Arraypage.ClickTopic1(PracQn);
+		Arraypage.ClickTopic1(PracQn);
 	}
-	
+
 	@When("User clear the text-editor")
 	public void user_clear_texteditor() throws InterruptedException{
 		Arraypage.clear_texteditor();		
@@ -186,8 +187,8 @@ public class ArrayStepDef {
 
 	@Then("The user is on the {string} Page")
 	public void the_user_is_on_the_page1(String string) {
-	    Arraypage.getPageTitle();
-	    LoggerLoad.info("Page Title is : "+ string);
+		Arraypage.getPageTitle();
+		LoggerLoad.info("Page Title is : "+ string);
 	}
 	@When("User click back button and navigate to URL {string}")
 	public void user_click_back_button_and_navigate_to_url(String URL) {

@@ -46,5 +46,8 @@ public class StackPage extends driverFactory{
 	public void applicationsTopic(){
 		ApplicationsTopic.click();
 	}
+	public String getPageTitle() {
+		return driver.getTitle();
+	}
 
 }

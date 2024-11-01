@@ -1,11 +1,14 @@
 package stepdefinitions;
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import POM.ArrayPage;
+import POM.GraphPage;
 import POM.LinkedListPage;
 import POM.SignInPage;
 import POM.TreePage;
@@ -21,11 +24,29 @@ public class LinkedListStepDef extends driverFactory {
     SignInPage Signin=new SignInPage(driver);
     LinkedListPage linkedlist=new LinkedListPage(driver);
     Xls_Reader reader = new Xls_Reader();
-    List<Map<String, String>> testData;
+    List<Map<String, String>> credentials;
     ArrayPage Arraypage= new ArrayPage(driver);
+    GraphPage graphPage=new GraphPage(driver);
     private  String arrayCodeFile = "src\\test\\resources\\TestData\\Excel_Login_Pythoncode.xlsx";
     
-	
+    @Given("User has already Logged into portal")
+    public void user_has_already_logged_into_portal() throws InvalidFormatException, IOException {
+    	List<Map<String,String>> credentials = reader.getData(arrayCodeFile, "Valid LogIn");
+		
+		String username = credentials.get(0).get("username");
+		String password = credentials.get(0).get("password");
+		
+		graphPage.signIn(username, password);
+		
+		
+		//System.out.println("/n read method "+username +" and "+password);
+		
+		//driverFactory.getDriver().get("https://dsportalapp.herokuapp.com/login");
+		
+		
+		//Arraypage = new ArrayPage(driver);	
+        
+    }
 	@When("click on the dropdown and select Linked List")
 	public void click_on_the_dropdown_and_select_linked_list() {
 		driver.findElement(By.xpath("//a[@class='nav-link dropdown-toggle']")).click();

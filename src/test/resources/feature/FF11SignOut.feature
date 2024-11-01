@@ -1,10 +1,10 @@
 
 
-@Signout @Sharanya
+@Signout 
 Feature: Checking Sign Out
 Background:
 Given User has already Logged in
-
+@Signout01
 Scenario: Validate Sign Out functionality
 
 When User clicks on signout button

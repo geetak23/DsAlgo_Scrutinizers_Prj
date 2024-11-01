@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
       features = {"src/test/resources/feature"},
-    		  //tags="@DashBoard",
+    		//tags="@ArrayFF",
       glue= {"stepdefinitions","DsalgoHooks"},
       plugin={"pretty","html:target/Reports/report.html"
     		  ,"json:target/Json-reports/cucumberreport.json",
@@ -26,7 +26,7 @@ public class TestNGRunnerChrome extends AbstractTestNGCucumberTests
 	  }
 	
 	@Override	
-	@DataProvider(parallel = true)
+	@DataProvider(parallel = false)
 	public Object[][] scenarios()
 	{
 		return super.scenarios();

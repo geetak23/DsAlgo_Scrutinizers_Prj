@@ -116,7 +116,7 @@ public void user_writes_valid_code_in_and_clicks_on_run_button(String TextEditor
 public void user_should_able_to_see_output_in_the_console() {
     WebElement consolemsg =driver.findElement(By.xpath("//div//pre[@id='output']"));
     String Output= consolemsg.getText();
-    System.out.println(Output);  
+    //System.out.println(Output);  
     assertEquals("hello",Output );
     /*if (Output=="hello") {
     	System.out.println("It is valid code");
@@ -150,7 +150,7 @@ public void user_should_able_to_see_an_error_message_in_alert_window() {
     
 }
 
-@Given("User in a page with alert Window")
+/*@Given("User in a page with alert Window")
 public void user_in_a_page_with_alert_window() throws InterruptedException {
 	Thread.sleep(1000);
 	tree.openTreePage();
@@ -165,7 +165,7 @@ public void user_in_a_page_with_alert_window() throws InterruptedException {
 	  driver.findElement(By.xpath("//button[@type='button']")).click();
 	
 	
-}
+}*/
 
 @When("User clicks on Ok button")
 public void user_clicks_on_ok_button() throws InterruptedException {
@@ -178,10 +178,6 @@ public void user_clicks_on_ok_button() throws InterruptedException {
    
 }
 
-@When("User clicks on Terminologies Topic button")
-public void user_clicks_on_terminologies_topic_button() {
-    tree.terminologiesTopic();
-}
 
 @Then("User should be directed to Terminologies Topic page With {string}")
 public void user_should_be_directed_to_terminologies_topic_page_with(String TryHere) {
@@ -196,18 +192,12 @@ public void user_is_in_terminologies_topic_page_with(String TryHere) throws Inte
 
 @Then("User should be on Same page")
 public void user_should_be_on_same_page() {
-	/* WebElement codeBox =driver.findElement(By.xpath("//form[@id='answer_form']/div/div/div/textarea"));
-	    String expected= codeBox.getText();
-	    System.out.println(expected);  
-	    assertEquals("printhello",expected );*/
-	driver.getPageSource().contains("printhello");
+	driver.getTitle().contains("https://dsportalapp.herokuapp.com/tryEditor");
+	//driver.getPageSource().contains("printhello");
 	    
 }
 
-@When("User clicks on Types of Trees Topic button")
-public void user_clicks_on_types_of_trees_topic_button() {
-    tree.typesofTreesTopic();
-}
+
 
 @Then("User should be directed to Types of Trees Topic page With {string}")
 public void user_should_be_directed_to_types_of_trees_topic_page_with(String TryHere) {
@@ -220,10 +210,6 @@ public void user_is_in_types_of_trees_topic_page_with(String TryHere) throws Int
     tree.typesofTreesTopic();
 }
 
-@When("User clicks on Tree Traversals Topic button")
-public void user_clicks_on_tree_traversals_topic_button() {
-    tree.treeTraversalsTopic();
-}
 
 @Then("User should be directed to Tree Traversals Topic page With {string}")
 public void user_should_be_directed_to_tree_traversals_topic_page_with(String TryHere) {
@@ -236,10 +222,7 @@ public void user_is_in_tree_traversals_topic_page_with(String TryHere) throws In
     tree.treeTraversalsTopic();
 }
 
-@When("User clicks on Traversals-Illustration Topic button")
-public void user_clicks_on_traversals_illustration_topic_button() {
-    tree.traversalsIllustrationTopic();
-}
+
 
 @Then("User should be directed to Traversals-Illustration Topic page With {string}")
 public void user_should_be_directed_to_traversals_illustration_topic_page_with(String TryHere) {
@@ -252,10 +235,7 @@ public void user_is_in_traversals_illustration_topic_page_with(String TryHere) t
     tree.traversalsIllustrationTopic();
 }
 
-@When("User clicks on Binary Trees Topic button")
-public void user_clicks_on_binary_trees_topic_button() {
-    tree.binaryTreesTopic();
-}
+
 
 @Then("User should be directed to Binary Trees Topic page With {string}")
 public void user_should_be_directed_to_binary_trees_topic_page_with(String TryHere) {
@@ -268,10 +248,7 @@ public void user_is_in_binary_trees_topic_page_with(String TryHere) throws Inter
     tree.binaryTreesTopic();
 }
 
-@When("User clicks on Types of Binary Trees Topic button")
-public void user_clicks_on_types_of_binary_trees_topic_button() {
-    tree.typesofBinaryTreesTopic();
-}
+
 
 @Then("User should be directed to Types of Binary Trees Topic page With {string}")
 public void user_should_be_directed_to_types_of_binary_trees_topic_page_with(String TryHere) {
@@ -284,10 +261,7 @@ public void user_is_in_types_of_binary_trees_topic_page_with(String TryHere) thr
    tree.binaryTreesTopic();
 }
 
-@When("User clicks on Implementation in Python Topic button")
-public void user_clicks_on_implementation_in_python_topic_button() {
-   tree.implementationinPythonTopic();
-}
+
 
 @Then("User should be directed to Implementation in Python Topic page With {string}")
 public void user_should_be_directed_to_implementation_in_python_topic_page_with(String TryHere) {
@@ -300,10 +274,6 @@ public void user_is_in_implementation_in_python_topic_page_with(String string) t
     tree.implementationinPythonTopic();
 }
 
-@When("User clicks on Binary Tree Traversals Topic button")
-public void user_clicks_on_binary_tree_traversals_topic_button() {
-    tree.binaryTreeTraversalsTopic();
-}
 
 @Then("User should be directed to Binary Tree Traversals Topic page With Try Here")
 public void user_should_be_directed_to_binary_tree_traversals_topic_page_with_try_here() {
@@ -316,10 +286,7 @@ public void user_is_in_binary_tree_traversals_topic_page_with(String TryHere) th
     tree.binaryTreeTraversalsTopic();
 }
 
-@When("User clicks on Implementation of Binary Trees Topic button")
-public void user_clicks_on_implementation_of_binary_trees_topic_button() {
-   tree.implementationofBinaryTreesTopic();
-}
+
 
 @Then("User should be directed to Implementation of Binary Trees Topic page With {string}")
 public void user_should_be_directed_to_implementation_of_binary_trees_topic_page_with(String TryHere) {
@@ -332,10 +299,6 @@ public void user_is_in_implementation_of_binary_trees_topic_page_with(String Try
    tree.implementationofBinaryTreesTopic();
 }
 
-@When("User clicks on Applications of Binary trees Topic button")
-public void user_clicks_on_applications_of_binary_trees_topic_button() {
-    tree.applicationsofBinarytreesTopic();
-}
 
 @Then("User should be directed to Applications of Binary trees Topic page With {string}")
 public void user_should_be_directed_to_applications_of_binary_trees_topic_page_with(String TryHere) {
@@ -348,10 +311,7 @@ public void user_is_in_applications_of_binary_trees_topic_page_with(String TryHe
     tree.applicationsofBinarytreesTopic();
 }
 
-@When("User clicks on Binary Search Trees Topic button")
-public void user_clicks_on_binary_search_trees_topic_button() {
-    tree.binarySearchTreesTopic();
-}
+
 
 @Then("User should be directed to Binary Search Trees Topic page With {string}")
 public void user_should_be_directed_to_binary_search_trees_topic_page_with(String TryHere) {
@@ -364,10 +324,7 @@ public void user_is_in_binary_search_trees_topic_page_with(String TryHere) throw
     tree.binarySearchTreesTopic();
 }
 
-@When("User clicks on Implementation Of BST Topic button")
-public void user_clicks_on_implementation_of_bst_topic_button() {
-   tree.implementationOfBSTTopic();
-}
+
 
 @Then("User should be directed to Implementation Of BST Topic page With {string}")
 public void user_should_be_directed_to_implementation_of_bst_topic_page_with(String TryHere) {
@@ -389,11 +346,8 @@ public void user_clicks_on_trees_topic_button(String TreeTopic) throws Exception
 
 @Then("User should be directed to {string} With Try Here")
 public void user_should_be_directed_to_with_try_here(String Title) {
-	driver.getPageSource().contains(Title);
-	//pageTitle = tree.getPageTitle();
-	//System.out.println(Title+ "=" + expectedTitleName);
-	//Assert.assertTrue(pageTitle.contains(Title));
-	//Assert.assertTrue(title.contains(expectedTitleName));
+	//driver.getPageSource().contains(Title);
+	tree.getPageTitle().contains(Title);
 }
 
 @When("User clicks on Try Here button")
@@ -412,5 +366,135 @@ public void user_is_in_text_editor_page_with_run_through(String TreeTopic) throw
 	tree.clickTopic(TreeTopic);
 	driver.findElement(By.linkText("Try here>>>")).click();
 }
-
+@When("User clicks on trees topic Binary Trees button.")
+public void user_clicks_on_trees_topic_binary_trees_button() {
+    tree.binaryTreesTopic();
 }
+@When("User clicks on trees topic Binary Tree Traversals button.")
+public void user_clicks_on_trees_topic_binary_tree_traversals_button() {
+   tree.binaryTreeTraversalsTopic();
+}
+@When("User clicks on trees topic Overview of Trees button.")
+public void user_clicks_on_trees_topic_overview_of_trees_button() {
+   tree.overviewofTreesTopic();
+}
+@When("User clicks on trees topic Tree Traversals button.")
+public void user_clicks_on_trees_topic_tree_traversals_button() {
+    tree.treeTraversalsTopic();
+}
+@When("User clicks on trees topic Types of Binary Trees button.")
+public void user_clicks_on_trees_topic_types_of_binary_trees_button() {
+   tree.typesofBinaryTreesTopic();
+}
+@When("User clicks on trees topic Terminologies button.")
+public void user_clicks_on_trees_topic_terminologies_button() {
+    tree.terminologiesTopic();
+}
+@When("User clicks on trees topic Applications of Binary trees button.")
+public void user_clicks_on_trees_topic_applications_of_binary_trees_button() {
+    tree.applicationsofBinarytreesTopic();
+}
+@When("User clicks on trees topic Traversals-Illustration button.")
+public void user_clicks_on_trees_topic_traversals_illustration_button() {
+    tree.traversalsIllustrationTopic();
+}
+@When("User clicks on trees topic Implementation of Binary Trees button.")
+public void user_clicks_on_trees_topic_implementation_of_binary_trees_button() {
+    tree.implementationofBinaryTreesTopic();
+}
+@When("User clicks on trees topic Types of Trees button.")
+public void user_clicks_on_trees_topic_types_of_trees_button() {
+    tree.typesofTreesTopic();
+}
+@When("User clicks on trees topic Binary Search Trees button.")
+public void user_clicks_on_trees_topic_binary_search_trees_button() {
+    tree.binarySearchTreesTopic();
+}
+@When("User clicks on trees topic Implementation in Python button.")
+public void user_clicks_on_trees_topic_implementation_in_python_button() {
+   tree.implementationinPythonTopic();
+}
+@When("User clicks on trees topic Implementation Of BST button.")
+public void user_clicks_on_trees_topic_implementation_of_bst_button() {
+	tree.implementationOfBSTTopic();
+    }
+@Given("User is in Text Editor page with run through Implementation of Binary Trees")
+public void user_is_in_text_editor_page_with_run_through_implementation_of_binary_trees() throws InterruptedException {
+    tree.openTreePage();
+    tree.implementationofBinaryTreesTopic();
+    tree.tryHere();
+}
+@Given("User is in Text Editor page with run through Overview of Trees")
+public void user_is_in_text_editor_page_with_run_through_overview_of_trees() throws InterruptedException {
+    tree.openTreePage();
+    tree.overviewofTreesTopic();
+    tree.tryHere();
+}
+@Given("User is in Text Editor page with run through Traversals-Illustration")
+public void user_is_in_text_editor_page_with_run_through_traversals_illustration() throws InterruptedException {
+    tree.openTreePage();
+    tree.traversalsIllustrationTopic();
+    tree.tryHere();
+}
+@Given("User is in Text Editor page with run through Types of Trees")
+public void user_is_in_text_editor_page_with_run_through_types_of_trees() throws InterruptedException {
+    tree.openTreePage();
+    tree.typesofTreesTopic();
+    tree.tryHere();
+}
+@Given("User is in Text Editor page with run through Implementation in Python")
+public void user_is_in_text_editor_page_with_run_through_implementation_in_python() throws InterruptedException {
+    tree.openTreePage();
+    tree.implementationinPythonTopic();
+    tree.tryHere();
+}
+@Given("User is in Text Editor page with run through Binary Trees")
+public void user_is_in_text_editor_page_with_run_through_binary_trees() throws InterruptedException {
+    tree.openTreePage();
+    tree.binaryTreesTopic();
+    tree.tryHere();
+}
+@Given("User is in Text Editor page with run through Types of Binary Trees")
+public void user_is_in_text_editor_page_with_run_through_types_of_binary_trees() throws InterruptedException {
+   tree.openTreePage();
+   tree.typesofBinaryTreesTopic();
+   tree.tryHere();
+}
+@Given("User is in Text Editor page with run through Binary Tree Traversals")
+public void user_is_in_text_editor_page_with_run_through_binary_tree_traversals() throws InterruptedException {
+   tree.openTreePage();
+   tree.binaryTreeTraversalsTopic();
+   tree.tryHere();
+}
+@Given("User is in Text Editor page with run through Binary Search Trees")
+public void user_is_in_text_editor_page_with_run_through_binary_search_trees() throws InterruptedException {
+    tree.openTreePage();
+    tree.binarySearchTreesTopic();
+    tree.tryHere();
+}
+@Given("User is in Text Editor page with run through Implementation Of BST")
+public void user_is_in_text_editor_page_with_run_through_implementation_of_bst() throws InterruptedException {
+    tree.openTreePage();
+    tree.implementationOfBSTTopic();
+    tree.tryHere();
+}
+@Given("User is in Text Editor page with run through Tree Traversals")
+public void user_is_in_text_editor_page_with_run_through_tree_traversals() throws InterruptedException {
+    tree.openTreePage();
+    tree.treeTraversalsTopic();
+    tree.tryHere();
+}
+@Given("User is in Text Editor page with run through Applications of Binary trees")
+public void user_is_in_text_editor_page_with_run_through_applications_of_binary_trees() throws InterruptedException {
+    tree.openTreePage();
+    tree.applicationsofBinarytreesTopic();
+    tree.tryHere();
+}
+@Given("User is in Text Editor page with run through Terminologies")
+public void user_is_in_text_editor_page_with_run_through_terminologies() throws InterruptedException {
+    tree.openTreePage();
+    tree.terminologiesTopic();
+    tree.tryHere();
+}
+}
+
