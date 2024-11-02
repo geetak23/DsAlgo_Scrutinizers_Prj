@@ -11,7 +11,8 @@ import io.cucumber.testng.CucumberOptions;
       glue= {"stepdefinitions","DsalgoHooks"},
       plugin={"pretty","html:target/Reports/report.html"
     		  ,"json:target/Json-reports/cucumberreport.json",
-    		  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+    		  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+    		  "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
     		  },      
       publish = true     
 )
