@@ -66,3 +66,36 @@ Feature: Queue Functionality with login
       | Implementation using collections deque |
       | Implementation using array             |
       | Queue Operations                       |
+
+      @Queue07
+      Scenario: Check User able to Directed to Graph page from Dropdown in Queue Page
+Given User is in Queue page
+  When click on the dropdown and select Graph
+  Then The user should be directed to Graph Page
+  
+      @Queue08 
+      Scenario: Check User able to Directed to Tree page from Dropdown in Queue Page
+Given User is in Queue page
+  When click on the dropdown and select Tree
+  Then The user should be directed to Tree Page
+      @Queue09 
+       Scenario: Check User able to Directed to Queue page from Dropdown in Queue Page
+    Given User is in Queue page
+    When click on the dropdown and select Queue
+    Then The user should be on Queue Page
+      @Queue10
+       Scenario: Check User able to Directed to Array page from Dropdown in Queue Page
+     Given User is in Queue page
+    When click on the dropdown and select Array
+    Then The user should be directed to Array Page
+      @Queue11
+      Scenario: Check User able to Directed to Satck page from Dropdown in Queue Page
+  Given User is in Queue page
+    When click on the dropdown and select Stack
+    Then The user should be  on Stack Page
+      @Queue12
+      Scenario: Check User is on same Linked List from Dropdown in Queue Page
+    Given User is in Queue page
+    When click on the dropdown and select Linked List
+    Then The user should be directed to Linked List Page
+   

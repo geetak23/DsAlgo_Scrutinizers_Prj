@@ -236,5 +236,8 @@ public class QueueStepDef extends driverFactory{
 		driver.getPageSource().contains("Implementation using array");
 	    driver.getPageSource().contains("Try here>>>");
 	}
-
+	@Then("The user should be on Queue Page")
+	public void the_user_should_be_on_queue_page() {
+		driver.getPageSource().contains(" Queue is very similar to stacks");
+	}
 }

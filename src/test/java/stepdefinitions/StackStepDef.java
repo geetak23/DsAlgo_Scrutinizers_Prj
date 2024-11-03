@@ -115,4 +115,8 @@ public class StackStepDef extends driverFactory  {
 			stack.operationsinStackTopic();
 			driver.findElement(By.linkText("Try here>>>")).click();
 	    }
+	    @Then("The user should be  on Stack Page")
+	    public void the_user_should_be_on_stack_page() {
+	    	driver.getPageSource().contains(" A stack is an Abstract Data Type");
+	    }
 }

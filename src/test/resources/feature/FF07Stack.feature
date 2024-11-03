@@ -61,4 +61,39 @@ Scenario Outline: Try Editor validation for "StackTopic" with no code.
       | Operations in Stack | 
       | Implementation      | 
       | Applications        | 
-      
+      @Stack07 
+      Scenario: Check User able to Directed to Graph page from Dropdown in Stack Page
+Given User is in Stack page
+  When click on the dropdown and select Graph
+  Then The user should be directed to Graph Page
+  
+      @Stack08 
+      Scenario: Check User able to Directed to Tree page from Dropdown in Stack Page
+Given User is in Stack page
+  When click on the dropdown and select Tree
+  Then The user should be directed to Tree Page
+      @Stack09 
+       Scenario: Check User able to Directed to Queue page from Dropdown in Stack Page
+    Given User is in Stack page
+    When click on the dropdown and select Queue
+    Then The user should be directed to Queue Page
+      @Stack10
+       Scenario: Check User able to Directed to Array page from Dropdown in Stack Page
+     Given User is in Stack page
+    When click on the dropdown and select Array
+    Then The user should be directed to Array Page
+      @Stack11
+      Scenario: Check User able to Directed to Satck page from Dropdown in Stack Page
+  Given User is in Stack page
+    When click on the dropdown and select Stack
+    Then The user should be  on Stack Page
+      @Stack12
+      Scenario: Check User is on same Linked List from Dropdown in Stack Page
+    Given User is in Stack page
+    When click on the dropdown and select Linked List
+    Then The user should be directed to Linked List Page
+    @Stack13 
+    Scenario: Check User is on same Stack page clicked on Scrutinizers(UserName) Link
+     Given User is in Stack page
+     When User clicks on Scrutinizers
+      Then The user should be  on Stack Page

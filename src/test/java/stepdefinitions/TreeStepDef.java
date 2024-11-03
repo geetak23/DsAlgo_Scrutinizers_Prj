@@ -496,5 +496,9 @@ public void user_is_in_text_editor_page_with_run_through_terminologies() throws 
     tree.terminologiesTopic();
     tree.tryHere();
 }
+@Then("The user should be on Tree Page")
+public void the_user_should_be_on_tree_page() {
+	 driver.getPageSource().contains(" A tree is a collection of nodes");
+}
 }
 

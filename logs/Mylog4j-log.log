@@ -12404,3 +12404,840 @@
 [INFO ] 2024-11-02 18:45:42.396 [main] LoggerLoad - Signed In user is in array page
 [INFO ] 2024-11-02 18:45:45.235 [main] LoggerLoad - In Hooks Class : Broswername = chrome
 [INFO ] 2024-11-02 18:45:46.045 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:07:25.073 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:07:32.850 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:07:35.127 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:07:35.980 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:07:38.180 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:07:39.072 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:07:42.322 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:07:43.187 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:07:46.405 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:07:47.298 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:07:51.071 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:07:52.529 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:07:58.206 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:08:00.157 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:08:01.059 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:08:06.748 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:08:08.722 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:08:09.600 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:08:15.279 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:08:17.262 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:08:18.641 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:08:25.237 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:08:27.267 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:08:28.367 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:08:34.398 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:08:37.674 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:08:38.604 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:08:44.418 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:08:46.424 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:08:47.248 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:08:50.564 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:08:51.540 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:08:54.928 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:08:55.878 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:08:59.243 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:09:00.212 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:09:03.143 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:09:04.176 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:09:07.280 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:09:08.226 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:09:11.144 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:09:12.030 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:09:14.927 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:09:15.824 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:09:18.635 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:09:19.484 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:09:22.368 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:09:23.183 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:10:50.893 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:10:52.395 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:10:54.647 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:10:55.655 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:10:57.783 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:10:58.707 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:11:02.183 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:11:03.075 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:11:06.335 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:11:07.228 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:11:10.606 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:11:11.501 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:11:17.131 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:11:19.286 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:11:20.136 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:11:25.665 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:11:27.653 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:11:28.497 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:11:34.071 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:11:36.068 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:11:36.947 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:11:42.637 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:11:44.609 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:11:45.561 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:11:51.125 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:11:53.097 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:11:53.929 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:11:59.499 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:12:01.459 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:12:02.338 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:12:05.560 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:12:06.414 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:12:09.753 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:12:10.628 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:12:13.918 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:12:14.792 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:12:17.720 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:12:18.578 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:12:21.368 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:12:22.393 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:12:25.307 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:12:26.193 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:12:29.023 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:12:29.894 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:12:32.683 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:12:33.622 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:12:36.599 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:12:37.490 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:15:05.918 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:15:07.354 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:15:09.589 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:15:10.499 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:15:12.608 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:15:13.491 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:15:16.733 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:15:17.556 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:15:21.065 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:15:21.942 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:15:25.401 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:15:26.278 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:15:31.999 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:15:34.027 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:15:34.905 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:15:40.554 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:15:42.514 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:15:43.471 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:15:49.079 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:15:51.095 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:15:51.965 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:15:57.631 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:15:59.587 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:16:00.494 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:16:06.833 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:16:08.773 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:16:09.663 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:16:15.282 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:16:17.254 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:16:18.151 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:16:21.362 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:16:22.211 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:16:25.627 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:16:26.477 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:16:29.738 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:16:30.615 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:16:33.488 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:16:34.336 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:16:37.106 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:16:37.948 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:16:40.796 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:16:41.696 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:16:44.590 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:16:45.517 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:16:48.359 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:16:49.259 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:16:52.087 [main] LoggerLoad - In Hooks Class : Broswername = edge
+[INFO ] 2024-11-03 01:16:52.947 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:22:08.077 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:22:09.534 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:24:36.012 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:24:37.379 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:24:38.530 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:24:39.457 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:24:40.533 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:24:41.416 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:24:43.537 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:24:44.378 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:24:46.499 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:24:47.409 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:24:49.476 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:24:50.325 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:24:52.506 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:24:53.367 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:24:59.830 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:25:00.697 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:25:07.150 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:25:07.996 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:25:14.477 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:25:15.379 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:25:21.771 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:25:22.647 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:25:29.087 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:25:29.911 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:25:36.360 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:25:37.167 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:25:43.546 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:25:44.343 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:25:50.842 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:25:51.663 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:25:53.918 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:25:54.772 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:25:56.973 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:25:57.818 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:26:00.035 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:26:00.828 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:26:03.106 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:26:03.902 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:26:05.589 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:26:06.395 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:26:08.101 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:26:08.998 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:26:10.766 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:26:11.675 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:26:13.491 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:26:14.409 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:26:16.249 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:26:17.093 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:29:55.776 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:29:57.129 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:31:44.896 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:31:46.216 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:31:47.382 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:31:48.277 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:31:49.309 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:31:50.174 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:31:53.323 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:31:54.117 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:31:57.274 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:31:58.105 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:01.217 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:02.049 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:05.175 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:06.018 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:09.201 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:10.068 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:13.275 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:14.117 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:17.373 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:18.183 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:21.303 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:22.143 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:25.372 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:26.242 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:29.388 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:30.259 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:33.452 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:34.340 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:37.656 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:38.510 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:41.637 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:42.584 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:49.165 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:32:50.032 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:50.854 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:32:57.526 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:32:58.374 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:32:59.205 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:33:05.777 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:33:06.663 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:33:07.531 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:33:14.191 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:33:17.602 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:33:18.443 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:33:24.987 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:33:27.339 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:33:28.149 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:33:34.785 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:33:35.636 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:33:36.459 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:33:43.064 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:33:43.880 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:33:44.704 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:33:51.339 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:33:52.175 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:33:52.995 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:33:59.612 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:34:00.561 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:34:01.406 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:34:07.971 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:34:08.797 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:34:09.666 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:34:16.252 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:34:17.135 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:34:17.978 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:34:24.647 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:34:25.449 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:34:26.213 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:34:32.792 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:34:33.714 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:34:34.544 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:34:41.090 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:34:41.947 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:34:42.770 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:34:49.341 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:34:50.208 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:34:51.035 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:34:57.697 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:34:58.545 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:34:59.431 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:35:06.130 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:35:06.928 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:35:07.718 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:35:14.290 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:35:15.128 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:35:15.927 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:35:22.518 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:35:23.384 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:35:24.193 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:35:30.889 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:35:31.748 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:35:32.602 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:35:39.199 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:35:40.088 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:35:40.912 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:35:47.509 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:35:48.332 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:35:49.112 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:35:55.712 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:35:56.526 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:35:57.399 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:36:04.042 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:36:04.992 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:36:05.867 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:36:12.843 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:36:13.762 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:36:14.594 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:36:21.127 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:36:21.971 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:36:22.825 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:36:26.042 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:36:26.892 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:36:30.068 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:36:30.905 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:36:34.068 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:36:34.893 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:36:38.138 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:36:38.967 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:36:42.130 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:36:42.944 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:36:46.104 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:36:46.934 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:36:50.214 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:36:51.065 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:36:54.164 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:36:54.954 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:36:58.073 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:36:58.879 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:37:02.140 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:37:02.954 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:37:06.120 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:37:06.926 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:37:10.217 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:37:11.023 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:37:14.172 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:37:14.997 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:37:17.793 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:37:18.627 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:37:21.244 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:37:22.018 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:37:24.821 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:37:25.642 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:37:28.917 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:37:29.705 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:37:32.501 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:37:33.430 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:45:45.744 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:45:47.281 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:47:10.303 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:47:11.637 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:47:12.769 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:47:13.607 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:47:14.672 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:47:15.575 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:47:17.319 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:47:18.166 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:47:20.323 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:47:21.135 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:47:26.793 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:47:27.664 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:47:28.510 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:47:34.117 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:47:35.011 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:47:35.823 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:47:37.633 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:47:38.452 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:47:40.622 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:47:41.450 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:47:47.022 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:47:47.971 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:47:48.826 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:47:54.497 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:47:55.348 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:47:56.168 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:47:57.820 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:47:58.636 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:48:00.363 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:01.248 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:48:02.997 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:03.806 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:48:05.541 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:06.519 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:48:08.206 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:09.017 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:48:10.822 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:11.639 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:48:13.746 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:14.553 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:48:36.559 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:38.101 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:39.420 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:40.849 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:42.366 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:43.827 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:45.244 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:46.496 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:50.970 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:55.455 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:48:59.947 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:49:07.626 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:49:15.231 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:49:23.150 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:49:27.821 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:49:29.013 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:49:30.469 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:49:32.327 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:49:34.283 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:49:35.996 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:49:37.210 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:49:40.933 [main] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-11-03 01:49:43.414 [main] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-11-03 01:49:44.482 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:49:45.609 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:49:49.063 [main] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-11-03 01:49:51.461 [main] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-11-03 01:49:52.483 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:49:53.369 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:49:56.663 [main] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-11-03 01:49:59.102 [main] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-11-03 01:50:00.094 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:00.909 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:04.248 [main] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-11-03 01:50:06.672 [main] LoggerLoad - In Array Page Text Editor
+[INFO ] 2024-11-03 01:50:07.679 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:08.512 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:08.637 [main] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-11-03 01:50:09.541 [main] LoggerLoad - Python code
+[INFO ] 2024-11-03 01:50:09.599 [main] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-11-03 01:50:10.538 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:11.523 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:11.641 [main] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-11-03 01:50:12.993 [main] LoggerLoad - Python code
+[INFO ] 2024-11-03 01:50:13.055 [main] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-11-03 01:50:14.053 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:14.949 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:15.098 [main] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-11-03 01:50:16.192 [main] LoggerLoad - Python code
+[INFO ] 2024-11-03 01:50:16.251 [main] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-11-03 01:50:17.139 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:18.034 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:18.159 [main] LoggerLoad - Page Title is : Practice Questions
+[INFO ] 2024-11-03 01:50:19.408 [main] LoggerLoad - Python code
+[INFO ] 2024-11-03 01:50:19.458 [main] LoggerLoad - Page Title is : Assessment
+[INFO ] 2024-11-03 01:50:20.378 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:21.275 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:22.362 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:23.269 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:24.317 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:25.190 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:26.939 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:27.840 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:30.089 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:30.980 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:36.653 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:50:37.461 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:38.329 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:43.953 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:50:44.769 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:45.616 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:47.260 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:47.998 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:50.103 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:50.921 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:50:56.534 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:50:57.366 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:50:58.167 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:51:03.693 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:51:04.556 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:51:05.374 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:51:07.119 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:51:07.946 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:51:09.939 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:51:10.899 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:51:16.510 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:51:17.384 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:51:18.452 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:51:24.072 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:51:24.907 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:51:25.699 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:51:27.396 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:51:28.237 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:51:30.320 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:51:31.122 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:51:36.716 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:51:37.590 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:51:38.373 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:51:43.914 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:51:44.762 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:51:45.635 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:51:47.342 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:51:48.143 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:51:50.220 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:51:51.015 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:51:56.733 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:51:57.550 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:51:58.408 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:03.982 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:52:04.878 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:05.707 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:07.359 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:08.171 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:10.279 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:11.108 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:16.640 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:52:17.501 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:18.385 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:23.912 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:52:24.733 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:25.545 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:27.194 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:28.019 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:30.090 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:30.929 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:36.527 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:52:37.329 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:38.150 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:43.587 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:52:44.495 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:45.367 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:47.160 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:47.989 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:49.730 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:50.510 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:52.206 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:53.075 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:54.865 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:55.684 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:52:57.503 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:52:58.362 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:00.120 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:00.917 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:02.512 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:03.512 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:05.676 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:06.529 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:08.883 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:09.771 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:12.008 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:12.846 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:15.106 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:16.149 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:18.319 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:19.119 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:21.296 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:22.162 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:24.479 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:25.350 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:26.424 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:27.270 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:28.466 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:29.362 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:31.439 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:32.346 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:34.442 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:35.295 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:37.434 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:38.249 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:43.781 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:53:44.708 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:45.638 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:51.209 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:53:52.083 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:53:52.882 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:53:58.406 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:53:59.213 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:00.026 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:05.640 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:54:06.476 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:07.299 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:12.828 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:54:13.722 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:14.538 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:20.175 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:54:21.014 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:21.824 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:24.113 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:24.951 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:27.177 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:28.011 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:30.190 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:31.025 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:32.777 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:33.629 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:35.249 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:36.071 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:37.689 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:38.455 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:40.135 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:40.993 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:42.643 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:43.460 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:45.150 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:45.999 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:47.612 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:48.610 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:49.629 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:50.475 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:51.457 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:52.336 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:54.501 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:55.398 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:54:57.493 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:54:58.320 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:55:00.427 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:55:01.295 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:55:03.432 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:55:04.262 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:55:10.923 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:55:11.758 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:55:18.263 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:55:19.116 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:55:25.510 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:55:26.348 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:55:32.790 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:55:33.648 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:55:40.027 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:55:40.895 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:55:47.465 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:55:48.344 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:55:54.853 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:55:55.662 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:02.215 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:03.024 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:05.145 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:05.934 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:08.070 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:08.901 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:11.152 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:11.984 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:14.100 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:14.954 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:16.767 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:17.612 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:19.314 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:20.136 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:21.882 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:22.804 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:24.688 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:25.588 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:27.419 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:28.233 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:30.010 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:30.854 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:31.849 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:32.687 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:33.724 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:34.574 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:37.721 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:38.527 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:41.706 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:42.572 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:45.645 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:46.745 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:50.090 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:50.916 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:54.137 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:54.954 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:56:58.084 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:56:58.921 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:57:02.176 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:57:03.016 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:57:06.174 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:57:06.999 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:57:10.157 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:57:10.974 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:57:14.214 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:57:15.023 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:57:18.258 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:57:19.095 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:57:22.428 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:57:23.291 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:57:26.362 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:57:27.157 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:57:34.046 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:57:34.859 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:57:35.684 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:57:42.302 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:57:43.206 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:57:44.250 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:57:50.829 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:57:51.673 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:57:52.497 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:57:59.135 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:58:00.072 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:58:00.891 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:58:07.629 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:58:08.489 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:58:09.379 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:58:16.030 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:58:16.917 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:58:17.743 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:58:24.411 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:58:25.229 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:58:26.065 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:58:32.600 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:58:33.437 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:58:34.260 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:58:40.859 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:58:41.733 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:58:42.575 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:58:49.166 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:58:49.998 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:58:50.816 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:58:57.500 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:58:58.358 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:58:59.163 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:59:05.910 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:59:06.764 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:59:07.592 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:59:14.171 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:59:15.019 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:59:15.841 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:59:22.417 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:59:23.237 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:59:24.026 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:59:30.610 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:59:31.475 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:59:32.331 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:59:38.860 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:59:39.707 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:59:40.509 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:59:47.190 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:59:48.061 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:59:48.895 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 01:59:55.535 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 01:59:56.391 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 01:59:57.232 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:00:03.914 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 02:00:04.768 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:00:05.600 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:00:12.318 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 02:00:13.120 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:00:13.950 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:00:20.604 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 02:00:21.449 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:00:22.394 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:00:29.195 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 02:00:30.009 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:00:30.803 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:00:37.436 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 02:00:38.273 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:00:39.076 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:00:45.748 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 02:00:46.595 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:00:47.469 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:00:54.194 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 02:00:55.057 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:00:55.843 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:02.447 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 02:01:03.360 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:04.245 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:07.418 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:08.241 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:11.332 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:12.137 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:15.353 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:16.145 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:19.273 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:20.115 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:23.251 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:24.059 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:27.262 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:28.061 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:31.325 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:32.212 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:35.307 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:36.098 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:39.290 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:40.190 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:43.371 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:44.171 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:47.359 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:48.206 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:51.559 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:52.429 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:55.806 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:01:56.652 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:01:59.328 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:00.221 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:02.935 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:03.769 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:06.445 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:07.213 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:09.865 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:10.671 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:13.351 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:14.177 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:16.912 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:17.705 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:18.757 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:19.568 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:20.657 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:21.528 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:23.248 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:24.085 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:26.153 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:26.985 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:32.588 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 02:02:33.417 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:34.273 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:39.800 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 02:02:40.629 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:41.577 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:43.351 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:44.162 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:46.295 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:47.135 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:52.699 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 02:02:53.580 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:02:54.406 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:02:59.941 [main] LoggerLoad - Valid and Invalid code are validated
+[INFO ] 2024-11-03 02:03:00.825 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:01.658 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:03.316 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:04.073 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:05.747 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:06.638 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:08.395 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:09.296 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:11.003 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:11.798 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:13.531 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:14.311 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:16.015 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:16.866 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:19.024 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:19.849 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:22.017 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:22.943 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:24.099 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:24.955 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:26.370 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:27.151 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:28.985 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:29.785 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:31.655 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:32.504 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:34.315 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:35.233 [main] LoggerLoad - Signed In user is in array page
+[INFO ] 2024-11-03 02:03:38.337 [main] LoggerLoad - In Hooks Class : Broswername = chrome
+[INFO ] 2024-11-03 02:03:39.194 [main] LoggerLoad - Signed In user is in array page

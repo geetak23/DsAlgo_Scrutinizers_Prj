@@ -1,5 +1,5 @@
 @TreeModule
-Feature: Validating Tree Module2
+Feature: Validating Tree Module
 
   Background: 
     Given User has already Logged in
@@ -99,3 +99,35 @@ Feature: Validating Tree Module2
       | Applications of Binary trees   | 
       | Binary Search Trees            | 
       | Implementation Of BST          | 
+      
+       @Tree07
+      Scenario: Check User able to Directed to Graph page from Dropdown in Tree Page
+Given User is in Tree page
+  When click on the dropdown and select Graph
+  Then The user should be directed to Graph Page
+  
+      @Tree08
+      Scenario: Check User able to Directed to Tree page from Dropdown in Tree Page
+Given User is in Tree page
+  When click on the dropdown and select Tree
+  Then The user should be on Tree Page
+      @Tree009
+       Scenario: Check User able to Directed to Queue page from Dropdown in Tree Page
+    Given User is in Tree page
+    When click on the dropdown and select Queue
+    Then The user should be on Queue Page
+      @Tree10
+       Scenario: Check User able to Directed to Array page from Dropdown in Tree Page
+     Given User is in Tree page
+    When click on the dropdown and select Array
+    Then The user should be directed to Array Page
+      @Tree11
+      Scenario: Check User able to Directed to Satck page from Dropdown in Tree Page
+  Given User is in Tree page
+    When click on the dropdown and select Stack
+    Then The user should be  on Stack Page
+      @Tree12
+      Scenario: Check User is on same Linked List from Dropdown in Tree Page
+    Given User is in Tree page
+    When click on the dropdown and select Linked List
+    Then The user should be directed to Linked List Page

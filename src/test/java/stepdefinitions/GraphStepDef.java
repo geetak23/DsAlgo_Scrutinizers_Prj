@@ -158,7 +158,10 @@ public class GraphStepDef extends driverFactory {
 		//logger.trace("passed");
 		LoggerLoad.info("Valid and Invalid code are validated");
 	}
-
+	@Then("The user should be on Graph Page")
+	public void the_user_should_be_on_graph_page() {
+		driver.getPageSource().contains(" Graph is a non-linear data structure"); 
+	}
 
 
 }
