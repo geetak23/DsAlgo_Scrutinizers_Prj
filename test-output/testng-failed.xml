@@ -5,9 +5,9 @@
     <classes>
       <class name="TestRunner.TestNGRunnerChrome">
         <methods>
-          <include name="setUpClass"/>
           <include name="defineBrowser"/>
-          <include name="runScenario" invocation-numbers="2"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="36"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- TestRunner.TestNGRunnerChrome -->

@@ -229,5 +229,24 @@ public class LinkedListStepDef extends driverFactory {
 	   linkedlist.creatingLinkedLIstTopic();
 	}
 
+	@When("click on the dropdown and select Array")
+	public void click_on_the_dropdown_and_select_array() {
+		driver.findElement(By.xpath("//a[@class='nav-link dropdown-toggle']")).click();
+		   driver.findElement(By.linkText("Arrays")).click();
+	}
 
+	@Then("The user should be directed to Array Page")
+	public void the_user_should_be_directed_to_array_page() {
+		 driver.getPageSource().contains("Arrays are among the oldest and most important data structures");
+	   
+	}
+	@When("User clicks on Scrutinizers")
+	public void user_clicks_on_scrutinizers() {
+	    driver.findElement(By.linkText("Scrutinizers")).click();
+	}
+	@Then("The user should be on Linked List Page")
+	public void the_user_should_be_on_linked_list_page() {
+		driver.getPageSource().contains("A linked list is a linear collection of data elements ");
+	}
+	
 }

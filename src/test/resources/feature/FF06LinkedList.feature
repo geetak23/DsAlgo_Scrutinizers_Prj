@@ -237,3 +237,90 @@ Feature: Linked List Functionality with login
     Examples: 
       | SheetName  |
       | pythonCode |
+@LinkedList32
+Scenario: Check User able to Directed to Graph page from Dropdown in Linked List page
+Given User is in Linked List page
+  When click on the dropdown and select Graph
+  Then The user should be directed to Graph Page
+  @LinkedList33
+  Scenario: Check User able to Directed to Satck page from Dropdown in Linked List page
+  Given User is in Linked List page
+    When click on the dropdown and select Stack
+    Then The user should be directed to Stack Page
+    
+    
+    @LinkedList34
+    Scenario: Check User able to Directed to Queue page from Dropdown in Linked List page
+    Given User is in Linked List page
+    When click on the dropdown and select Queue
+    Then The user should be directed to Queue Page
+    
+    @LinkedList35
+    Scenario: Check User able to Directed to Tree page from Dropdown in Linked List page
+    Given User is in Linked List page
+    When click on the dropdown and select Tree
+    Then The user should be directed to Tree Page
+    
+    @LinkedList36
+     Scenario: Check User able to Directed to Array page from Dropdown in Linked List page
+     Given User is in Linked List page
+    When click on the dropdown and select Array
+    Then The user should be directed to Array Page
+    
+    @LinkedList37
+    
+    Scenario: Check User is on same Linked List from Dropdown in Linked List page
+    Given User is in Linked List page
+    When click on the dropdown and select Linked List
+    Then The user should be on Linked List Page
+    
+    @LinkedList38
+    Scenario: Check User is on same Linked List clicked on Scrutinizers(UserName) Link
+     Given User is in Linked List page
+     When User clicks on Scrutinizers
+      Then The user should be on Linked List Page
+      
+      @LinkedList39
+      Scenario Outline: Try Editor validation for Introduction Topic with no testcode
+    Given User is in "Text Editor" page with run through Introduction page
+    When User clicks on run button without entering code
+    Then User should be on Same page
+      
+      @LinkedList40
+      Scenario Outline: Try Editor validation for Creating Linked LIst Topic with  no code
+    Given User is in "Text Editor" page with run through Creating Linked LIst page
+    When User clicks on run button without entering code
+    Then User should be on Same page
+      
+      @LinkedList41
+      Scenario Outline: Try Editor validation for Types of Linked List Topic with no code
+    Given User is in "Text Editor" page with run through Types of Linked List page
+    When User clicks on run button without entering code
+    Then User should be on Same page
+      @LinkedList42
+      Scenario Outline: Try Editor validation for Implement Linked List in Python Topic with no testcode
+    Given User is in "Text Editor" page with run through Implement Linked List in Python page
+      When User clicks on run button without entering code
+    Then User should be on Same page
+      
+      @LinkedList43
+      Scenario: Try Editor validation for Traversal Topic with no code
+    Given User is in "Text Editor" page with run through Traversal page
+      When User clicks on run button without entering code
+    Then User should be on Same page
+      
+      @LinkedList44
+      Scenario: Try Editor validation for Insertion Topic with no code
+    Given User is in "Text Editor" page with run through Insertion page
+    When User clicks on run button without entering code
+    Then User should be on Same page
+      
+      @LinkedList45
+     Scenario: Try Editor validation for Deletion Topic with no code
+     Given User is in "Text Editor" page with run through Deletion page
+      When User clicks on run button without entering code
+    Then User should be on Same page
+    
+    
+    
+    
