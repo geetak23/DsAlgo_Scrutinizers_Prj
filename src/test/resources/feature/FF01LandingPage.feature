@@ -1,4 +1,4 @@
-@LandingFF
+@LandingFF @seq1
 Feature: DS Portal Application Navigation
 
 #User wants to learn data structures and algorithums to prepare for the interviews

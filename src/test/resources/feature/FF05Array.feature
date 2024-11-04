@@ -1,4 +1,4 @@
-@ArrayFF
+@ArrayFF @seq5
 Feature: Array Functionality with login
 
 

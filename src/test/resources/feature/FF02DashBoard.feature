@@ -1,4 +1,4 @@
-@DashBoard
+@DashBoard @seq2
 Feature: DS Indtroduction Home Pageand validation without logging into it
 
   Background: 

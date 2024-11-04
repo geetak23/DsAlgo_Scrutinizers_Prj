@@ -1,4 +1,4 @@
-@RegisterFF
+@RegisterFF @seq3
 Feature: Verifying or validating DS Portal Application User Registration
   
  Background:

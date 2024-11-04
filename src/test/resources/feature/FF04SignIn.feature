@@ -1,4 +1,4 @@
-@SignInFF
+@SignInFF @seq4
 Feature: DS Portal Application User Login
 
 Background:

@@ -7,8 +7,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
       features = {"src/test/resources/feature"},
-    		//tags="@GraphModule",
-      glue= {"stepdefinitions","DsalgoHooks"},
+    		  tags= "@seq1 or @seq2 or @seq3 or @seq4 or @seq5 or @seq6 or @seq7 or @seq8 or @seq9 or @seq10 or @seq11 ",
+    		  glue= {"stepdefinitions","DsalgoHooks"},
       plugin={"pretty","html:target/Reports/report.html"
     		  ,"json:target/Json-reports/cucumberreport.json",
     		  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",

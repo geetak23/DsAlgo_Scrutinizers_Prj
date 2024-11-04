@@ -1,4 +1,4 @@
-@TreeModule
+@TreeModule @seq9
 Feature: Validating Tree Module
 
   Background: 

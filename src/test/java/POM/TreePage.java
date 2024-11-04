@@ -30,30 +30,12 @@ public class TreePage {
     WebDriver driver= driverFactory.getDriver();;
 	SignInPage Signin=new SignInPage(driverFactory.getDriver());
 	
-	/*public TreePage()
-	{
-	PageFactory.initElements(driver, this);
-	}*/
+	
 	public  TreePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void openTreePage() throws InterruptedException {
-		//Signin.openSignInPage();
-		driver.get("https://dsportalapp.herokuapp.com/login");
-		Signin.signinpage("Scrutinizers","Numpysdet176");
-		Thread.sleep(1000);
-		driver.findElement(By.xpath("//a[@href='tree']")).click();
-		
-	}
-	public void clickTopic(String topic2 ) throws Exception {
-
-		List<WebElement> Topic = driver.findElements(By.className("list-group-item"));
-		
-		
-		//int button_index = Integer.parseInt(getProperty(Topic));
-		Topic.get(0).click();
-	}
+	
 	public String getPageTitle() {
 		return driver.getTitle();
 	}
@@ -113,5 +95,20 @@ public class TreePage {
 		ImplementationOfBSTTopic.click();
 		
 	}
-	    
+	public void openTreePage() throws InterruptedException {
+		//Signin.openSignInPage();
+		driver.get("https://dsportalapp.herokuapp.com/login");
+		Signin.signinpage("Scrutinizers","Numpysdet176");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//a[@href='tree']")).click();
+		
+	}
+	public void clickTopic(String topic2 ) throws Exception {
+
+		List<WebElement> Topic = driver.findElements(By.className("list-group-item"));
+		
+		
+		//int button_index = Integer.parseInt(getProperty(Topic));
+		Topic.get(0).click();
+	}  
 }

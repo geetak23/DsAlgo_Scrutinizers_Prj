@@ -1,4 +1,4 @@
-@GraphModule
+@GraphModule @seq10
 Feature: Graph Functionality with login
 
   Background: 

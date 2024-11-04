@@ -1,4 +1,4 @@
-@Stack
+@Stack @seq7
 Feature: Stack Functionality with login
 
   Background: 

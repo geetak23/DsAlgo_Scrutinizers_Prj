@@ -1,4 +1,4 @@
-@LinkedListModule
+@LinkedListModule @seq6
 Feature: Linked List Functionality with login
 
   Background: 

@@ -1,4 +1,4 @@
-@Signout
+@Signout @seq11
 Feature: Checking Sign Out
 
   Background: 

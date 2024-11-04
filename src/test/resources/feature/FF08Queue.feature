@@ -1,4 +1,4 @@
-@Queue
+@Queue @seq8
 Feature: Queue Functionality with login
 
   Background: 
