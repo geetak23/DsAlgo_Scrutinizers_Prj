@@ -19,7 +19,7 @@ public class TestNGRunnerFirefox extends AbstractTestNGCucumberTests
 {	
 	  @BeforeTest
 	  @Parameters({"browser"})
-	public void defineBrowser(@Optional("chrome") String browser) throws Throwable
+	public void defineBrowser(@Optional("firefox") String browser) throws Throwable
 	  {
 		  System.out.println("definebrowser: "+browser);
 		  ConfigReader.setBrowserType(browser);

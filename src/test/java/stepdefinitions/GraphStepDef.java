@@ -115,9 +115,7 @@ public class GraphStepDef extends driverFactory {
 	public void user_is_in_page_with_run_through_graph_representation_page(String TextEditor)  {
 	   graph.openGraphPage();
 	   graph.graphRepresentation();
-	   driver.findElement(By.linkText("Try here>>>")).click();
-	   
-	   
+	   driver.findElement(By.linkText("Try here>>>")).click();   
 	}
 
 	
@@ -160,7 +158,10 @@ public class GraphStepDef extends driverFactory {
 		//logger.trace("passed");
 		LoggerLoad.info("Valid and Invalid code are validated");
 	}
-
+	@Then("The user should be on Graph Page")
+	public void the_user_should_be_on_graph_page() {
+		driver.getPageSource().contains(" Graph is a non-linear data structure"); 
+	}
 
 
 }

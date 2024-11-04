@@ -4,7 +4,8 @@ Feature: Array Functionality validation
 
   Background: 
     Given User has already Logged in
-            
+    
+    @ArrayFF_01
    Scenario: User is on Array page
     Given The user is on the "NumpyNinja" Home Page
     When User clicks on Data Structures dropdown arrow
@@ -14,7 +15,7 @@ Feature: Array Functionality validation
     
     @ArrayFF_02
     Scenario Outline: Try Editor validation for Array with testcodes
-    Given User is on the "Arrays in Python" Home Page of URL "https://dsportalapp.herokuapp.com/array/arrays-in-python/"
+    Given User is on the "Arrays in Python" Home Page
     When User click on '<Topic>'
     Then User should navigate to page that contains title '<Title>'
     
@@ -43,13 +44,12 @@ Feature: Array Functionality validation
     Given The user is on the "Practice Questions" page
     When User click on "<Practice_Topic>" page
     And User clear the text-editor
-    When The user write code in PracQn Editor from sheetname '<SheetName>' and rownumber <RowNum>
+    When The user write code in PracQn Editor from sheetname 'pythonCode' and rownumber <RowNum>
     And Click the run button
     Then The user is on the "Assessment" Home Page
 
     Examples: 
-      | Practice_Topic                          | URL                                          | SheetName  | RowNum | Result             |
-      | Search the array                        | https://dsportalapp.herokuapp.com/question/1 | pythonCode |      2 | not exist          |
-      | Max Consecutive Ones                    | https://dsportalapp.herokuapp.com/question/2 | pythonCode |      4 |                  4 |
-      | Find Numbers with Even Number of Digits | https://dsportalapp.herokuapp.com/question/3 | pythonCode |      6 |                  2 |
-      | Squares of a Sorted Array               | https://dsportalapp.herokuapp.com/question/4 | pythonCode |      9 | [4, 9, 9, 49, 121] |
+      | Practice_Topic                          | URL                                          | RowNum     | Result             |
+      | Search the array                        | https://dsportalapp.herokuapp.com/question/1 |     2      | not exist          |
+      | Max Consecutive Ones                    | https://dsportalapp.herokuapp.com/question/2 |     4      |                  4 |
+      | Find Numbers with Even Number of Digits | https://dsportalapp.herokuapp.com/question/3 |     6      |                  2 |

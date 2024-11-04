@@ -16,6 +16,7 @@ public class SignInPage extends driverFactory
 	 By PassWord= By.id("id_password");
 	 By LoginButton = By.xpath("//input[@value='Login']");
 	 By ErrorMsg = By.xpath("//div[contains(text(),'Invalid Username and Password')]");
+	 By register = By.linkText(" Register!");
 	 
 	 public SignInPage() 
 	 {
@@ -35,6 +36,10 @@ public class SignInPage extends driverFactory
 	 {
 		 return driver.getTitle();
 	 }
+	 public void checkresgisterlink()
+	 {
+		 
+	 }
 	 public void enteruserName(String userName) {
 		System.out.println("User : " + userName);
 		driver.findElement(UserNameText).sendKeys(userName);
@@ -48,7 +53,7 @@ public class SignInPage extends driverFactory
 	 public void clickonSignIn() {
 		 driver.findElement(LoginButton).click();
 	 }
-	// Error message "Invalid user and Password"
+
 	public String LoginBtnError() 
 	{
 		String errormsg = driver.findElement(ErrorMsg).getText();
@@ -64,7 +69,7 @@ public class SignInPage extends driverFactory
 		 driver.findElement(LoginButton).click();
 	    System.out.print("Landed on Main page");	
 	    return getDriver();
-	 }   
+	 }
 
 	 public void navigateToDashBoard()
 	 {

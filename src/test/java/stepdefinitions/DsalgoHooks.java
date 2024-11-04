@@ -47,7 +47,6 @@ public class DsalgoHooks extends driverFactory
 	@After(order = 1)
 	public void tearDown(Scenario scenario) {
 		if(scenario.isFailed()) {
-		//take screenshot
 			String screenshotName = scenario.getName().replaceAll(" ", "_");
 			byte [] sourcePath =((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
 			scenario.attach(sourcePath, "image/png", screenshotName);		

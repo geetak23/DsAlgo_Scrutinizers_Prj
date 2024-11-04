@@ -7,27 +7,27 @@
 
   <test name="TestParallelchrome">	  	  
     <classes>
-      <class name="TestRunner.TestNGRunner"/>
+      <class name="TestRunner.TestNGRunnerChrome"/>
     </classes>
   </test> 
 
   <test name="TestParalleledge">	  
 	   <parameter name="browser" value="edge"></parameter>
     <classes>
-      <class name="TestRunner.TestNGRunner2"/>
+      <class name="TestRunner.TestNGRunnerEdge"/>
     </classes>
   </test>  
    
   <test name="TestParallelfirefox">	  
 	   <parameter name="browser" value="firefox"></parameter>
     <classes>
-      <class name="TestRunner.TestNGRunner3"/>
+      <class name="TestRunner.TestNGRunnerFirefox"/>
     </classes>
   </test>   
   
 </suite> -->
 
-<!--Suite-->
+
 <suite name="Suite">
 	<suite-files>
 		<suite-file path="testng Xml Files/testngChrome.xml"></suite-file>

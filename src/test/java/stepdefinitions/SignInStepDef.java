@@ -26,6 +26,11 @@ public class SignInStepDef extends driverFactory {
 		Assert.assertTrue(pageTitle.contains(expectedTitleName));
 	}		
 	
+	@Then("user can see {string} link")
+	public void user_can_see_Register_link(String strRegister) {
+		signInPage.checkresgisterlink();
+	}
+	
 	@When("user enters an invalid username as <username> and Invalid password as <password> and clicks Login")
 	public void user_enters_an_invalid_username_and_Invalid_password_and_clicks_Login(io.cucumber.datatable.DataTable dataTable)
 	{
@@ -61,8 +66,8 @@ public class SignInStepDef extends driverFactory {
         signInPage.enterpwd(password);	
         signInPage.clickonSignIn();		   
 	}
-	@Then("user should be navigated to the DS Algo Dashboard at {string}")
-	public void user_should_be_navigated_to_the_ds_algo_dashboard_at(String string) {
+	@Then("user should be navigated to the DS Algo Dashboard")
+	public void user_should_be_navigated_to_the_ds_algo_dashboard() {
 	  signInPage.navigateToDashBoard();
 	}
 	

@@ -10,6 +10,10 @@ public class GraphPage {
 
 	@FindBy(linkText="Graph") WebElement GraphTopic;
 	@FindBy(linkText="Graph Representations") WebElement GraphRepresentationTopic;
+	@FindBy(id="id_username") WebElement userName;
+	@FindBy(id="id_password") WebElement passWord;
+	@FindBy(xpath="//input[@value='Login']") WebElement loginBtn;
+	@FindBy(linkText="Sign in") WebElement SigninBtn;
 	WebDriver driver= driverFactory.getDriver();
 	SignInPage Signin=new SignInPage(driverFactory.getDriver());
 	/*public GraphPage()
@@ -18,6 +22,12 @@ public class GraphPage {
 	}*/
 	public GraphPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
+	}
+	public void signIn(String UserName,String Password) {
+		 driver.get("https://dsportalapp.herokuapp.com/login");
+		userName.sendKeys(UserName);
+		passWord.sendKeys(Password);
+		loginBtn.click();
 	}
 	
 	public void openGraphPage() {

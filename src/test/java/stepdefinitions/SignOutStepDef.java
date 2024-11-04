@@ -38,5 +38,11 @@ public class SignOutStepDef extends driverFactory {
 
 
 	}
+	@Given("User is in Array page")
+	public void user_is_in_array_page() {
+	   
+	}
+
 
 }
+

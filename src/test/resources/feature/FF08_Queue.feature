@@ -1,0 +1,101 @@
+@Queue
+Feature: Queue Functionality with login
+
+  Background: 
+    Given User has already Logged in
+@Queue01
+  Scenario: Check User able to Directed to Queue page from Dropdown
+    When click on the dropdown and select Queue
+    Then The user should be directed to Queue Page
+@Queue02
+  Scenario: Check User able to Directed to Queue page from Get Started button
+    When click on Get Started button under Queue
+    Then The user should be directed to Queue Page
+@Queue03
+  Scenario Outline: Validate Queue topics with Testcode
+    Given User is in Queue page
+    When User clicks on Queue topic <QueueTopic> button.
+    Then User should be directed to "Title" With Try Here
+    When User clicks on Try Here button
+    Then User should be directed to Text Editor page with run
+
+    Examples: 
+      | QueueTopic                             | Title                                  |
+      | Implementation of Queue in Python      | Implementation of Queue in Python      |
+      | Implementation using collections deque | Implementation using collections deque |
+      | Implementation using array             | Implementation using array             |
+      | Queue Operations                       | Queue Operations                       |
+
+  @Queue04
+  Scenario Outline: Try Editor validation for "QueueTopic" with valid testcodes
+    Given User is in  Queue Text Editor page with run through <QueueTopic>
+    When User writes code in Text Editor from sheetname '<SheetName>' and rownumber 0 and clicks on run button in Queue
+    Then User should able to see output in the console
+
+    Examples: 
+      | QueueTopic                             | SheetName  |
+      | Implementation of Queue in Python      | pythonCode |
+      | Implementation using collections deque | pythonCode |
+      | Implementation using array             | pythonCode |
+      | Queue Operations                       | pythonCode |
+
+  @Queue05
+  Scenario Outline: Try Editor validation for "QueueTopic" with invalid testcodes
+    Given User is in  Queue Text Editor page with run through <QueueTopic>
+    When User writes code in Text Editor from sheetname '<SheetName>' and rownumber 1 and clicks on run button in Queue
+    Then User should able to see an error message in alert window
+    When User clicks on Ok button
+    Then User should be on Same page
+
+    Examples: 
+      | QueueTopic                             | SheetName | 
+      | Implementation of Queue in Python      | pythonCode|        
+      | Implementation using collections deque | pythonCode |        
+      | Implementation using array             | pythonCode |  
+      | Queue Operations                       | pythonCode |  
+
+  @Queue06
+  Scenario Outline: Try Editor validation for "QueueTopic" with no code
+    Given User is in  Queue Text Editor page with run through <QueueTopic>
+    When User clicks on run button without entering code
+    Then User should be on Same page
+
+    Examples: 
+      | QueueTopic                             |
+      | Implementation of Queue in Python      |
+      | Implementation using collections deque |
+      | Implementation using array             |
+      | Queue Operations                       |
+
+      @Queue07
+      Scenario: Check User able to Directed to Graph page from Dropdown in Queue Page
+Given User is in Queue page
+  When click on the dropdown and select Graph
+  Then The user should be directed to Graph Page
+  
+      @Queue08 
+      Scenario: Check User able to Directed to Tree page from Dropdown in Queue Page
+Given User is in Queue page
+  When click on the dropdown and select Tree
+  Then The user should be directed to Tree Page
+      @Queue09 
+       Scenario: Check User able to Directed to Queue page from Dropdown in Queue Page
+    Given User is in Queue page
+    When click on the dropdown and select Queue
+    Then The user should be on Queue Page
+      @Queue10
+       Scenario: Check User able to Directed to Array page from Dropdown in Queue Page
+     Given User is in Queue page
+    When click on the dropdown and select Array
+    Then The user should be directed to Array Page
+      @Queue11
+      Scenario: Check User able to Directed to Satck page from Dropdown in Queue Page
+  Given User is in Queue page
+    When click on the dropdown and select Stack
+    Then The user should be  on Stack Page
+      @Queue12
+      Scenario: Check User is on same Linked List from Dropdown in Queue Page
+    Given User is in Queue page
+    When click on the dropdown and select Linked List
+    Then The user should be directed to Linked List Page
+   

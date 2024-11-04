@@ -69,11 +69,17 @@
     <version>7.10.0</version>
     <scope>test</scope>
 </dependency>
-
+  
 <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
 <dependency>
     <groupId>io.qameta.allure</groupId>
     <artifactId>allure-testng</artifactId>
+    <version>2.29.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber7-jvm -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-cucumber7-jvm</artifactId>
     <version>2.29.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
@@ -114,12 +120,12 @@
 						<properties>
 							<propety>
 								<name>dataproviderthreadcount</name>
-								<value>5</value>
+								<value>4</value>
 								 <parallel>classes</parallel>
-	                    		 <threadCount>5</threadCount>
+	                    		 <threadCount>4</threadCount>
 							</propety>
-						</properties>                   
-	                </configuration>
+						</properties>                
+	                </configuration> 
 				</plugin>
 		</plugins>
 	</build>

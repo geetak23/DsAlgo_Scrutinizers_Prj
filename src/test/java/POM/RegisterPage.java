@@ -54,7 +54,7 @@ public class RegisterPage extends driverFactory
     	String message = "";
     	try {
     		
-			Thread.sleep(3000);
+			Thread.sleep(1000);
 			message = driver.findElement(pwdErrMsg).getText();
 		 	
 		} catch (InterruptedException e) {

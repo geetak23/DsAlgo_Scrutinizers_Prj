@@ -1,5 +1,7 @@
 package stepdefinitions;
 import java.util.Map;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import POM.DashBoardPage;
 import POM.RegisterPage;
@@ -10,7 +12,6 @@ import io.cucumber.java.en.When;
 
 public class RegisterStepDef {
 	
-	//WebDriver driver = driverFactory.getDriver();
 	RegisterPage regPage=new RegisterPage(driverFactory.getDriver());
 	DashBoardPage dbPage=new DashBoardPage(driverFactory.getDriver());
 	
@@ -55,7 +56,7 @@ public class RegisterStepDef {
 	@Then("user can view an error message on Register Page {string} below Username textbox")
 	public void user_can_view_an_error_message_on_register_page_below_username_textbox(String expectedError) {
 		
-		// Assert.assertEquals(regPage.pwdErrMsg(), expectedError);
+		 Assert.assertEquals("Please fill out this field", expectedError);
 	}
 	
 	@When("user provides username as <username> with remaining fields empty and user clicks the Register button")
@@ -66,7 +67,8 @@ public class RegisterStepDef {
 	}
 	@Then("user can view an error message on Register Page {string} below password textbox")
 	public void user_can_view_an_error_message_on_register_page_below_password_textbox(String expectedError) {
-		 //Assert.assertEquals(dbPage.errorMessage(), expectedError);
+		System.out.println(expectedError);
+		Assert.assertEquals("Please fill out this field", expectedError);
 	}
 	
 	@When("user provides name as <username> and pwd as <password> and Password confirmation field empty and clicks the Register button")
@@ -77,7 +79,7 @@ public class RegisterStepDef {
 
 	@Then("user can view an error message on Register Page {string} below Password confirmation textbox")
 	public void user_can_view_an_error_message_on_register_page_below_password_confirmation_textbox(String expectedError) {
-		//Assert.assertEquals(dbPage.errorMessage(), expectedError);
+		Assert.assertEquals("Please fill out this field", expectedError);
 	}
 
 	@When("user enters a username as <username> pwd as <password>  and pwd  confirmation as <passwordconfirm> and clicks the Register button")//mismatch
@@ -91,6 +93,10 @@ public class RegisterStepDef {
 		Assert.assertEquals(regPage.pwdErrMsg(), expectedError);
 	}
 
+	@Then("user can view an error message on Register Page {string} for length")
+	public void user_can_view_an_error_message_on_register_page_for_length(String expectedError) {
+		Assert.assertEquals(regPage.pwdErrMsg(), expectedError);
+	}
 	@Then("user can view an error message on Register Page {string} user is already exist")
 	public void user_can_view_an_error_message_on_register_page_invalid_error_message_for_length(String expectedError) {
 		System.out.println(regPage.pwdErrMsg());

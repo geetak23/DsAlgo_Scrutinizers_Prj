@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+import Utilities.LoggerLoad;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
@@ -17,7 +18,6 @@ public class driverFactory {
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 	public WebDriver driver;
 	
-	Logger loglist = org.apache.log4j.Logger.getLogger(driverFactory.class);
 	
 	@Parameters("browser")
 	@BeforeTest
@@ -40,7 +40,7 @@ public class driverFactory {
 			System.out.println("Please pass the correct browser value: " + browser);
 		}
 		
-		loglist.info("In : "+ browser +" browser");
+		LoggerLoad.info("In : "+ browser +" browser");
 		
 		getDriver().manage().deleteAllCookies();	
 		getDriver().manage().window().maximize();

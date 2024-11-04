@@ -1,21 +1,21 @@
 @TreeModule
-Feature: Validating Tree Module2
+Feature: Validating Tree Module
 
   Background: 
     Given User has already Logged in
-
+@Tree01
   Scenario: Check User able to Directed to Tree page from Dropdown
     When click on the dropdown and select Tree
     Then The user should be directed to Tree Page
-
+@Tree02
   Scenario: Check User able to Directed to Tree page from Get Started button
     When click on Get Started button underTree
     Then The user should be directed to Tree Page
 
-  @TestTree
-  Scenario Outline: Validate Tree topics with Testcode
+  @Tree03
+  Scenario Outline: Validate Tree topics directed to text Editor
     Given User is in Tree page
-    When User clicks on trees topic "TreeTopic" button.
+    When User clicks on trees topic <TreeTopic> button.
     Then User should be directed to "Title" With Try Here
     When User clicks on Try Here button
     Then User should be directed to Text Editor page with run
@@ -35,9 +35,9 @@ Feature: Validating Tree Module2
       | Applications of Binary trees   | Applications of Binary trees   |
       | Binary Search Trees            | Binary Search Trees            |
       | Implementation Of BST          | Implementation Of BST          |
-@TestValid
+ @Tree04
   Scenario Outline: Scenario Outline: Try Editor validation for "TreeTopic" with valid testcodes
-    Given User is in Text Editor page with run through "TreeTopic"
+    Given User is in Text Editor page with run through <TreeTopic>
     When User writes code in Text Editor from sheetname '<SheetName>' and rownumber 0 and clicks on run button
     Then User should able to see output in the console
 
@@ -56,9 +56,9 @@ Feature: Validating Tree Module2
       | Applications of Binary trees   | pythonCode |
       | Binary Search Trees            | pythonCode |
       | Implementation Of BST          | pythonCode |
-@TestValid2
+@Tree05
   Scenario Outline: Try Editor validation for "Tree Topic" with invalid testcodes
-    Given User is in Text Editor page with run through "TreeTopic"
+    Given User is in Text Editor page with run through <TreeTopic>
     When User writes code in Text Editor from sheetname '<SheetName>' and rownumber 1 and clicks on run button
     Then User should able to see an error message in alert window
     When User clicks on Ok button
@@ -79,3 +79,55 @@ Feature: Validating Tree Module2
       | Applications of Binary trees   | pythonCode |
       | Binary Search Trees            | pythonCode |
       | Implementation Of BST          | pythonCode |
+@Tree06
+      Scenario Outline: Try Editor validation for "Tree Topic" with no code.
+    Given User is in Text Editor page with run through <TreeTopic>
+   When User clicks on run button without entering code
+    Then User should be on Same page
+    Examples: 
+      | TreeTopic                      | 
+      | Overview of Trees              | 
+      | Terminologies                  | 
+      | Types of Trees                 | 
+      | Tree Traversals                | 
+      | Traversals-Illustration        | 
+      | Binary Trees                   | 
+      | Types of Binary Trees          | 
+      | Implementation in Python       | 
+      | Binary Tree Traversals         |
+      | Implementation of Binary Trees | 
+      | Applications of Binary trees   | 
+      | Binary Search Trees            | 
+      | Implementation Of BST          | 
+      
+       @Tree07
+      Scenario: Check User able to Directed to Graph page from Dropdown in Tree Page
+Given User is in Tree page
+  When click on the dropdown and select Graph
+  Then The user should be directed to Graph Page
+  
+      @Tree08
+      Scenario: Check User able to Directed to Tree page from Dropdown in Tree Page
+Given User is in Tree page
+  When click on the dropdown and select Tree
+  Then The user should be on Tree Page
+      @Tree009
+       Scenario: Check User able to Directed to Queue page from Dropdown in Tree Page
+    Given User is in Tree page
+    When click on the dropdown and select Queue
+    Then The user should be on Queue Page
+      @Tree10
+       Scenario: Check User able to Directed to Array page from Dropdown in Tree Page
+     Given User is in Tree page
+    When click on the dropdown and select Array
+    Then The user should be directed to Array Page
+      @Tree11
+      Scenario: Check User able to Directed to Satck page from Dropdown in Tree Page
+  Given User is in Tree page
+    When click on the dropdown and select Stack
+    Then The user should be  on Stack Page
+      @Tree12
+      Scenario: Check User is on same Linked List from Dropdown in Tree Page
+    Given User is in Tree page
+    When click on the dropdown and select Linked List
+    Then The user should be directed to Linked List Page

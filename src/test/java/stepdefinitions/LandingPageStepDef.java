@@ -26,4 +26,4 @@ public class LandingPageStepDef {
 		Assert.assertTrue(isAtDashboard, "User is not on the expected DS Algo dashboard");
 		Assert.assertEquals(landingPage.getPageTitle(), pageTitle);
 	}
-}
+} 

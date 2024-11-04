@@ -13,7 +13,8 @@ public class QueuePage extends driverFactory {
 	@FindBy(linkText="Implementation using collections.deque") WebElement ImplementationusingcollectionsdequeTopic;
 	@FindBy(linkText="Implementation using array") WebElement ImplementationusingarrayTopic;
 	@FindBy(linkText="Queue Operations") WebElement QueueOperationsTopic;
-
+    @FindBy(linkText="Try here>>>") WebElement TryHereButton;
+   
 	WebDriver driver= driverFactory.getDriver();;
 	SignInPage Signin=new SignInPage(driverFactory.getDriver());
 
@@ -55,6 +56,8 @@ public class QueuePage extends driverFactory {
 		QueueOperationsTopic.click();
 	}
 
-
+public void tryHere() {
+	TryHereButton.click();
+}
 
 }

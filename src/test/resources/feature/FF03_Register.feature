@@ -43,7 +43,7 @@ Feature: Verifying or validating DS Portal Application User Registration
     |username  			|Scenario4  |
     |password  			|Numpy |
     |passwordconfirm|Numpy | 
-   Then user can view an error message on Register Page "password_mismatch:The two password fields didn’t match."   
+   Then user can view an error message on Register Page "Password length criteria doesnot match" for length
   
   @RegisterFF_07
   Scenario: Verify for existing user, if user already exist shows error message user is already exist
@@ -51,7 +51,7 @@ Feature: Verifying or validating DS Portal Application User Registration
     |username  			|Scenario5  |
     |password  			|Numpysdet176! |
     |passwordconfirm|Numpysdet176!	 |    
-   Then user can view an error message on Register Page "password_mismatch:The two password fields didn’t match."
+   Then user can view an error message on Register Page "user is already exist"
     
     @RegisterFF_08
   Scenario: Register user with all valid details provided

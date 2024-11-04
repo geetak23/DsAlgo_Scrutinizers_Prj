@@ -2,6 +2,7 @@ package stepdefinitions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 import POM.SignInPage;
 import POM.StackPage;
@@ -39,15 +40,6 @@ public class StackStepDef extends driverFactory  {
 
 	}
 
-	@When("User clicks on Operations in Stack Topic button")
-	public void user_clicks_on_operations_in_stack_topic_button() {
-		stack.operationsinStackTopic();
-	}
-
-	@Then("User should be directed to Operations in Stack Topic page With {string}")
-	public void user_should_be_directed_to_operations_in_stack_topic_page_with(String TryHere) {
-		driver.getPageSource().contains("Try here>>>");
-	}
 
 	@Given("User is in Operations in Stack Topic page With {string}")
 	public void user_is_in_operations_in_stack_topic_page_with(String TryHere) {
@@ -55,23 +47,8 @@ public class StackStepDef extends driverFactory  {
 		stack.operationsinStackTopic();
 	}
 
-	@Given("User is in {string} page with run through Operations in Stack page")
-	public void user_is_in_page_with_run_through_operations_in_stack_page(String TextEditor)  {
-		stack.openStackPage();
-		stack.operationsinStackTopic();
-		driver.findElement(By.linkText("Try here>>>")).click();
-	}
-
-	@When("User clicks on Implementation Topic button")
-	public void user_clicks_on_implementation_topic_button() {
-		stack.implementationTopic();
-	}
-
-	@Then("User should be directed to Implementation Topic page With {string}")
-	public void user_should_be_directed_to_implementation_topic_page_with(String TryHere) {
-		driver.getPageSource().contains("Try here>>>");
-	}
-
+	
+	
 	@Given("User is in Implementation Topic page With {string}")
 	public void user_is_in_implementation_topic_page_with(String TryHere)  {
 		stack.openStackPage();
@@ -79,27 +56,11 @@ public class StackStepDef extends driverFactory  {
 
 	}
 
-	@Given("User is in {string} page with run through Implementation page")
-	public void user_is_in_page_with_run_through_implementation_page(String TextEditor) {
-		stack.openStackPage();
-		stack.implementationTopic();
-		driver.findElement(By.linkText("Try here>>>")).click();
-	}
 
-	//@Given("User is in Stack page")
-	//public void user_is_in_stak_page() {
+	
+	
 
-	//}
-
-	@When("User clicks on Applications Topic button")
-	public void user_clicks_on_applications_topic_button() {
-		stack.applicationsTopic();
-	}
-
-	@Then("User should be directed to Applications Topic page With {string}")
-	public void user_should_be_directed_to_applications_topic_page_with(String TryHere) {
-		driver.getPageSource().contains("Try here>>>");
-	}
+	
 
 	@Given("User is in Applications Topic page With {string}")
 	public void user_is_in_applications_topic_page_with(String TryHere) {
@@ -107,12 +68,7 @@ public class StackStepDef extends driverFactory  {
 		stack.applicationsTopic();
 	}
 
-	@Given("User is in {string} page with run through Applications page")
-	public void user_is_in_page_with_run_through_applications_page(String TextEditor)  {
-		stack.openStackPage();
-		stack.applicationsTopic();
-		driver.findElement(By.linkText("Try here>>>")).click();
-	}
+	
 	@When("User clicks on Stack topic {string} button.")
 	public void user_clicks_on_stack_topic_button(String StackTopic) throws Exception {
 		stack.clickTopic(StackTopic);
@@ -126,6 +82,41 @@ public class StackStepDef extends driverFactory  {
 		driver.findElement(By.linkText("Try here>>>")).click();
 	}
 
-
+	@When("User clicks on Stack topic Applications button.")
+	public void user_clicks_on_stack_topic_applications_button() {
+	   stack.applicationsTopic();
+	}
 	
+	
+	    @When("User clicks on Stack topic Implementation button.")
+	    public void user_clicks_on_stack_topic_implementation_button() {
+	       stack.implementationTopic();
+	    }
+	
+	    @When("User clicks on Stack topic Operations in Stack button.")
+	    public void user_clicks_on_stack_topic_operations_in_stack_button() {
+	        stack.operationsinStackTopic();
+	    }
+	    @Given("User is in Stack Text Editor page with run through Implementation")
+	    public void user_is_in_stack_text_editor_page_with_run_through_implementation() {
+	    	stack.openStackPage();
+			stack.implementationTopic();
+			driver.findElement(By.linkText("Try here>>>")).click();
+	    }
+	    @Given("User is in Stack Text Editor page with run through Applications")
+	    public void user_is_in_stack_text_editor_page_with_run_through_applications() {
+	    	stack.openStackPage();
+			stack.applicationsTopic();
+			driver.findElement(By.linkText("Try here>>>")).click();
+	    }
+	    @Given("User is in Stack Text Editor page with run through Operations in Stack")
+	    public void user_is_in_stack_text_editor_page_with_run_through_operations_in_stack() {
+	    	stack.openStackPage();
+			stack.operationsinStackTopic();
+			driver.findElement(By.linkText("Try here>>>")).click();
+	    }
+	    @Then("The user should be  on Stack Page")
+	    public void the_user_should_be_on_stack_page() {
+	    	driver.getPageSource().contains(" A stack is an Abstract Data Type");
+	    }
 }

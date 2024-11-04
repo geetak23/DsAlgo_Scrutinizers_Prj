@@ -43,15 +43,17 @@ public class ArrayStepDef {
 		
 		driver = signInPage.signinpage(username, password);
 		Arraypage = new ArrayPage(driver);	
+		
 		LoggerLoad.info("Signed In user is in array page");
 	}
 	
-	@Given("User is on the {string} Home Page of URL {string}")
-	public void user_is_on_the_ds_algo_home_page(String expectedTitleName, String URL) {
-		driverFactory.getDriver().get(URL);
+	@Given("User is on the {string} Home Page")
+	public void user_is_on_the_ds_algo_home_page(String expectedTitleName) {
+		driverFactory.getDriver().get("https://dsportalapp.herokuapp.com/array/arrays-in-python/");
 		title = Arraypage.getPageTitle();
 		Assert.assertTrue(title.contains(expectedTitleName));	
-		LoggerLoad.info(expectedTitleName);
+		
+		LoggerLoad.info("User is on :"+ expectedTitleName);
 	}
 
 	@When("User clicks on Data Structures dropdown arrow")
@@ -121,6 +123,7 @@ public class ArrayStepDef {
 	@When("The user write code in Editor from sheetname {string} and rownumber {int}")
 	public void the_user_write_code_in_editor_from_given_sheetname_and_rownumber(String SheetName, Integer RNum) 
 		throws InvalidFormatException, IOException, InterruptedException, org.apache.poi.openxml4j.exceptions.InvalidFormatException{
+		try {
 			Xls_Reader reader = new Xls_Reader();
 			List<Map<String,String>> testData = reader.getData(arrayCodeFile, SheetName);
 			
@@ -129,11 +132,16 @@ public class ArrayStepDef {
 			System.out.println(testcode);
 			Arraypage.texteditorData(testcode);
 			LoggerLoad.info("In Array Page Text Editor");
+		}catch(IOException e)
+		{
+			e.printStackTrace();
+		}
 		}
 	
 	@When("The user write code in PracQn Editor from sheetname {string} and rownumber {int}")
 	public void the_user_write_code_inPracQn_editor_from_sheetname_and_rownumber(String SheetName, Integer RNum) 
 		throws InvalidFormatException, IOException, InterruptedException, org.apache.poi.openxml4j.exceptions.InvalidFormatException{
+		try {
 			Xls_Reader reader = new Xls_Reader();
 			List<Map<String,String>> testData = reader.getData(arrayCodeFile, SheetName);
 			String testcode = testData.get(RNum).get("pythonCode");	
@@ -141,6 +149,10 @@ public class ArrayStepDef {
 			Arraypage.copyCode(testcode);
 			Arraypage.runbtn();
 			LoggerLoad.info("Python code");
+		}catch(IOException e)
+		{
+		e.printStackTrace();
+		}
 		}
 	
 	@When("Click the run button")
