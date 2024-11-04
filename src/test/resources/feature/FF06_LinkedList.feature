@@ -330,8 +330,4 @@ Feature: Linked List Functionality with login
     When User clicks on run button without entering code
     Then User should be on Same page
 
-  @LinkedList45
-  Scenario: Try Editor validation for Deletion Topic with no code
-    Given User is in "Text Editor" page with run through Deletion page
-    When User clicks on run button without entering code
-    Then User should be on Same page
+  

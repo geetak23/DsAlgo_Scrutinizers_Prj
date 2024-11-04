@@ -145,7 +145,7 @@ public class ArrayStepDef {
 			Xls_Reader reader = new Xls_Reader();
 			List<Map<String,String>> testData = reader.getData(arrayCodeFile, SheetName);
 			String testcode = testData.get(RNum).get("pythonCode");	
-			Thread.sleep(2000);
+			//Thread.sleep(2000);
 			Arraypage.copyCode(testcode);
 			Arraypage.runbtn();
 			LoggerLoad.info("Python code");

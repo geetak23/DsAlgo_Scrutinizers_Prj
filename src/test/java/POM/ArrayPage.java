@@ -129,9 +129,16 @@ public class ArrayPage {
 	}
 
 	public void copyCode(String pycode) throws InterruptedException {
+		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+		//WebElement arraylinkcode = wait.until(ExpectedConditions.visibilityOfElementLocated(txt_prq));
+		
+		
 		WebElement arraylinkcode = driver.findElement(txt_prq);
+		
 		String[]lines=pycode.split("\n");
+		Thread.sleep(1000);
 		for(int i=0;i<lines.length;i++) {
+			
 			if(lines[i].equalsIgnoreCase("\\b")) {
 				new Actions(driver).sendKeys(Keys.BACK_SPACE).perform();
 			}

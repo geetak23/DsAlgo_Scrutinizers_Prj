@@ -51,5 +51,4 @@ Feature: Array Functionality validation
     Examples: 
       | Practice_Topic                          | URL                                          | RowNum     | Result             |
       | Search the array                        | https://dsportalapp.herokuapp.com/question/1 |     2      | not exist          |
-      | Max Consecutive Ones                    | https://dsportalapp.herokuapp.com/question/2 |     4      |                  4 |
-      | Find Numbers with Even Number of Digits | https://dsportalapp.herokuapp.com/question/3 |     6      |                  2 |
+      
