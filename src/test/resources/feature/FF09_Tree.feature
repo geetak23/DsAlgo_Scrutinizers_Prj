@@ -48,13 +48,6 @@ Feature: Validating Tree Module
       | Types of Trees                 | pythonCode |
       | Tree Traversals                | pythonCode |
       | Traversals-Illustration        | pythonCode |
-      | Binary Trees                   | pythonCode |
-      | Types of Binary Trees          | pythonCode |
-      | Implementation in Python       | pythonCode |
-      | Binary Tree Traversals         | pythonCode |
-      | Implementation of Binary Trees | pythonCode |
-      | Applications of Binary trees   | pythonCode |
-      | Binary Search Trees            | pythonCode |
       | Implementation Of BST          | pythonCode |
 @Tree05
   Scenario Outline: Try Editor validation for "Tree Topic" with invalid testcodes
@@ -71,13 +64,6 @@ Feature: Validating Tree Module
       | Types of Trees                 | pythonCode |
       | Tree Traversals                | pythonCode |
       | Traversals-Illustration        | pythonCode |
-      | Binary Trees                   | pythonCode |
-      | Types of Binary Trees          | pythonCode |
-      | Implementation in Python       | pythonCode |
-      | Binary Tree Traversals         | pythonCode |
-      | Implementation of Binary Trees | pythonCode |
-      | Applications of Binary trees   | pythonCode |
-      | Binary Search Trees            | pythonCode |
       | Implementation Of BST          | pythonCode |
 @Tree06
       Scenario Outline: Try Editor validation for "Tree Topic" with no code.
@@ -88,18 +74,7 @@ Feature: Validating Tree Module
       | TreeTopic                      | 
       | Overview of Trees              | 
       | Terminologies                  | 
-      | Types of Trees                 | 
-      | Tree Traversals                | 
-      | Traversals-Illustration        | 
-      | Binary Trees                   | 
-      | Types of Binary Trees          | 
-      | Implementation in Python       | 
-      | Binary Tree Traversals         |
-      | Implementation of Binary Trees | 
-      | Applications of Binary trees   | 
-      | Binary Search Trees            | 
-      | Implementation Of BST          | 
-      
+            
        @Tree07
       Scenario: Check User able to Directed to Graph page from Dropdown in Tree Page
 Given User is in Tree page
